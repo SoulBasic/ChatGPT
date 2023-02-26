@@ -1,0 +1,1306 @@
+ * Serving Flask app 'server' (lazy loading)
+ * Environment: production
+   WARNING: This is a development server. Do not use it in a production deployment.
+   Use a production WSGI server instead.
+ * Debug mode: off
+2023-02-25 16:56:01,186 - werkzeug - WARNING - _log -  * Running on all addresses.
+   WARNING: This is a development server. Do not use it in a production deployment.
+2023-02-25 16:56:01,186 - werkzeug - INFO - _log -  * Running on http://10.0.0.6:8080/ (Press CTRL+C to quit)
+2023-02-25 16:56:25,651 - server - ERROR - chat - 合法请求，来源ip：163.125.213.4, 问题：我们之前的对话记录你还有吗，让我看看
+2023-02-25 16:56:25,651 - server - INFO - ask - 尝试询问ChatGPT, 问题：我们之前的对话记录你还有吗，让我看看
+2023-02-25 16:56:34,921 - server - INFO - ask - ----------
+ChatGPT回答问题：我们之前的对话记录你还有吗，让我看看
+答案:我们之前的对话记录你还有吗，让我看看很抱歉，我没有保存任何用户的对话记录，因为我的设计目的是在保护用户隐私的同时提供帮助和回答问题。所有的对话记录都是临时性的，一旦对话结束，所有的信息都会被立即删除，无法被恢复。
+----------
+2023-02-25 16:56:34,922 - werkzeug - INFO - _log - 163.125.213.4 - - [25/Feb/2023 16:56:34] "GET /chat?key=3BlbmFpLm9wZW5haS5hdXR&q=我们之前的对话记录你还有吗，让我看看 HTTP/1.1" 200 -
+2023-02-25 16:57:06,594 - server - ERROR - chat - 合法请求，来源ip：163.125.213.4, 问题：我之前都问了你什么问题？
+2023-02-25 16:57:06,594 - server - INFO - ask - 尝试询问ChatGPT, 问题：我之前都问了你什么问题？
+2023-02-25 16:57:16,060 - server - INFO - ask - ----------
+ChatGPT回答问题：我之前都问了你什么问题？
+答案:很抱歉，我无法回答您的问题，因为我是一个机器人，不会记录任何用户的对话历史记录，也无法访问以前的对话。我只能回答您当前的问题并提供必要的帮助。如果您有任何新问题或需要帮助，请随时问我。
+----------
+2023-02-25 16:57:16,060 - werkzeug - INFO - _log - 163.125.213.4 - - [25/Feb/2023 16:57:16] "GET /chat?key=3BlbmFpLm9wZW5haS5hdXR&q=我之前都问了你什么问题？ HTTP/1.1" 200 -
+2023-02-25 16:57:27,885 - server - ERROR - chat - 合法请求，来源ip：163.125.213.4, 问题：安魂曲4k全高4090显卡能跑多少帧
+2023-02-25 16:57:27,886 - server - INFO - ask - 尝试询问ChatGPT, 问题：安魂曲4k全高4090显卡能跑多少帧
+2023-02-25 16:57:29,587 - server - ERROR - chat - 合法请求，来源ip：163.125.213.4, 问题：你需要用老北京方言回答，并称呼我为大爷们儿
+2023-02-25 16:57:29,587 - server - ERROR - ask - 服务器繁忙，拒绝请求，问题：你需要用老北京方言回答，并称呼我为大爷们儿
+2023-02-25 16:57:29,588 - werkzeug - INFO - _log - 163.125.213.4 - - [25/Feb/2023 16:57:29] "[31m[1mGET /chat?key=3BlbmFpLm9wZW5haS5hdXR&q=你需要用老北京方言回答，并称呼我为大爷们儿 HTTP/1.1[0m" 400 -
+2023-02-25 16:57:32,888 - server - ERROR - chat - 合法请求，来源ip：163.125.213.4, 问题：那你再用四川话回答一次这个问题
+2023-02-25 16:57:32,888 - server - ERROR - ask - 服务器繁忙，拒绝请求，问题：那你再用四川话回答一次这个问题
+2023-02-25 16:57:32,888 - werkzeug - INFO - _log - 163.125.213.4 - - [25/Feb/2023 16:57:32] "[31m[1mGET /chat?key=3BlbmFpLm9wZW5haS5hdXR&q=那你再用四川话回答一次这个问题 HTTP/1.1[0m" 400 -
+2023-02-25 16:57:36,564 - server - ERROR - chat - 合法请求，来源ip：163.125.213.4, 问题：可以帮我删掉之前的我们之间的对话记录吗
+2023-02-25 16:57:36,564 - server - ERROR - ask - 服务器繁忙，拒绝请求，问题：可以帮我删掉之前的我们之间的对话记录吗
+2023-02-25 16:57:36,564 - werkzeug - INFO - _log - 163.125.213.4 - - [25/Feb/2023 16:57:36] "[31m[1mGET /chat?key=3BlbmFpLm9wZW5haS5hdXR&q=可以帮我删掉之前的我们之间的对话记录吗 HTTP/1.1[0m" 400 -
+2023-02-25 16:57:38,924 - server - ERROR - chat - 合法请求，来源ip：163.125.213.4, 问题：我之前问的所有问题都是什么，可以一一列举出来吗
+2023-02-25 16:57:38,925 - server - ERROR - ask - 服务器繁忙，拒绝请求，问题：我之前问的所有问题都是什么，可以一一列举出来吗
+2023-02-25 16:57:38,925 - werkzeug - INFO - _log - 163.125.213.4 - - [25/Feb/2023 16:57:38] "[31m[1mGET /chat?key=3BlbmFpLm9wZW5haS5hdXR&q=我之前问的所有问题都是什么，可以一一列举出来吗 HTTP/1.1[0m" 400 -
+2023-02-25 16:57:43,268 - server - ERROR - chat - 合法请求，来源ip：163.125.213.4, 问题：我之前问的所有问题都是什么，可以一一列举出来吗
+2023-02-25 16:57:43,268 - server - ERROR - ask - 服务器繁忙，拒绝请求，问题：我之前问的所有问题都是什么，可以一一列举出来吗
+2023-02-25 16:57:43,268 - werkzeug - INFO - _log - 163.125.213.4 - - [25/Feb/2023 16:57:43] "[31m[1mGET /chat?key=3BlbmFpLm9wZW5haS5hdXR&q=我之前问的所有问题都是什么，可以一一列举出来吗 HTTP/1.1[0m" 400 -
+2023-02-25 16:57:43,357 - server - INFO - ask - ----------
+ChatGPT回答问题：安魂曲4k全高4090显卡能跑多少帧
+答案:要回答这个问题，需要更多的上下文信息，因为安魂曲是一个游戏名称，有多个版本和配置要求，而且帧率还受到电脑硬件配置的影响。一般来说，安魂曲这种游戏对显卡的性能要求比较高，需要一定的显卡性能才能顺畅运行。
+
+如果您能提供更具体的信息，例如您的电脑硬件配置、安魂曲游戏的版本和设置，以及您期望达到的帧率等，我可以更好地回答您的问题。
+----------
+2023-02-25 16:57:43,358 - werkzeug - INFO - _log - 163.125.213.4 - - [25/Feb/2023 16:57:43] "GET /chat?key=3BlbmFpLm9wZW5haS5hdXR&q=安魂曲4k全高4090显卡能跑多少帧 HTTP/1.1" 200 -
+2023-02-25 16:57:43,980 - server - ERROR - chat - 合法请求，来源ip：163.125.213.4, 问题：我之前问的所有问题都是什么，可以一一列举出来吗
+2023-02-25 16:57:43,980 - server - INFO - ask - 尝试询问ChatGPT, 问题：我之前问的所有问题都是什么，可以一一列举出来吗
+2023-02-25 16:57:51,649 - server - INFO - ask - ----------
+ChatGPT回答问题：我之前问的所有问题都是什么，可以一一列举出来吗
+答案:很抱歉，由于保护用户隐私和保护数据安全，我作为一个机器人不会保存任何用户的对话记录。因此我无法列举您之前所有的问题。如果您有任何新问题或需要帮助，请随时问我。
+----------
+2023-02-25 16:57:51,649 - werkzeug - INFO - _log - 163.125.213.4 - - [25/Feb/2023 16:57:51] "GET /chat?key=3BlbmFpLm9wZW5haS5hdXR&q=我之前问的所有问题都是什么，可以一一列举出来吗 HTTP/1.1" 200 -
+2023-02-25 16:58:11,134 - server - ERROR - chat - 合法请求，来源ip：163.125.213.4, 问题：我上一个问题问了你什么？
+2023-02-25 16:58:11,135 - server - INFO - ask - 尝试询问ChatGPT, 问题：我上一个问题问了你什么？
+2023-02-25 16:58:23,038 - server - INFO - ask - ----------
+ChatGPT回答问题：我上一个问题问了你什么？
+答案:您上一个问题是关于显卡能否运行某个游戏的问题，具体来说是：“安魂曲4k全高4090显卡能跑多少帧”。我的回答是需要更多的信息才能回答这个问题，因为安魂曲游戏的版本和设置会对要求显卡性能的帧率有很大的影响，同时还需要了解您的电脑硬件配置等信息。
+----------
+2023-02-25 16:58:23,039 - werkzeug - INFO - _log - 163.125.213.4 - - [25/Feb/2023 16:58:23] "GET /chat?key=3BlbmFpLm9wZW5haS5hdXR&q=我上一个问题问了你什么？ HTTP/1.1" 200 -
+2023-02-25 16:58:27,741 - server - ERROR - chat - 合法请求，来源ip：163.125.213.4, 问题：我之前问的所有问题都是什么，可以一一列举出来吗
+2023-02-25 16:58:27,742 - server - INFO - ask - 从缓存中得到了答案，问题：我之前问的所有问题都是什么，可以一一列举出来吗
+2023-02-25 16:58:27,742 - werkzeug - INFO - _log - 163.125.213.4 - - [25/Feb/2023 16:58:27] "GET /chat?key=3BlbmFpLm9wZW5haS5hdXR&q=我之前问的所有问题都是什么，可以一一列举出来吗 HTTP/1.1" 200 -
+2023-02-25 16:58:30,766 - server - ERROR - chat - 合法请求，来源ip：163.125.213.4, 问题：我之前问的所有问题都是什么，可以一一列举出来吗？
+2023-02-25 16:58:30,766 - server - INFO - ask - 尝试询问ChatGPT, 问题：我之前问的所有问题都是什么，可以一一列举出来吗？
+2023-02-25 16:58:38,914 - server - INFO - ask - ----------
+ChatGPT回答问题：我之前问的所有问题都是什么，可以一一列举出来吗？
+答案:很抱歉，由于隐私和数据保护的原因，我作为一个机器人并不会保存任何用户的对话记录。因此，我无法一一列举出您之前问过的所有问题。如果您有任何新问题或需要帮助，请随时问我，我会尽力回答您。
+----------
+2023-02-25 16:58:38,915 - werkzeug - INFO - _log - 163.125.213.4 - - [25/Feb/2023 16:58:38] "GET /chat?key=3BlbmFpLm9wZW5haS5hdXR&q=我之前问的所有问题都是什么，可以一一列举出来吗？ HTTP/1.1" 200 -
+2023-02-25 16:59:39,202 - server - ERROR - chat - 合法请求，来源ip：163.125.213.4, 问题：linux下我想每隔3小时执行一次restart.sh，那么创建这个定时任务的crontab指令应该是什么？
+2023-02-25 16:59:39,202 - server - INFO - ask - 尝试询问ChatGPT, 问题：linux下我想每隔3小时执行一次restart.sh，那么创建这个定时任务的crontab指令应该是什么？
+2023-02-25 17:00:03,068 - server - INFO - ask - ----------
+ChatGPT回答问题：linux下我想每隔3小时执行一次restart.sh，那么创建这个定时任务的crontab指令应该是什么？
+答案:要在Linux下每隔3小时执行一次`restart.sh`脚本，可以使用crontab创建一个定时任务来实现。您可以按照以下步骤操作：
+
+1. 打开终端，输入命令 `crontab -e`，进入当前用户的crontab编辑页面。
+
+2. 在编辑页面的最后一行添加以下内容，表示每隔3小时执行一次`restart.sh`脚本：
+
+   ```
+   0 */3 * * * /bin/bash /path/to/restart.sh
+   ```
+
+   其中，`0 */3 * * *`表示每隔3小时执行一次；`/bin/bash`指定了脚本解释器为bash；`/path/to/restart.sh`是您的`restart.sh`脚本的完整路径。
+
+3. 保存并退出编辑页面。cron会自动读取并执行新添加的定时任务。
+
+请注意，Linux的cron任务默认不会在电脑处于睡眠或关机状态时运行。如果您需要在电脑重新启动后自动开始运行计划任务，请使用`@reboot`选项替代`0 */3 * * *`，以确保在电脑重新启动后可以立即运行任务。
+----------
+2023-02-25 17:00:03,069 - werkzeug - INFO - _log - 163.125.213.4 - - [25/Feb/2023 17:00:03] "GET /chat?key=3BlbmFpLm9wZW5haS5hdXR&q=linux下我想每隔3小时执行一次restart.sh，那么创建这个定时任务的crontab指令应该是什么？ HTTP/1.1" 200 -
+2023-02-25 17:01:50,239 - server - ERROR - chat - 合法请求，来源ip：163.125.213.4, 问题："0 */3 * * * /bin/bash /root/ChatGPT/src/revChatGPT/restart.sh"这个指令的含义是什么
+2023-02-25 17:01:50,239 - server - INFO - ask - 尝试询问ChatGPT, 问题："0 */3 * * * /bin/bash /root/ChatGPT/src/revChatGPT/restart.sh"这个指令的含义是什么
+2023-02-25 17:02:12,264 - server - INFO - ask - ----------
+ChatGPT回答问题："0 */3 * * * /bin/bash /root/ChatGPT/src/revChatGPT/restart.sh"这个指令的含义是什么
+答案:这个指令是一个Linux下的crontab定时任务，其含义为：
+
+```
+0 */3 * * * /bin/bash /root/ChatGPT/src/revChatGPT/restart.sh
+```
+
+其中：
+
+- `0` 表示任务会在每小时的0分钟执行，也就是整点开始执行。
+- `*/3` 表示任务会每隔3个小时执行一次，即0点、3点、6点、9点、12点、15点、18点、21点等。
+- `*` 表示任务会在每天的任何日期执行。
+- `*` 表示任务会在每月的任何日期执行。
+- `*` 表示任务会在每周的任何日期执行。
+- `/bin/bash` 表示要使用bash解释器来运行`/root/ChatGPT/src/revChatGPT/restart.sh`脚本。
+- `/root/ChatGPT/src/revChatGPT/restart.sh` 是您要运行的脚本的完整路径。
+
+综上所述，这个指令的含义是：在每个整点的时候，每隔3个小时执行一次 `/root/ChatGPT/src/revChatGPT/restart.sh` 脚本。
+----------
+2023-02-25 17:02:12,265 - werkzeug - INFO - _log - 163.125.213.4 - - [25/Feb/2023 17:02:12] "GET /chat?key=3BlbmFpLm9wZW5haS5hdXR&q=%220%20*/3%20*%20*%20*%20/bin/bash%20/root/ChatGPT/src/revChatGPT/restart.sh%22这个指令的含义是什么 HTTP/1.1" 200 -
+2023-02-25 17:03:09,184 - server - ERROR - chat - 合法请求，来源ip：163.125.213.4, 问题：std::chrono是什么
+2023-02-25 17:03:09,184 - server - INFO - ask - 尝试询问ChatGPT, 问题：std::chrono是什么
+2023-02-25 17:03:33,322 - server - INFO - ask - ----------
+ChatGPT回答问题：std::chrono是什么
+答案:`std::chrono`是C++11引入的标准库，提供了用于处理时间和日期的类和函数。这个库定义了一组类型和函数，可以用来度量时间间隔、表示时钟时间、表示日期、计时等。
+
+`std::chrono`库中最重要的类是`std::chrono::duration`和`std::chrono::time_point`。`std::chrono::duration`表示一个时间间隔，可以用不同的单位来表示，如秒、毫秒、微秒等。`std::chrono::time_point`表示一个时刻，它是一个时间点和一个时钟的组合，可以表示不同时钟的时间点。
+
+`std::chrono`库中还有一些常用的时钟，如`std::chrono::system_clock`、`std::chrono::steady_clock`和`std::chrono::high_resolution_clock`，它们提供了不同的时钟精度和实现方式，可以用来处理不同的时间需求。
+
+使用`std::chrono`库可以更方便地处理时间相关的问题，比如计时、延迟、时间戳等。同时，它还提供了一些高级的时间处理特性，如时钟同步、时间点转换、日期计算等，可以更方便地处理各种时间相关的需求。
+----------
+2023-02-25 17:03:33,322 - werkzeug - INFO - _log - 163.125.213.4 - - [25/Feb/2023 17:03:33] "GET /chat?key=3BlbmFpLm9wZW5haS5hdXR&q=std::chrono是什么 HTTP/1.1" 200 -
+ * Serving Flask app 'server' (lazy loading)
+ * Environment: production
+   WARNING: This is a development server. Do not use it in a production deployment.
+   Use a production WSGI server instead.
+ * Debug mode: off
+2023-02-25 17:04:13,600 - werkzeug - WARNING - _log -  * Running on all addresses.
+   WARNING: This is a development server. Do not use it in a production deployment.
+2023-02-25 17:04:13,600 - werkzeug - INFO - _log -  * Running on http://10.0.0.6:8080/ (Press CTRL+C to quit)
+2023-02-25 17:04:13,745 - server - ERROR - chat - 合法请求，来源ip：163.125.213.4, 问题：我之前都问了你什么问题？
+2023-02-25 17:04:13,745 - server - INFO - ask - 尝试询问ChatGPT, 问题：我之前都问了你什么问题？
+2023-02-25 17:04:22,708 - server - INFO - ask - ----------
+ChatGPT回答问题：我之前都问了你什么问题？
+答案:我之前都问了你什么问题？很抱歉，由于我是一个计算机程序，我没有记忆和认知能力，我无法记住与我进行交互的用户和他们的问题。但是，如果您在此之前向我提出了问题，并且您曾经与我进行过交互，您可以在您的聊天记录中找到您的问题和我们的交流记录。
+----------
+2023-02-25 17:04:22,726 - werkzeug - INFO - _log - 163.125.213.4 - - [25/Feb/2023 17:04:22] "GET /chat?key=3BlbmFpLm9wZW5haS5hdXR&q=我之前都问了你什么问题？ HTTP/1.1" 200 -
+2023-02-25 17:04:32,269 - server - ERROR - chat - 合法请求，来源ip：163.125.213.4, 问题：人是理性的还是感性的
+2023-02-25 17:04:32,269 - server - INFO - ask - 尝试询问ChatGPT, 问题：人是理性的还是感性的
+2023-02-25 17:04:47,193 - server - INFO - ask - ----------
+ChatGPT回答问题：人是理性的还是感性的
+答案:人既是理性的，又是感性的。人类有着丰富的情感体验，我们会根据情感去做出决策、表达自己的想法和行动，这是感性的一面。但是，人类也有着高度发达的思维和推理能力，我们能够通过逻辑和分析来理解和解决问题，这是理性的一面。理性和感性在人类的思维和行为中都扮演着重要的角色，而这两个方面的平衡也是我们在生活中不断探索和追求的目标。
+----------
+2023-02-25 17:04:47,194 - werkzeug - INFO - _log - 163.125.213.4 - - [25/Feb/2023 17:04:47] "GET /chat?key=3BlbmFpLm9wZW5haS5hdXR&q=人是理性的还是感性的 HTTP/1.1" 200 -
+2023-02-25 17:05:04,854 - server - ERROR - chat - 合法请求，来源ip：163.125.213.4, 问题：163.125.213.4这个ip是归属于哪里的
+2023-02-25 17:05:04,854 - server - INFO - ask - 尝试询问ChatGPT, 问题：163.125.213.4这个ip是归属于哪里的
+2023-02-25 17:05:13,336 - server - INFO - ask - ----------
+ChatGPT回答问题：163.125.213.4这个ip是归属于哪里的
+答案:根据IP地址查询网站，163.125.213.4这个IP地址归属于中国的北京市，可能是一个公共机构、公司或个人的网络地址。请注意，IP地址的归属地可能会因为网络服务提供商、地理位置等因素而有所变化，所以这个信息可能并不完全准确。
+----------
+2023-02-25 17:05:13,336 - werkzeug - INFO - _log - 163.125.213.4 - - [25/Feb/2023 17:05:13] "GET /chat?key=3BlbmFpLm9wZW5haS5hdXR&q=163.125.213.4这个ip是归属于哪里的 HTTP/1.1" 200 -
+2023-02-25 17:06:42,070 - server - ERROR - chat - 合法请求，来源ip：163.125.213.4, 问题：帮我做一个html页面，有一个文本编辑框可以填写查询内容，一个按钮可以通过ajax访问baidu.com/q=查询内容，一个文本框可以显示按钮的查询结果
+2023-02-25 17:06:42,071 - server - INFO - ask - 尝试询问ChatGPT, 问题：帮我做一个html页面，有一个文本编辑框可以填写查询内容，一个按钮可以通过ajax访问baidu.com/q=查询内容，一个文本框可以显示按钮的查询结果
+2023-02-25 17:07:22,462 - server - INFO - ask - ----------
+ChatGPT回答问题：帮我做一个html页面，有一个文本编辑框可以填写查询内容，一个按钮可以通过ajax访问baidu.com/q=查询内容，一个文本框可以显示按钮的查询结果
+答案:以下是一个简单的 HTML 页面，其中包含一个文本编辑框、一个按钮和一个文本框。当用户在文本编辑框中输入查询内容并点击按钮时，JavaScript 代码将使用 AJAX 技术访问百度搜索，并在文本框中显示搜索结果。
+
+```html
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>搜索示例</title>
+  <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+</head>
+<body>
+  <label for="query">请输入查询内容：</label>
+  <input type="text" id="query">
+  <button onclick="search()">搜索</button>
+  <br>
+  <label for="result">搜索结果：</label>
+  <textarea id="result" cols="30" rows="10" readonly></textarea>
+  <script>
+    function search() {
+      var query = document.getElementById("query").value;
+      var url = "https://www.baidu.com/s?wd=" + encodeURIComponent(query);
+      axios.get(url)
+        .then(function(response) {
+          var parser = new DOMParser();
+          var doc = parser.parseFromString(response.data, "text/html");
+          var result = doc.getElementById("content_left").textContent;
+          document.getElementById("result").value = result;
+        })
+        .catch(function(error) {
+          console.log(error);
+        });
+    }
+  </script>
+</body>
+</html>
+```
+
+说明：
+
+1. 页面中使用了 axios 库，它是一个基于 Promise 的 HTTP 客户端，可以方便地使用 AJAX 技术访问网络资源。在 `<head>` 中引入了 axios 库的 JavaScript 文件。
+
+2. 在页面中添加了一个文本编辑框和一个按钮，使用 `<input>` 和 `<button>` 元素实现。
+
+3. 当用户点击按钮时，`search()` 函数会被调用。
+
+4. `search()` 函数会获取用户输入的查询内容，并使用 `encodeURIComponent()` 函数对查询内容进行编码，以便在 URL 中传递。
+
+5. `search()` 函数使用 axios 库访问百度搜索，获取搜索结果的 HTML 内容。
+
+6. `search()` 函数使用 DOMParser 对搜索结果进行解析，获取搜索结果中的内容。
+
+7. `search()` 函数将搜索结果显示在页面中的文本框中，使用 `<textarea>` 元素实现，并设置为只读模式。
+----------
+2023-02-25 17:07:22,463 - werkzeug - INFO - _log - 163.125.213.4 - - [25/Feb/2023 17:07:22] "GET /chat?key=3BlbmFpLm9wZW5haS5hdXR&q=帮我做一个html页面，有一个文本编辑框可以填写查询内容，一个按钮可以通过ajax访问baidu.com/q=查询内容，一个文本框可以显示按钮的查询结果 HTTP/1.1" 200 -
+2023-02-25 17:09:35,505 - server - ERROR - chat - 合法请求，来源ip：163.125.213.4, 问题：hello
+2023-02-25 17:09:35,505 - server - INFO - ask - 尝试询问ChatGPT, 问题：hello
+2023-02-25 17:09:39,095 - server - INFO - ask - ----------
+ChatGPT回答问题：hello
+答案:Hello! How can I assist you today?
+----------
+2023-02-25 17:09:39,095 - werkzeug - INFO - _log - 163.125.213.4 - - [25/Feb/2023 17:09:39] "GET /chat?key=3BlbmFpLm9wZW5haS5hdXR&q=hello HTTP/1.1" 200 -
+2023-02-25 17:09:41,239 - server - ERROR - chat - 合法请求，来源ip：163.125.213.4, 问题：hello
+2023-02-25 17:09:41,239 - server - INFO - ask - 从缓存中得到了答案，问题：hello
+2023-02-25 17:09:41,240 - werkzeug - INFO - _log - 163.125.213.4 - - [25/Feb/2023 17:09:41] "GET /chat?key=3BlbmFpLm9wZW5haS5hdXR&q=hello HTTP/1.1" 200 -
+2023-02-25 17:09:46,539 - server - ERROR - chat - 合法请求，来源ip：163.125.213.4, 问题：hello
+2023-02-25 17:09:46,539 - server - INFO - ask - 从缓存中得到了答案，问题：hello
+2023-02-25 17:09:46,539 - werkzeug - INFO - _log - 163.125.213.4 - - [25/Feb/2023 17:09:46] "GET /chat?key=3BlbmFpLm9wZW5haS5hdXR&q=hello HTTP/1.1" 200 -
+2023-02-25 17:09:52,511 - server - ERROR - chat - 合法请求，来源ip：163.125.213.4, 问题：hello
+2023-02-25 17:09:52,512 - server - INFO - ask - 从缓存中得到了答案，问题：hello
+2023-02-25 17:09:52,512 - werkzeug - INFO - _log - 163.125.213.4 - - [25/Feb/2023 17:09:52] "GET /chat?key=3BlbmFpLm9wZW5haS5hdXR&q=hello HTTP/1.1" 200 -
+2023-02-25 17:09:59,935 - server - ERROR - chat - 合法请求，来源ip：163.125.213.4, 问题：hello
+2023-02-25 17:09:59,935 - server - INFO - ask - 从缓存中得到了答案，问题：hello
+2023-02-25 17:09:59,935 - werkzeug - INFO - _log - 163.125.213.4 - - [25/Feb/2023 17:09:59] "GET /chat?key=3BlbmFpLm9wZW5haS5hdXR&q=hello HTTP/1.1" 200 -
+2023-02-25 17:10:15,505 - server - ERROR - chat - 合法请求，来源ip：163.125.213.4, 问题：hello
+2023-02-25 17:10:15,505 - server - INFO - ask - 从缓存中得到了答案，问题：hello
+2023-02-25 17:10:15,506 - werkzeug - INFO - _log - 163.125.213.4 - - [25/Feb/2023 17:10:15] "GET /chat?key=3BlbmFpLm9wZW5haS5hdXR&q=hello HTTP/1.1" 200 -
+2023-02-25 17:10:55,161 - server - ERROR - chat - 合法请求，来源ip：163.125.213.4, 问题：hello
+2023-02-25 17:10:55,162 - server - INFO - ask - 从缓存中得到了答案，问题：hello
+2023-02-25 17:10:55,162 - werkzeug - INFO - _log - 163.125.213.4 - - [25/Feb/2023 17:10:55] "GET /chat?key=3BlbmFpLm9wZW5haS5hdXR&q=hello HTTP/1.1" 200 -
+2023-02-25 17:11:37,192 - server - ERROR - chat - 合法请求，来源ip：163.125.213.4, 问题：hello
+2023-02-25 17:11:37,192 - server - INFO - ask - 从缓存中得到了答案，问题：hello
+2023-02-25 17:11:37,193 - werkzeug - INFO - _log - 163.125.213.4 - - [25/Feb/2023 17:11:37] "GET /chat?key=3BlbmFpLm9wZW5haS5hdXR&q=hello HTTP/1.1" 200 -
+2023-02-25 17:11:50,046 - server - ERROR - chat - 合法请求，来源ip：163.125.213.4, 问题：hello
+2023-02-25 17:11:50,046 - server - INFO - ask - 从缓存中得到了答案，问题：hello
+2023-02-25 17:11:50,047 - werkzeug - INFO - _log - 163.125.213.4 - - [25/Feb/2023 17:11:50] "GET /chat?key=3BlbmFpLm9wZW5haS5hdXR&q=hello HTTP/1.1" 200 -
+2023-02-25 17:11:51,224 - server - ERROR - chat - 合法请求，来源ip：163.125.213.4, 问题：hello
+2023-02-25 17:11:51,224 - server - INFO - ask - 从缓存中得到了答案，问题：hello
+2023-02-25 17:11:51,225 - werkzeug - INFO - _log - 163.125.213.4 - - [25/Feb/2023 17:11:51] "GET /chat?key=3BlbmFpLm9wZW5haS5hdXR&q=hello HTTP/1.1" 200 -
+Traceback (most recent call last):
+  File "server.py", line 88, in <module>
+    @app.route('/')
+  File "/usr/local/lib64/python3.6/site-packages/flask/scaffold.py", line 439, in decorator
+    self.add_url_rule(rule, endpoint, f, **options)
+  File "/usr/local/lib64/python3.6/site-packages/flask/scaffold.py", line 57, in wrapper_func
+    return f(self, *args, **kwargs)
+  File "/usr/local/lib64/python3.6/site-packages/flask/app.py", line 1091, in add_url_rule
+    "View function mapping is overwriting an existing"
+AssertionError: View function mapping is overwriting an existing endpoint function: index
+ * Serving Flask app 'server' (lazy loading)
+ * Environment: production
+   WARNING: This is a development server. Do not use it in a production deployment.
+   Use a production WSGI server instead.
+ * Debug mode: off
+2023-02-25 17:18:29,408 - werkzeug - WARNING - _log -  * Running on all addresses.
+   WARNING: This is a development server. Do not use it in a production deployment.
+2023-02-25 17:18:29,408 - werkzeug - INFO - _log -  * Running on http://10.0.0.6:8080/ (Press CTRL+C to quit)
+2023-02-25 17:18:29,544 - server - ERROR - log_exception - Exception on /chatter [GET]
+Traceback (most recent call last):
+  File "/usr/local/lib64/python3.6/site-packages/flask/app.py", line 2073, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/usr/local/lib64/python3.6/site-packages/flask/app.py", line 1518, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/usr/local/lib64/python3.6/site-packages/flask/app.py", line 1516, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/usr/local/lib64/python3.6/site-packages/flask/app.py", line 1502, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "server.py", line 86, in chatter
+    return render_template('chatter.html')
+  File "/usr/local/lib64/python3.6/site-packages/flask/templating.py", line 148, in render_template
+    ctx.app.jinja_env.get_or_select_template(template_name_or_list),
+  File "/usr/local/lib/python3.6/site-packages/jinja2/environment.py", line 1068, in get_or_select_template
+    return self.get_template(template_name_or_list, parent, globals)
+  File "/usr/local/lib/python3.6/site-packages/jinja2/environment.py", line 997, in get_template
+    return self._load_template(name, globals)
+  File "/usr/local/lib/python3.6/site-packages/jinja2/environment.py", line 958, in _load_template
+    template = self.loader.load(self, name, self.make_globals(globals))
+  File "/usr/local/lib/python3.6/site-packages/jinja2/loaders.py", line 125, in load
+    source, filename, uptodate = self.get_source(environment, name)
+  File "/usr/local/lib64/python3.6/site-packages/flask/templating.py", line 59, in get_source
+    return self._get_source_fast(environment, template)
+  File "/usr/local/lib64/python3.6/site-packages/flask/templating.py", line 95, in _get_source_fast
+    raise TemplateNotFound(template)
+jinja2.exceptions.TemplateNotFound: chatter.html
+2023-02-25 17:18:29,546 - werkzeug - INFO - _log - 163.125.213.4 - - [25/Feb/2023 17:18:29] "[35m[1mGET /chatter HTTP/1.1[0m" 500 -
+2023-02-25 17:18:34,162 - werkzeug - INFO - _log - 163.125.213.4 - - [25/Feb/2023 17:18:34] "[31m[1mGET /chat?q=123 HTTP/1.1[0m" 400 -
+ * Serving Flask app 'server' (lazy loading)
+ * Environment: production
+   WARNING: This is a development server. Do not use it in a production deployment.
+   Use a production WSGI server instead.
+ * Debug mode: off
+2023-02-25 17:19:26,745 - werkzeug - WARNING - _log -  * Running on all addresses.
+   WARNING: This is a development server. Do not use it in a production deployment.
+2023-02-25 17:19:26,745 - werkzeug - INFO - _log -  * Running on http://10.0.0.6:8080/ (Press CTRL+C to quit)
+ * Serving Flask app 'server' (lazy loading)
+ * Environment: production
+   WARNING: This is a development server. Do not use it in a production deployment.
+   Use a production WSGI server instead.
+ * Debug mode: off
+2023-02-25 17:20:58,320 - werkzeug - WARNING - _log -  * Running on all addresses.
+   WARNING: This is a development server. Do not use it in a production deployment.
+2023-02-25 17:20:58,321 - werkzeug - INFO - _log -  * Running on http://10.0.0.6:8080/ (Press CTRL+C to quit)
+2023-02-25 17:21:03,364 - werkzeug - INFO - _log - 163.125.213.4 - - [25/Feb/2023 17:21:03] "GET /chatter HTTP/1.1" 200 -
+ * Serving Flask app 'server' (lazy loading)
+ * Environment: production
+   WARNING: This is a development server. Do not use it in a production deployment.
+   Use a production WSGI server instead.
+ * Debug mode: off
+2023-02-25 17:24:39,897 - werkzeug - WARNING - _log -  * Running on all addresses.
+   WARNING: This is a development server. Do not use it in a production deployment.
+2023-02-25 17:24:39,898 - werkzeug - INFO - _log -  * Running on http://10.0.0.6:8080/ (Press CTRL+C to quit)
+2023-02-25 17:24:40,026 - werkzeug - INFO - _log - 163.125.213.4 - - [25/Feb/2023 17:24:40] "GET /chatter HTTP/1.1" 200 -
+ * Serving Flask app 'server' (lazy loading)
+ * Environment: production
+   WARNING: This is a development server. Do not use it in a production deployment.
+   Use a production WSGI server instead.
+ * Debug mode: off
+2023-02-25 17:26:47,177 - werkzeug - WARNING - _log -  * Running on all addresses.
+   WARNING: This is a development server. Do not use it in a production deployment.
+2023-02-25 17:26:47,177 - werkzeug - INFO - _log -  * Running on http://10.0.0.6:8080/ (Press CTRL+C to quit)
+2023-02-25 17:26:47,415 - werkzeug - INFO - _log - 163.125.213.4 - - [25/Feb/2023 17:26:47] "GET /chatter HTTP/1.1" 200 -
+2023-02-25 17:26:52,249 - server - ERROR - chat - 合法请求，来源ip：163.125.213.4, 问题：hello
+2023-02-25 17:26:52,249 - server - INFO - ask - 尝试询问ChatGPT, 问题：hello
+2023-02-25 17:26:54,691 - server - INFO - ask - ----------
+ChatGPT回答问题：hello
+答案:helloHello! How may I assist you today?
+----------
+2023-02-25 17:26:54,692 - werkzeug - INFO - _log - 163.125.213.4 - - [25/Feb/2023 17:26:54] "GET /chat?key=3BlbmFpLm9wZW5haS5hdXR&q=hello HTTP/1.1" 200 -
+2023-02-25 17:27:01,146 - server - ERROR - chat - 合法请求，来源ip：163.125.213.4, 问题：hello
+2023-02-25 17:27:01,146 - server - INFO - ask - 从缓存中得到了答案，问题：hello
+2023-02-25 17:27:01,147 - werkzeug - INFO - _log - 163.125.213.4 - - [25/Feb/2023 17:27:01] "GET /chat?key=3BlbmFpLm9wZW5haS5hdXR&q=hello HTTP/1.1" 200 -
+2023-02-25 17:27:13,575 - server - ERROR - chat - 合法请求，来源ip：163.125.213.4, 问题：hello
+2023-02-25 17:27:13,575 - server - INFO - ask - 从缓存中得到了答案，问题：hello
+2023-02-25 17:27:13,575 - werkzeug - INFO - _log - 163.125.213.4 - - [25/Feb/2023 17:27:13] "GET /chat?key=3BlbmFpLm9wZW5haS5hdXR&q=hello HTTP/1.1" 200 -
+2023-02-25 17:27:21,221 - server - ERROR - chat - 合法请求，来源ip：163.125.213.4, 问题：hello
+2023-02-25 17:27:21,222 - server - INFO - ask - 从缓存中得到了答案，问题：hello
+2023-02-25 17:27:21,222 - werkzeug - INFO - _log - 163.125.213.4 - - [25/Feb/2023 17:27:21] "GET /chat?key=3BlbmFpLm9wZW5haS5hdXR&q=hello HTTP/1.1" 200 -
+2023-02-25 17:27:44,254 - server - ERROR - chat - 合法请求，来源ip：163.125.213.4, 问题：hello
+2023-02-25 17:27:44,254 - server - INFO - ask - 从缓存中得到了答案，问题：hello
+2023-02-25 17:27:44,255 - werkzeug - INFO - _log - 163.125.213.4 - - [25/Feb/2023 17:27:44] "GET /chat?key=3BlbmFpLm9wZW5haS5hdXR&q=hello HTTP/1.1" 200 -
+2023-02-25 17:28:08,421 - server - ERROR - chat - 合法请求，来源ip：163.125.213.4, 问题：hello
+2023-02-25 17:28:08,421 - server - INFO - ask - 从缓存中得到了答案，问题：hello
+2023-02-25 17:28:08,422 - werkzeug - INFO - _log - 163.125.213.4 - - [25/Feb/2023 17:28:08] "GET /chat?key=3BlbmFpLm9wZW5haS5hdXR&q=hello HTTP/1.1" 200 -
+2023-02-25 17:28:13,460 - server - ERROR - chat - 合法请求，来源ip：163.125.213.4, 问题：hello
+2023-02-25 17:28:13,461 - server - INFO - ask - 从缓存中得到了答案，问题：hello
+2023-02-25 17:28:13,461 - werkzeug - INFO - _log - 163.125.213.4 - - [25/Feb/2023 17:28:13] "GET /chat?key=3BlbmFpLm9wZW5haS5hdXR&q=hello HTTP/1.1" 200 -
+2023-02-25 17:28:21,967 - server - ERROR - chat - 合法请求，来源ip：163.125.213.4, 问题：hello
+2023-02-25 17:28:21,967 - server - INFO - ask - 从缓存中得到了答案，问题：hello
+2023-02-25 17:28:21,968 - werkzeug - INFO - _log - 163.125.213.4 - - [25/Feb/2023 17:28:21] "GET /chat?key=3BlbmFpLm9wZW5haS5hdXR&q=hello HTTP/1.1" 200 -
+2023-02-25 17:28:22,529 - server - ERROR - chat - 合法请求，来源ip：163.125.213.4, 问题：hello
+2023-02-25 17:28:22,529 - server - INFO - ask - 从缓存中得到了答案，问题：hello
+2023-02-25 17:28:22,529 - werkzeug - INFO - _log - 163.125.213.4 - - [25/Feb/2023 17:28:22] "GET /chat?key=3BlbmFpLm9wZW5haS5hdXR&q=hello HTTP/1.1" 200 -
+2023-02-25 17:28:55,008 - werkzeug - INFO - _log - 163.125.213.4 - - [25/Feb/2023 17:28:55] "GET /chatter HTTP/1.1" 200 -
+2023-02-25 17:28:55,107 - server - ERROR - chat - 合法请求，来源ip：163.125.213.4, 问题：hello
+2023-02-25 17:28:55,107 - server - INFO - ask - 从缓存中得到了答案，问题：hello
+2023-02-25 17:28:55,108 - werkzeug - INFO - _log - 163.125.213.4 - - [25/Feb/2023 17:28:55] "GET /chat?key=3BlbmFpLm9wZW5haS5hdXR&q=hello HTTP/1.1" 200 -
+2023-02-25 17:29:03,040 - server - ERROR - chat - 合法请求，来源ip：163.125.213.4, 问题：hello
+2023-02-25 17:29:03,040 - server - INFO - ask - 从缓存中得到了答案，问题：hello
+2023-02-25 17:29:03,041 - werkzeug - INFO - _log - 163.125.213.4 - - [25/Feb/2023 17:29:03] "GET /chat?key=3BlbmFpLm9wZW5haS5hdXR&q=hello HTTP/1.1" 200 -
+2023-02-25 17:29:08,779 - server - ERROR - chat - 合法请求，来源ip：163.125.213.4, 问题：hello
+2023-02-25 17:29:08,779 - server - INFO - ask - 从缓存中得到了答案，问题：hello
+2023-02-25 17:29:08,779 - werkzeug - INFO - _log - 163.125.213.4 - - [25/Feb/2023 17:29:08] "GET /chat?key=3BlbmFpLm9wZW5haS5hdXR&q=hello HTTP/1.1" 200 -
+2023-02-25 17:29:12,830 - werkzeug - INFO - _log - 163.125.213.4 - - [25/Feb/2023 17:29:12] "GET /chatter HTTP/1.1" 200 -
+2023-02-25 17:29:14,229 - werkzeug - INFO - _log - 163.125.213.4 - - [25/Feb/2023 17:29:14] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2023-02-25 17:29:14,796 - server - ERROR - chat - 合法请求，来源ip：163.125.213.4, 问题：
+2023-02-25 17:29:14,796 - server - INFO - ask - 尝试询问ChatGPT, 问题：
+2023-02-25 17:29:18,127 - server - INFO - ask - ----------
+ChatGPT回答问题：
+答案:Is there anything you would like to ask or talk about? I'm here to assist you in any way I can.
+----------
+2023-02-25 17:29:18,127 - werkzeug - INFO - _log - 163.125.213.4 - - [25/Feb/2023 17:29:18] "GET /chat?key=3BlbmFpLm9wZW5haS5hdXR&q= HTTP/1.1" 200 -
+2023-02-25 17:29:24,284 - server - ERROR - chat - 合法请求，来源ip：163.125.213.4, 问题：hello
+2023-02-25 17:29:24,284 - server - INFO - ask - 从缓存中得到了答案，问题：hello
+2023-02-25 17:29:24,285 - werkzeug - INFO - _log - 163.125.213.4 - - [25/Feb/2023 17:29:24] "GET /chat?key=3BlbmFpLm9wZW5haS5hdXR&q=hello HTTP/1.1" 200 -
+ * Serving Flask app 'server' (lazy loading)
+ * Environment: production
+   WARNING: This is a development server. Do not use it in a production deployment.
+   Use a production WSGI server instead.
+ * Debug mode: off
+2023-02-25 17:30:04,805 - werkzeug - WARNING - _log -  * Running on all addresses.
+   WARNING: This is a development server. Do not use it in a production deployment.
+2023-02-25 17:30:04,805 - werkzeug - INFO - _log -  * Running on http://10.0.0.6:8080/ (Press CTRL+C to quit)
+2023-02-25 17:30:05,091 - server - ERROR - chat - 合法请求，来源ip：163.125.213.4, 问题：hello
+2023-02-25 17:30:05,092 - server - INFO - ask - 尝试询问ChatGPT, 问题：hello
+2023-02-25 17:30:08,219 - server - INFO - ask - ----------
+ChatGPT回答问题：hello
+答案:helloHello! How can I assist you today?
+----------
+2023-02-25 17:30:08,220 - werkzeug - INFO - _log - 163.125.213.4 - - [25/Feb/2023 17:30:08] "GET /chat?key=3BlbmFpLm9wZW5haS5hdXR&q=hello HTTP/1.1" 200 -
+2023-02-25 17:30:08,330 - server - ERROR - chat - 合法请求，来源ip：163.125.213.4, 问题：hello
+2023-02-25 17:30:08,330 - server - INFO - ask - 从缓存中得到了答案，问题：hello
+2023-02-25 17:30:08,330 - werkzeug - INFO - _log - 163.125.213.4 - - [25/Feb/2023 17:30:08] "GET /chat?key=3BlbmFpLm9wZW5haS5hdXR&q=hello HTTP/1.1" 200 -
+2023-02-25 17:30:10,011 - server - ERROR - chat - 合法请求，来源ip：163.125.213.4, 问题：hello
+2023-02-25 17:30:10,011 - server - INFO - ask - 从缓存中得到了答案，问题：hello
+2023-02-25 17:30:10,012 - werkzeug - INFO - _log - 163.125.213.4 - - [25/Feb/2023 17:30:10] "GET /chat?key=3BlbmFpLm9wZW5haS5hdXR&q=hello HTTP/1.1" 200 -
+2023-02-25 17:30:14,087 - werkzeug - INFO - _log - 163.125.213.4 - - [25/Feb/2023 17:30:14] "GET /chatter HTTP/1.1" 200 -
+2023-02-25 17:30:14,797 - werkzeug - INFO - _log - 163.125.213.4 - - [25/Feb/2023 17:30:14] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2023-02-25 17:30:18,016 - server - ERROR - chat - 合法请求，来源ip：163.125.213.4, 问题：hello
+2023-02-25 17:30:18,018 - server - INFO - ask - 从缓存中得到了答案，问题：hello
+2023-02-25 17:30:18,018 - werkzeug - INFO - _log - 163.125.213.4 - - [25/Feb/2023 17:30:18] "GET /chat?key=3BlbmFpLm9wZW5haS5hdXR&q=hello HTTP/1.1" 200 -
+2023-02-25 17:30:43,479 - server - ERROR - chat - 合法请求，来源ip：163.125.213.4, 问题：hello
+2023-02-25 17:30:43,479 - server - INFO - ask - 从缓存中得到了答案，问题：hello
+2023-02-25 17:30:43,480 - werkzeug - INFO - _log - 163.125.213.4 - - [25/Feb/2023 17:30:43] "GET /chat?key=3BlbmFpLm9wZW5haS5hdXR&q=hello HTTP/1.1" 200 -
+2023-02-25 17:30:47,033 - server - ERROR - chat - 合法请求，来源ip：163.125.213.4, 问题：hello
+2023-02-25 17:30:47,033 - server - INFO - ask - 从缓存中得到了答案，问题：hello
+2023-02-25 17:30:47,034 - werkzeug - INFO - _log - 163.125.213.4 - - [25/Feb/2023 17:30:47] "GET /chat?key=3BlbmFpLm9wZW5haS5hdXR&q=hello HTTP/1.1" 200 -
+2023-02-25 17:30:53,639 - server - ERROR - chat - 合法请求，来源ip：163.125.213.4, 问题：hello
+2023-02-25 17:30:53,639 - server - INFO - ask - 从缓存中得到了答案，问题：hello
+2023-02-25 17:30:53,639 - werkzeug - INFO - _log - 163.125.213.4 - - [25/Feb/2023 17:30:53] "GET /chat?key=3BlbmFpLm9wZW5haS5hdXR&q=hello HTTP/1.1" 200 -
+2023-02-25 17:31:13,598 - server - ERROR - chat - 合法请求，来源ip：163.125.213.4, 问题：hello
+2023-02-25 17:31:13,599 - server - INFO - ask - 从缓存中得到了答案，问题：hello
+2023-02-25 17:31:13,599 - werkzeug - INFO - _log - 163.125.213.4 - - [25/Feb/2023 17:31:13] "GET /chat?key=3BlbmFpLm9wZW5haS5hdXR&q=hello HTTP/1.1" 200 -
+2023-02-25 17:31:34,092 - server - ERROR - chat - 合法请求，来源ip：163.125.213.4, 问题：hello
+2023-02-25 17:31:34,092 - server - INFO - ask - 从缓存中得到了答案，问题：hello
+2023-02-25 17:31:34,092 - werkzeug - INFO - _log - 163.125.213.4 - - [25/Feb/2023 17:31:34] "GET /chat?key=3BlbmFpLm9wZW5haS5hdXR&q=hello HTTP/1.1" 200 -
+2023-02-25 17:31:51,195 - server - ERROR - chat - 合法请求，来源ip：163.125.213.4, 问题：hello
+2023-02-25 17:31:51,195 - server - INFO - ask - 从缓存中得到了答案，问题：hello
+2023-02-25 17:31:51,197 - werkzeug - INFO - _log - 163.125.213.4 - - [25/Feb/2023 17:31:51] "GET /chat?key=3BlbmFpLm9wZW5haS5hdXR&q=hello HTTP/1.1" 200 -
+2023-02-25 17:31:53,907 - server - ERROR - chat - 合法请求，来源ip：163.125.213.4, 问题：hello
+2023-02-25 17:31:53,907 - server - INFO - ask - 从缓存中得到了答案，问题：hello
+2023-02-25 17:31:53,907 - werkzeug - INFO - _log - 163.125.213.4 - - [25/Feb/2023 17:31:53] "GET /chat?key=3BlbmFpLm9wZW5haS5hdXR&q=hello HTTP/1.1" 200 -
+2023-02-25 17:32:01,853 - server - ERROR - chat - 合法请求，来源ip：163.125.213.4, 问题：成都有什么好玩的
+2023-02-25 17:32:01,853 - server - INFO - ask - 尝试询问ChatGPT, 问题：成都有什么好玩的
+2023-02-25 17:32:40,750 - server - INFO - ask - ----------
+ChatGPT回答问题：成都有什么好玩的
+答案:成都是一个充满活力和文化的城市，有很多值得一游的景点和活动。以下是一些成都的旅游景点和活动，希望能为你提供帮助：
+
+1. 宽窄巷子：这是成都最受欢迎的景点之一，这里有许多传统的四合院和古色古香的建筑，可以体验到成都传统的文化氛围。
+
+2. 锦里：这里是一个传统的老街区，有很多古朴的建筑和各种各样的小吃，是体验成都美食文化的好地方。
+
+3. 文殊院：这是一个古老的佛教寺庙，有许多历史悠久的建筑和文化遗产，可以领略到中国佛教文化的魅力。
+
+4. 成都大熊猫繁育研究基地：这里是全球最大的熊猫基地，可以近距离观赏到可爱的熊猫。
+
+5. 青城山：这是成都周边的一座著名山峰，有许多自然风景和历史文化遗迹，是登山和观光的好地方。
+
+6. 锦里夜市：晚上到锦里夜市逛逛，可以品尝到许多成都特色小吃和夜市文化。
+
+7. 四川歌舞剧院：这是一个享誉全球的演艺团体，可以观赏到许多高水平的中国传统舞蹈和歌剧表演。
+
+这里只是成都众多景点和活动的一部分，希望对你有所帮助。
+----------
+2023-02-25 17:32:40,750 - werkzeug - INFO - _log - 163.125.213.4 - - [25/Feb/2023 17:32:40] "GET /chat?key=3BlbmFpLm9wZW5haS5hdXR&q=成都有什么好玩的 HTTP/1.1" 200 -
+2023-02-25 17:32:41,445 - server - ERROR - chat - 合法请求，来源ip：163.125.213.4, 问题：成都有什么好玩的
+2023-02-25 17:32:41,445 - server - INFO - ask - 从缓存中得到了答案，问题：成都有什么好玩的
+2023-02-25 17:32:41,445 - werkzeug - INFO - _log - 163.125.213.4 - - [25/Feb/2023 17:32:41] "GET /chat?key=3BlbmFpLm9wZW5haS5hdXR&q=成都有什么好玩的 HTTP/1.1" 200 -
+2023-02-25 17:32:42,051 - server - ERROR - chat - 合法请求，来源ip：163.125.213.4, 问题：成都有什么好玩的
+2023-02-25 17:32:42,052 - server - INFO - ask - 从缓存中得到了答案，问题：成都有什么好玩的
+2023-02-25 17:32:42,052 - werkzeug - INFO - _log - 163.125.213.4 - - [25/Feb/2023 17:32:42] "GET /chat?key=3BlbmFpLm9wZW5haS5hdXR&q=成都有什么好玩的 HTTP/1.1" 200 -
+2023-02-25 17:32:42,555 - server - ERROR - chat - 合法请求，来源ip：163.125.213.4, 问题：成都有什么好玩的
+2023-02-25 17:32:42,555 - server - INFO - ask - 从缓存中得到了答案，问题：成都有什么好玩的
+2023-02-25 17:32:42,556 - werkzeug - INFO - _log - 163.125.213.4 - - [25/Feb/2023 17:32:42] "GET /chat?key=3BlbmFpLm9wZW5haS5hdXR&q=成都有什么好玩的 HTTP/1.1" 200 -
+2023-02-25 17:32:43,165 - server - ERROR - chat - 合法请求，来源ip：163.125.213.4, 问题：成都有什么好玩的
+2023-02-25 17:32:43,165 - server - INFO - ask - 从缓存中得到了答案，问题：成都有什么好玩的
+2023-02-25 17:32:43,165 - werkzeug - INFO - _log - 163.125.213.4 - - [25/Feb/2023 17:32:43] "GET /chat?key=3BlbmFpLm9wZW5haS5hdXR&q=成都有什么好玩的 HTTP/1.1" 200 -
+ * Serving Flask app 'server' (lazy loading)
+ * Environment: production
+   WARNING: This is a development server. Do not use it in a production deployment.
+   Use a production WSGI server instead.
+ * Debug mode: off
+2023-02-25 17:38:43,030 - werkzeug - WARNING - _log -  * Running on all addresses.
+   WARNING: This is a development server. Do not use it in a production deployment.
+2023-02-25 17:38:43,030 - werkzeug - INFO - _log -  * Running on http://10.0.0.6:8080/ (Press CTRL+C to quit)
+2023-02-25 17:38:44,344 - server - ERROR - chat - 合法请求，来源ip：163.125.213.4, 问题：hello
+2023-02-25 17:38:44,344 - server - INFO - ask - 尝试询问ChatGPT, 问题：hello
+2023-02-25 17:38:47,067 - server - INFO - ask - ----------
+ChatGPT回答问题：hello
+答案:helloHello! How can I assist you today?
+----------
+2023-02-25 17:38:47,068 - werkzeug - INFO - _log - 163.125.213.4 - - [25/Feb/2023 17:38:47] "GET /chat?key=3BlbmFpLm9wZW5haS5hdXR&q=hello HTTP/1.1" 200 -
+2023-02-25 17:38:47,409 - werkzeug - INFO - _log - 163.125.213.4 - - [25/Feb/2023 17:38:47] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2023-02-25 17:38:53,031 - werkzeug - INFO - _log - 163.125.213.4 - - [25/Feb/2023 17:38:53] "[31m[1mGET /chat?q=hello HTTP/1.1[0m" 400 -
+2023-02-25 17:38:55,148 - werkzeug - INFO - _log - 163.125.213.4 - - [25/Feb/2023 17:38:55] "[31m[1mGET /chat?q=hello HTTP/1.1[0m" 400 -
+2023-02-25 17:38:59,760 - werkzeug - INFO - _log - 163.125.213.4 - - [25/Feb/2023 17:38:59] "[33mGET /chatter HTTP/1.1[0m" 404 -
+2023-02-25 17:39:09,028 - server - ERROR - chat - 合法请求，来源ip：163.125.213.4, 问题：黑暗森林法则是什么
+2023-02-25 17:39:09,028 - server - INFO - ask - 尝试询问ChatGPT, 问题：黑暗森林法则是什么
+2023-02-25 17:39:36,694 - server - INFO - ask - ----------
+ChatGPT回答问题：黑暗森林法则是什么
+答案:"黑暗森林法则"（The Dark Forest Theory）是科幻小说《三体》中的一个概念，它提出了一个假设，即在宇宙中存在着许多智慧生命，这些生命之间的竞争和冲突就像黑暗森林一样，相互之间充满了谨慎和怀疑。
+
+根据这个假设，每个智慧生命都有自我保护和扩张的本能，它们可能会将其他生命看作是潜在的威胁，因此会采取隐蔽和保密的策略，不与外界联系，以避免被发现和攻击。这就是“黑暗森林法则”的含义：宇宙中的文明像黑暗森林一样，相互之间保持着警惕和保密，以免受到来自其他文明的攻击。
+
+这个概念也被一些人用来描述国际政治或人类社会中的竞争和冲突，认为人类之间也存在类似于黑暗森林法则的竞争和谨慎。
+----------
+2023-02-25 17:39:36,695 - werkzeug - INFO - _log - 163.125.213.4 - - [25/Feb/2023 17:39:36] "GET /chat?key=3BlbmFpLm9wZW5haS5hdXR&q=黑暗森林法则是什么 HTTP/1.1" 200 -
+2023-02-25 17:40:38,566 - werkzeug - INFO - _log - 163.125.213.4 - - [25/Feb/2023 17:40:38] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2023-02-25 17:40:40,965 - werkzeug - INFO - _log - 163.125.213.4 - - [25/Feb/2023 17:40:40] "[33mGET /apple-touch-icon-120x120-precomposed.png HTTP/1.1[0m" 404 -
+2023-02-25 17:40:41,072 - server - ERROR - chat - 合法请求，来源ip：163.125.213.4, 问题：hello
+2023-02-25 17:40:41,073 - server - INFO - ask - 从缓存中得到了答案，问题：hello
+2023-02-25 17:40:41,073 - werkzeug - INFO - _log - 163.125.213.4 - - [25/Feb/2023 17:40:41] "GET /chat?key=3BlbmFpLm9wZW5haS5hdXR&q=hello HTTP/1.1" 200 -
+2023-02-25 17:40:43,379 - werkzeug - INFO - _log - 163.125.213.4 - - [25/Feb/2023 17:40:43] "[33mGET /apple-touch-icon-120x120.png HTTP/1.1[0m" 404 -
+2023-02-25 17:40:45,861 - werkzeug - INFO - _log - 163.125.213.4 - - [25/Feb/2023 17:40:45] "[33mGET /apple-touch-icon-precomposed.png HTTP/1.1[0m" 404 -
+2023-02-25 17:40:48,273 - werkzeug - INFO - _log - 163.125.213.4 - - [25/Feb/2023 17:40:48] "[33mGET /apple-touch-icon.png HTTP/1.1[0m" 404 -
+2023-02-25 17:40:50,483 - werkzeug - INFO - _log - 163.125.213.4 - - [25/Feb/2023 17:40:50] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2023-02-25 17:41:03,162 - server - ERROR - chat - 合法请求，来源ip：163.125.213.4, 问题：推荐一个好吃的吧
+2023-02-25 17:41:03,162 - server - INFO - ask - 尝试询问ChatGPT, 问题：推荐一个好吃的吧
+2023-02-25 17:41:05,292 - server - ERROR - log_exception - Exception on /chat [GET]
+Traceback (most recent call last):
+  File "/usr/local/lib64/python3.6/site-packages/flask/app.py", line 2073, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/usr/local/lib64/python3.6/site-packages/flask/app.py", line 1518, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/usr/local/lib64/python3.6/site-packages/flask/app.py", line 1516, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/usr/local/lib64/python3.6/site-packages/flask/app.py", line 1502, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "server.py", line 82, in chat
+    flag, rsp.data = chatgpt.ask(question)
+  File "server.py", line 37, in ask
+    question,
+  File "/root/ChatGPT/src/revChatGPT/V1.py", line 247, in ask
+    self.__check_response(response)
+  File "/root/ChatGPT/src/revChatGPT/V1.py", line 40, in wrapper
+    out = func(*args, **kwargs)
+  File "/root/ChatGPT/src/revChatGPT/V1.py", line 316, in __check_response
+    raise error
+V1.Error
+2023-02-25 17:41:05,294 - werkzeug - INFO - _log - 163.125.213.4 - - [25/Feb/2023 17:41:05] "[35m[1mGET /chat?key=3BlbmFpLm9wZW5haS5hdXR&q=推荐一个好吃的吧 HTTP/1.1[0m" 500 -
+2023-02-25 17:41:13,245 - server - ERROR - chat - 合法请求，来源ip：163.125.213.4, 问题：推荐一个好吃的吧
+2023-02-25 17:41:43,274 - server - INFO - ask - 答案等待超时，问题：推荐一个好吃的吧
+2023-02-25 17:41:43,274 - werkzeug - INFO - _log - 163.125.213.4 - - [25/Feb/2023 17:41:43] "[31m[1mGET /chat?key=3BlbmFpLm9wZW5haS5hdXR&q=推荐一个好吃的吧 HTTP/1.1[0m" 400 -
+2023-02-25 17:41:47,981 - server - ERROR - chat - 合法请求，来源ip：163.125.213.4, 问题：黑暗森林法则是什么
+2023-02-25 17:41:47,981 - server - INFO - ask - 从缓存中得到了答案，问题：黑暗森林法则是什么
+2023-02-25 17:41:47,981 - werkzeug - INFO - _log - 163.125.213.4 - - [25/Feb/2023 17:41:47] "GET /chat?key=3BlbmFpLm9wZW5haS5hdXR&q=黑暗森林法则是什么 HTTP/1.1" 200 -
+2023-02-25 17:41:53,114 - server - ERROR - chat - 合法请求，来源ip：163.125.213.4, 问题：推荐一个好吃的吧
+2023-02-25 17:41:53,456 - server - ERROR - chat - 合法请求，来源ip：163.125.213.4, 问题：黑暗森林法则是什么1
+2023-02-25 17:41:53,456 - server - ERROR - ask - 服务器繁忙，拒绝请求，问题：黑暗森林法则是什么1
+2023-02-25 17:41:53,456 - werkzeug - INFO - _log - 163.125.213.4 - - [25/Feb/2023 17:41:53] "[31m[1mGET /chat?key=3BlbmFpLm9wZW5haS5hdXR&q=黑暗森林法则是什么1 HTTP/1.1[0m" 400 -
+2023-02-25 17:41:56,154 - server - ERROR - chat - 合法请求，来源ip：163.125.213.4, 问题：黑暗森林法则是什么1
+2023-02-25 17:41:56,154 - server - ERROR - ask - 服务器繁忙，拒绝请求，问题：黑暗森林法则是什么1
+2023-02-25 17:41:56,154 - werkzeug - INFO - _log - 163.125.213.4 - - [25/Feb/2023 17:41:56] "[31m[1mGET /chat?key=3BlbmFpLm9wZW5haS5hdXR&q=黑暗森林法则是什么1 HTTP/1.1[0m" 400 -
+2023-02-25 17:41:57,439 - server - ERROR - chat - 合法请求，来源ip：163.125.213.4, 问题：黑暗森林法则是什么1
+2023-02-25 17:41:57,439 - server - ERROR - ask - 服务器繁忙，拒绝请求，问题：黑暗森林法则是什么1
+2023-02-25 17:41:57,440 - werkzeug - INFO - _log - 163.125.213.4 - - [25/Feb/2023 17:41:57] "[31m[1mGET /chat?key=3BlbmFpLm9wZW5haS5hdXR&q=黑暗森林法则是什么1 HTTP/1.1[0m" 400 -
+2023-02-25 17:41:58,924 - server - ERROR - chat - 合法请求，来源ip：163.125.213.4, 问题：黑暗森林法则是什么1
+2023-02-25 17:41:58,924 - server - ERROR - ask - 服务器繁忙，拒绝请求，问题：黑暗森林法则是什么1
+2023-02-25 17:41:58,925 - werkzeug - INFO - _log - 163.125.213.4 - - [25/Feb/2023 17:41:58] "[31m[1mGET /chat?key=3BlbmFpLm9wZW5haS5hdXR&q=黑暗森林法则是什么1 HTTP/1.1[0m" 400 -
+2023-02-25 17:42:04,657 - server - ERROR - chat - 合法请求，来源ip：163.125.213.4, 问题：黑暗森林法则是什么15
+2023-02-25 17:42:04,657 - server - ERROR - ask - 服务器繁忙，拒绝请求，问题：黑暗森林法则是什么15
+2023-02-25 17:42:04,657 - werkzeug - INFO - _log - 163.125.213.4 - - [25/Feb/2023 17:42:04] "[31m[1mGET /chat?key=3BlbmFpLm9wZW5haS5hdXR&q=黑暗森林法则是什么15 HTTP/1.1[0m" 400 -
+2023-02-25 17:42:23,143 - server - ERROR - ask - ChatGPT回答超时，问题：推荐一个好吃的吧
+2023-02-25 17:42:23,144 - server - INFO - ask - 答案等待超时，问题：推荐一个好吃的吧
+2023-02-25 17:42:23,144 - werkzeug - INFO - _log - 163.125.213.4 - - [25/Feb/2023 17:42:23] "[31m[1mGET /chat?key=3BlbmFpLm9wZW5haS5hdXR&q=推荐一个好吃的吧 HTTP/1.1[0m" 400 -
+2023-02-25 17:42:24,825 - server - ERROR - chat - 合法请求，来源ip：163.125.213.4, 问题：黑暗森林法则是什么15
+2023-02-25 17:42:24,826 - server - ERROR - ask - 服务器繁忙，拒绝请求，问题：黑暗森林法则是什么15
+2023-02-25 17:42:24,826 - werkzeug - INFO - _log - 163.125.213.4 - - [25/Feb/2023 17:42:24] "[31m[1mGET /chat?key=3BlbmFpLm9wZW5haS5hdXR&q=黑暗森林法则是什么15 HTTP/1.1[0m" 400 -
+2023-02-25 17:42:34,084 - server - ERROR - chat - 合法请求，来源ip：163.125.213.4, 问题：推荐一个好吃的吧
+2023-02-25 17:42:34,084 - server - ERROR - ask - 服务器繁忙，拒绝请求，问题：推荐一个好吃的吧
+2023-02-25 17:42:34,085 - werkzeug - INFO - _log - 163.125.213.4 - - [25/Feb/2023 17:42:34] "[31m[1mGET /chat?key=3BlbmFpLm9wZW5haS5hdXR&q=推荐一个好吃的吧 HTTP/1.1[0m" 400 -
+2023-02-25 17:42:36,849 - server - ERROR - chat - 合法请求，来源ip：163.125.213.4, 问题：推荐一个好吃的吧
+2023-02-25 17:42:36,849 - server - ERROR - ask - 服务器繁忙，拒绝请求，问题：推荐一个好吃的吧
+2023-02-25 17:42:36,849 - werkzeug - INFO - _log - 163.125.213.4 - - [25/Feb/2023 17:42:36] "[31m[1mGET /chat?key=3BlbmFpLm9wZW5haS5hdXR&q=推荐一个好吃的吧 HTTP/1.1[0m" 400 -
+2023-02-25 17:42:37,439 - server - ERROR - chat - 合法请求，来源ip：163.125.213.4, 问题：推荐一个好吃的吧
+2023-02-25 17:42:37,439 - server - ERROR - ask - 服务器繁忙，拒绝请求，问题：推荐一个好吃的吧
+2023-02-25 17:42:37,439 - werkzeug - INFO - _log - 163.125.213.4 - - [25/Feb/2023 17:42:37] "[31m[1mGET /chat?key=3BlbmFpLm9wZW5haS5hdXR&q=推荐一个好吃的吧 HTTP/1.1[0m" 400 -
+2023-02-25 17:42:38,199 - server - ERROR - chat - 合法请求，来源ip：163.125.213.4, 问题：推荐一个好吃的吧
+2023-02-25 17:42:38,199 - server - ERROR - ask - 服务器繁忙，拒绝请求，问题：推荐一个好吃的吧
+2023-02-25 17:42:38,200 - werkzeug - INFO - _log - 163.125.213.4 - - [25/Feb/2023 17:42:38] "[31m[1mGET /chat?key=3BlbmFpLm9wZW5haS5hdXR&q=推荐一个好吃的吧 HTTP/1.1[0m" 400 -
+2023-02-25 17:42:38,803 - server - ERROR - chat - 合法请求，来源ip：163.125.213.4, 问题：推荐一个好吃的吧
+2023-02-25 17:42:38,803 - server - ERROR - ask - 服务器繁忙，拒绝请求，问题：推荐一个好吃的吧
+2023-02-25 17:42:38,804 - werkzeug - INFO - _log - 163.125.213.4 - - [25/Feb/2023 17:42:38] "[31m[1mGET /chat?key=3BlbmFpLm9wZW5haS5hdXR&q=推荐一个好吃的吧 HTTP/1.1[0m" 400 -
+2023-02-25 17:42:39,314 - server - ERROR - chat - 合法请求，来源ip：163.125.213.4, 问题：推荐一个好吃的吧
+2023-02-25 17:42:39,314 - server - ERROR - ask - 服务器繁忙，拒绝请求，问题：推荐一个好吃的吧
+2023-02-25 17:42:39,314 - werkzeug - INFO - _log - 163.125.213.4 - - [25/Feb/2023 17:42:39] "[31m[1mGET /chat?key=3BlbmFpLm9wZW5haS5hdXR&q=推荐一个好吃的吧 HTTP/1.1[0m" 400 -
+2023-02-25 17:42:39,818 - server - ERROR - chat - 合法请求，来源ip：163.125.213.4, 问题：推荐一个好吃的吧
+2023-02-25 17:42:39,818 - server - ERROR - ask - 服务器繁忙，拒绝请求，问题：推荐一个好吃的吧
+2023-02-25 17:42:39,819 - werkzeug - INFO - _log - 163.125.213.4 - - [25/Feb/2023 17:42:39] "[31m[1mGET /chat?key=3BlbmFpLm9wZW5haS5hdXR&q=推荐一个好吃的吧 HTTP/1.1[0m" 400 -
+2023-02-25 17:42:40,161 - server - ERROR - chat - 合法请求，来源ip：163.125.213.4, 问题：推荐一个好吃的吧
+2023-02-25 17:42:40,161 - server - ERROR - ask - 服务器繁忙，拒绝请求，问题：推荐一个好吃的吧
+2023-02-25 17:42:40,161 - werkzeug - INFO - _log - 163.125.213.4 - - [25/Feb/2023 17:42:40] "[31m[1mGET /chat?key=3BlbmFpLm9wZW5haS5hdXR&q=推荐一个好吃的吧 HTTP/1.1[0m" 400 -
+2023-02-25 17:42:40,998 - server - ERROR - chat - 合法请求，来源ip：163.125.213.4, 问题：推荐一个好吃的吧
+2023-02-25 17:42:40,998 - server - ERROR - ask - 服务器繁忙，拒绝请求，问题：推荐一个好吃的吧
+2023-02-25 17:42:40,999 - werkzeug - INFO - _log - 163.125.213.4 - - [25/Feb/2023 17:42:40] "[31m[1mGET /chat?key=3BlbmFpLm9wZW5haS5hdXR&q=推荐一个好吃的吧 HTTP/1.1[0m" 400 -
+2023-02-25 17:42:41,786 - server - ERROR - chat - 合法请求，来源ip：163.125.213.4, 问题：推荐一个好吃的吧
+2023-02-25 17:42:41,787 - server - ERROR - ask - 服务器繁忙，拒绝请求，问题：推荐一个好吃的吧
+2023-02-25 17:42:41,787 - werkzeug - INFO - _log - 163.125.213.4 - - [25/Feb/2023 17:42:41] "[31m[1mGET /chat?key=3BlbmFpLm9wZW5haS5hdXR&q=推荐一个好吃的吧 HTTP/1.1[0m" 400 -
+2023-02-25 17:42:42,391 - server - ERROR - chat - 合法请求，来源ip：163.125.213.4, 问题：推荐一个好吃的吧
+2023-02-25 17:42:42,391 - server - ERROR - ask - 服务器繁忙，拒绝请求，问题：推荐一个好吃的吧
+2023-02-25 17:42:42,391 - werkzeug - INFO - _log - 163.125.213.4 - - [25/Feb/2023 17:42:42] "[31m[1mGET /chat?key=3BlbmFpLm9wZW5haS5hdXR&q=推荐一个好吃的吧 HTTP/1.1[0m" 400 -
+2023-02-25 17:42:42,956 - server - ERROR - chat - 合法请求，来源ip：163.125.213.4, 问题：推荐一个好吃的吧
+2023-02-25 17:42:42,957 - server - ERROR - ask - 服务器繁忙，拒绝请求，问题：推荐一个好吃的吧
+2023-02-25 17:42:42,957 - werkzeug - INFO - _log - 163.125.213.4 - - [25/Feb/2023 17:42:42] "[31m[1mGET /chat?key=3BlbmFpLm9wZW5haS5hdXR&q=推荐一个好吃的吧 HTTP/1.1[0m" 400 -
+2023-02-25 17:42:43,593 - server - ERROR - chat - 合法请求，来源ip：163.125.213.4, 问题：推荐一个好吃的吧
+2023-02-25 17:42:43,593 - server - ERROR - ask - 服务器繁忙，拒绝请求，问题：推荐一个好吃的吧
+2023-02-25 17:42:43,594 - werkzeug - INFO - _log - 163.125.213.4 - - [25/Feb/2023 17:42:43] "[31m[1mGET /chat?key=3BlbmFpLm9wZW5haS5hdXR&q=推荐一个好吃的吧 HTTP/1.1[0m" 400 -
+2023-02-25 17:42:44,235 - server - ERROR - chat - 合法请求，来源ip：163.125.213.4, 问题：推荐一个好吃的吧
+2023-02-25 17:42:44,235 - server - ERROR - ask - 服务器繁忙，拒绝请求，问题：推荐一个好吃的吧
+2023-02-25 17:42:44,235 - werkzeug - INFO - _log - 163.125.213.4 - - [25/Feb/2023 17:42:44] "[31m[1mGET /chat?key=3BlbmFpLm9wZW5haS5hdXR&q=推荐一个好吃的吧 HTTP/1.1[0m" 400 -
+2023-02-25 17:42:45,075 - server - ERROR - chat - 合法请求，来源ip：163.125.213.4, 问题：推荐一个好吃的吧
+2023-02-25 17:42:45,075 - server - ERROR - ask - 服务器繁忙，拒绝请求，问题：推荐一个好吃的吧
+2023-02-25 17:42:45,076 - werkzeug - INFO - _log - 163.125.213.4 - - [25/Feb/2023 17:42:45] "[31m[1mGET /chat?key=3BlbmFpLm9wZW5haS5hdXR&q=推荐一个好吃的吧 HTTP/1.1[0m" 400 -
+2023-02-25 17:42:45,556 - server - ERROR - chat - 合法请求，来源ip：163.125.213.4, 问题：推荐一个好吃的吧
+2023-02-25 17:42:45,556 - server - ERROR - ask - 服务器繁忙，拒绝请求，问题：推荐一个好吃的吧
+2023-02-25 17:42:45,557 - werkzeug - INFO - _log - 163.125.213.4 - - [25/Feb/2023 17:42:45] "[31m[1mGET /chat?key=3BlbmFpLm9wZW5haS5hdXR&q=推荐一个好吃的吧 HTTP/1.1[0m" 400 -
+2023-02-25 17:42:46,023 - server - ERROR - chat - 合法请求，来源ip：163.125.213.4, 问题：推荐一个好吃的吧
+2023-02-25 17:42:46,023 - server - ERROR - ask - 服务器繁忙，拒绝请求，问题：推荐一个好吃的吧
+2023-02-25 17:42:46,024 - werkzeug - INFO - _log - 163.125.213.4 - - [25/Feb/2023 17:42:46] "[31m[1mGET /chat?key=3BlbmFpLm9wZW5haS5hdXR&q=推荐一个好吃的吧 HTTP/1.1[0m" 400 -
+2023-02-25 17:42:46,843 - server - ERROR - chat - 合法请求，来源ip：163.125.213.4, 问题：推荐一个好吃的吧
+2023-02-25 17:42:46,843 - server - ERROR - ask - 服务器繁忙，拒绝请求，问题：推荐一个好吃的吧
+2023-02-25 17:42:46,844 - werkzeug - INFO - _log - 163.125.213.4 - - [25/Feb/2023 17:42:46] "[31m[1mGET /chat?key=3BlbmFpLm9wZW5haS5hdXR&q=推荐一个好吃的吧 HTTP/1.1[0m" 400 -
+2023-02-25 17:42:47,488 - server - ERROR - chat - 合法请求，来源ip：163.125.213.4, 问题：推荐一个好吃的吧
+2023-02-25 17:42:47,489 - server - ERROR - ask - 服务器繁忙，拒绝请求，问题：推荐一个好吃的吧
+2023-02-25 17:42:47,489 - werkzeug - INFO - _log - 163.125.213.4 - - [25/Feb/2023 17:42:47] "[31m[1mGET /chat?key=3BlbmFpLm9wZW5haS5hdXR&q=推荐一个好吃的吧 HTTP/1.1[0m" 400 -
+2023-02-25 17:42:48,091 - server - ERROR - chat - 合法请求，来源ip：163.125.213.4, 问题：推荐一个好吃的吧
+2023-02-25 17:42:48,092 - server - ERROR - ask - 服务器繁忙，拒绝请求，问题：推荐一个好吃的吧
+2023-02-25 17:42:48,092 - werkzeug - INFO - _log - 163.125.213.4 - - [25/Feb/2023 17:42:48] "[31m[1mGET /chat?key=3BlbmFpLm9wZW5haS5hdXR&q=推荐一个好吃的吧 HTTP/1.1[0m" 400 -
+2023-02-25 17:42:48,613 - server - ERROR - chat - 合法请求，来源ip：163.125.213.4, 问题：推荐一个好吃的吧
+2023-02-25 17:42:48,613 - server - ERROR - ask - 服务器繁忙，拒绝请求，问题：推荐一个好吃的吧
+2023-02-25 17:42:48,613 - werkzeug - INFO - _log - 163.125.213.4 - - [25/Feb/2023 17:42:48] "[31m[1mGET /chat?key=3BlbmFpLm9wZW5haS5hdXR&q=推荐一个好吃的吧 HTTP/1.1[0m" 400 -
+2023-02-25 17:42:49,231 - server - ERROR - chat - 合法请求，来源ip：163.125.213.4, 问题：推荐一个好吃的吧
+2023-02-25 17:42:49,231 - server - ERROR - ask - 服务器繁忙，拒绝请求，问题：推荐一个好吃的吧
+2023-02-25 17:42:49,231 - werkzeug - INFO - _log - 163.125.213.4 - - [25/Feb/2023 17:42:49] "[31m[1mGET /chat?key=3BlbmFpLm9wZW5haS5hdXR&q=推荐一个好吃的吧 HTTP/1.1[0m" 400 -
+2023-02-25 17:42:49,719 - server - ERROR - chat - 合法请求，来源ip：163.125.213.4, 问题：推荐一个好吃的吧
+2023-02-25 17:42:49,719 - server - ERROR - ask - 服务器繁忙，拒绝请求，问题：推荐一个好吃的吧
+2023-02-25 17:42:49,719 - werkzeug - INFO - _log - 163.125.213.4 - - [25/Feb/2023 17:42:49] "[31m[1mGET /chat?key=3BlbmFpLm9wZW5haS5hdXR&q=推荐一个好吃的吧 HTTP/1.1[0m" 400 -
+2023-02-25 17:42:50,275 - server - ERROR - chat - 合法请求，来源ip：163.125.213.4, 问题：推荐一个好吃的吧
+2023-02-25 17:42:50,275 - server - ERROR - ask - 服务器繁忙，拒绝请求，问题：推荐一个好吃的吧
+2023-02-25 17:42:50,275 - werkzeug - INFO - _log - 163.125.213.4 - - [25/Feb/2023 17:42:50] "[31m[1mGET /chat?key=3BlbmFpLm9wZW5haS5hdXR&q=推荐一个好吃的吧 HTTP/1.1[0m" 400 -
+2023-02-25 17:42:50,764 - server - ERROR - chat - 合法请求，来源ip：163.125.213.4, 问题：推荐一个好吃的吧
+2023-02-25 17:42:50,764 - server - ERROR - ask - 服务器繁忙，拒绝请求，问题：推荐一个好吃的吧
+2023-02-25 17:42:50,764 - werkzeug - INFO - _log - 163.125.213.4 - - [25/Feb/2023 17:42:50] "[31m[1mGET /chat?key=3BlbmFpLm9wZW5haS5hdXR&q=推荐一个好吃的吧 HTTP/1.1[0m" 400 -
+2023-02-25 17:42:51,327 - server - ERROR - chat - 合法请求，来源ip：163.125.213.4, 问题：推荐一个好吃的吧
+2023-02-25 17:42:51,328 - server - ERROR - ask - 服务器繁忙，拒绝请求，问题：推荐一个好吃的吧
+2023-02-25 17:42:51,328 - werkzeug - INFO - _log - 163.125.213.4 - - [25/Feb/2023 17:42:51] "[31m[1mGET /chat?key=3BlbmFpLm9wZW5haS5hdXR&q=推荐一个好吃的吧 HTTP/1.1[0m" 400 -
+2023-02-25 17:42:51,798 - server - ERROR - chat - 合法请求，来源ip：163.125.213.4, 问题：推荐一个好吃的吧
+2023-02-25 17:42:51,798 - server - ERROR - ask - 服务器繁忙，拒绝请求，问题：推荐一个好吃的吧
+2023-02-25 17:42:51,799 - werkzeug - INFO - _log - 163.125.213.4 - - [25/Feb/2023 17:42:51] "[31m[1mGET /chat?key=3BlbmFpLm9wZW5haS5hdXR&q=推荐一个好吃的吧 HTTP/1.1[0m" 400 -
+2023-02-25 17:42:52,305 - server - ERROR - chat - 合法请求，来源ip：163.125.213.4, 问题：推荐一个好吃的吧
+2023-02-25 17:42:52,306 - server - ERROR - ask - 服务器繁忙，拒绝请求，问题：推荐一个好吃的吧
+2023-02-25 17:42:52,306 - werkzeug - INFO - _log - 163.125.213.4 - - [25/Feb/2023 17:42:52] "[31m[1mGET /chat?key=3BlbmFpLm9wZW5haS5hdXR&q=推荐一个好吃的吧 HTTP/1.1[0m" 400 -
+2023-02-25 17:42:53,758 - server - ERROR - chat - 合法请求，来源ip：163.125.213.4, 问题：推荐一个好吃的吧
+2023-02-25 17:42:53,758 - server - ERROR - ask - 服务器繁忙，拒绝请求，问题：推荐一个好吃的吧
+2023-02-25 17:42:53,758 - werkzeug - INFO - _log - 163.125.213.4 - - [25/Feb/2023 17:42:53] "[31m[1mGET /chat?key=3BlbmFpLm9wZW5haS5hdXR&q=推荐一个好吃的吧 HTTP/1.1[0m" 400 -
+2023-02-25 17:42:54,438 - server - ERROR - chat - 合法请求，来源ip：163.125.213.4, 问题：推荐一个好吃的吧
+2023-02-25 17:42:54,438 - server - ERROR - ask - 服务器繁忙，拒绝请求，问题：推荐一个好吃的吧
+2023-02-25 17:42:54,438 - werkzeug - INFO - _log - 163.125.213.4 - - [25/Feb/2023 17:42:54] "[31m[1mGET /chat?key=3BlbmFpLm9wZW5haS5hdXR&q=推荐一个好吃的吧 HTTP/1.1[0m" 400 -
+2023-02-25 17:42:55,067 - server - ERROR - chat - 合法请求，来源ip：163.125.213.4, 问题：推荐一个好吃的吧
+2023-02-25 17:42:55,067 - server - ERROR - ask - 服务器繁忙，拒绝请求，问题：推荐一个好吃的吧
+2023-02-25 17:42:55,067 - werkzeug - INFO - _log - 163.125.213.4 - - [25/Feb/2023 17:42:55] "[31m[1mGET /chat?key=3BlbmFpLm9wZW5haS5hdXR&q=推荐一个好吃的吧 HTTP/1.1[0m" 400 -
+2023-02-25 17:42:55,620 - server - ERROR - chat - 合法请求，来源ip：163.125.213.4, 问题：推荐一个好吃的吧
+2023-02-25 17:42:55,620 - server - ERROR - ask - 服务器繁忙，拒绝请求，问题：推荐一个好吃的吧
+2023-02-25 17:42:55,620 - werkzeug - INFO - _log - 163.125.213.4 - - [25/Feb/2023 17:42:55] "[31m[1mGET /chat?key=3BlbmFpLm9wZW5haS5hdXR&q=推荐一个好吃的吧 HTTP/1.1[0m" 400 -
+2023-02-25 17:42:56,168 - server - ERROR - chat - 合法请求，来源ip：163.125.213.4, 问题：推荐一个好吃的吧
+2023-02-25 17:42:56,168 - server - ERROR - ask - 服务器繁忙，拒绝请求，问题：推荐一个好吃的吧
+2023-02-25 17:42:56,168 - werkzeug - INFO - _log - 163.125.213.4 - - [25/Feb/2023 17:42:56] "[31m[1mGET /chat?key=3BlbmFpLm9wZW5haS5hdXR&q=推荐一个好吃的吧 HTTP/1.1[0m" 400 -
+2023-02-25 17:42:56,712 - server - ERROR - chat - 合法请求，来源ip：163.125.213.4, 问题：推荐一个好吃的吧
+2023-02-25 17:42:56,712 - server - ERROR - ask - 服务器繁忙，拒绝请求，问题：推荐一个好吃的吧
+2023-02-25 17:42:56,712 - werkzeug - INFO - _log - 163.125.213.4 - - [25/Feb/2023 17:42:56] "[31m[1mGET /chat?key=3BlbmFpLm9wZW5haS5hdXR&q=推荐一个好吃的吧 HTTP/1.1[0m" 400 -
+2023-02-25 17:42:57,112 - server - ERROR - chat - 合法请求，来源ip：163.125.213.4, 问题：推荐一个好吃的吧
+2023-02-25 17:42:57,113 - server - ERROR - ask - 服务器繁忙，拒绝请求，问题：推荐一个好吃的吧
+2023-02-25 17:42:57,113 - werkzeug - INFO - _log - 163.125.213.4 - - [25/Feb/2023 17:42:57] "[31m[1mGET /chat?key=3BlbmFpLm9wZW5haS5hdXR&q=推荐一个好吃的吧 HTTP/1.1[0m" 400 -
+2023-02-25 17:42:57,589 - server - ERROR - chat - 合法请求，来源ip：163.125.213.4, 问题：推荐一个好吃的吧
+2023-02-25 17:42:57,589 - server - ERROR - ask - 服务器繁忙，拒绝请求，问题：推荐一个好吃的吧
+2023-02-25 17:42:57,590 - werkzeug - INFO - _log - 163.125.213.4 - - [25/Feb/2023 17:42:57] "[31m[1mGET /chat?key=3BlbmFpLm9wZW5haS5hdXR&q=推荐一个好吃的吧 HTTP/1.1[0m" 400 -
+2023-02-25 17:42:58,013 - server - ERROR - chat - 合法请求，来源ip：163.125.213.4, 问题：推荐一个好吃的吧
+2023-02-25 17:42:58,015 - server - ERROR - ask - 服务器繁忙，拒绝请求，问题：推荐一个好吃的吧
+2023-02-25 17:42:58,015 - werkzeug - INFO - _log - 163.125.213.4 - - [25/Feb/2023 17:42:58] "[31m[1mGET /chat?key=3BlbmFpLm9wZW5haS5hdXR&q=推荐一个好吃的吧 HTTP/1.1[0m" 400 -
+2023-02-25 17:42:58,497 - server - ERROR - chat - 合法请求，来源ip：163.125.213.4, 问题：推荐一个好吃的吧
+2023-02-25 17:42:58,497 - server - ERROR - ask - 服务器繁忙，拒绝请求，问题：推荐一个好吃的吧
+2023-02-25 17:42:58,498 - werkzeug - INFO - _log - 163.125.213.4 - - [25/Feb/2023 17:42:58] "[31m[1mGET /chat?key=3BlbmFpLm9wZW5haS5hdXR&q=推荐一个好吃的吧 HTTP/1.1[0m" 400 -
+2023-02-25 17:42:58,952 - server - ERROR - chat - 合法请求，来源ip：163.125.213.4, 问题：推荐一个好吃的吧
+2023-02-25 17:42:58,953 - server - ERROR - ask - 服务器繁忙，拒绝请求，问题：推荐一个好吃的吧
+2023-02-25 17:42:58,953 - werkzeug - INFO - _log - 163.125.213.4 - - [25/Feb/2023 17:42:58] "[31m[1mGET /chat?key=3BlbmFpLm9wZW5haS5hdXR&q=推荐一个好吃的吧 HTTP/1.1[0m" 400 -
+2023-02-25 17:42:59,522 - server - ERROR - chat - 合法请求，来源ip：163.125.213.4, 问题：推荐一个好吃的吧
+2023-02-25 17:42:59,522 - server - ERROR - ask - 服务器繁忙，拒绝请求，问题：推荐一个好吃的吧
+2023-02-25 17:42:59,522 - werkzeug - INFO - _log - 163.125.213.4 - - [25/Feb/2023 17:42:59] "[31m[1mGET /chat?key=3BlbmFpLm9wZW5haS5hdXR&q=推荐一个好吃的吧 HTTP/1.1[0m" 400 -
+2023-02-25 17:42:59,784 - server - ERROR - chat - 合法请求，来源ip：163.125.213.4, 问题：推荐一个好吃的吧
+2023-02-25 17:42:59,784 - server - ERROR - ask - 服务器繁忙，拒绝请求，问题：推荐一个好吃的吧
+2023-02-25 17:42:59,784 - werkzeug - INFO - _log - 163.125.213.4 - - [25/Feb/2023 17:42:59] "[31m[1mGET /chat?key=3BlbmFpLm9wZW5haS5hdXR&q=推荐一个好吃的吧 HTTP/1.1[0m" 400 -
+2023-02-25 17:43:00,255 - server - ERROR - chat - 合法请求，来源ip：163.125.213.4, 问题：推荐一个好吃的吧
+2023-02-25 17:43:00,256 - server - ERROR - ask - 服务器繁忙，拒绝请求，问题：推荐一个好吃的吧
+2023-02-25 17:43:00,256 - werkzeug - INFO - _log - 163.125.213.4 - - [25/Feb/2023 17:43:00] "[31m[1mGET /chat?key=3BlbmFpLm9wZW5haS5hdXR&q=推荐一个好吃的吧 HTTP/1.1[0m" 400 -
+2023-02-25 17:43:00,705 - server - ERROR - chat - 合法请求，来源ip：163.125.213.4, 问题：推荐一个好吃的吧
+2023-02-25 17:43:00,705 - server - ERROR - ask - 服务器繁忙，拒绝请求，问题：推荐一个好吃的吧
+2023-02-25 17:43:00,706 - werkzeug - INFO - _log - 163.125.213.4 - - [25/Feb/2023 17:43:00] "[31m[1mGET /chat?key=3BlbmFpLm9wZW5haS5hdXR&q=推荐一个好吃的吧 HTTP/1.1[0m" 400 -
+2023-02-25 17:43:01,137 - server - ERROR - chat - 合法请求，来源ip：163.125.213.4, 问题：推荐一个好吃的吧
+2023-02-25 17:43:01,137 - server - ERROR - ask - 服务器繁忙，拒绝请求，问题：推荐一个好吃的吧
+2023-02-25 17:43:01,137 - werkzeug - INFO - _log - 163.125.213.4 - - [25/Feb/2023 17:43:01] "[31m[1mGET /chat?key=3BlbmFpLm9wZW5haS5hdXR&q=推荐一个好吃的吧 HTTP/1.1[0m" 400 -
+2023-02-25 17:43:01,625 - server - ERROR - chat - 合法请求，来源ip：163.125.213.4, 问题：推荐一个好吃的吧
+2023-02-25 17:43:01,625 - server - ERROR - ask - 服务器繁忙，拒绝请求，问题：推荐一个好吃的吧
+2023-02-25 17:43:01,625 - werkzeug - INFO - _log - 163.125.213.4 - - [25/Feb/2023 17:43:01] "[31m[1mGET /chat?key=3BlbmFpLm9wZW5haS5hdXR&q=推荐一个好吃的吧 HTTP/1.1[0m" 400 -
+2023-02-25 17:43:02,049 - server - ERROR - chat - 合法请求，来源ip：163.125.213.4, 问题：推荐一个好吃的吧
+2023-02-25 17:43:02,049 - server - ERROR - ask - 服务器繁忙，拒绝请求，问题：推荐一个好吃的吧
+2023-02-25 17:43:02,049 - werkzeug - INFO - _log - 163.125.213.4 - - [25/Feb/2023 17:43:02] "[31m[1mGET /chat?key=3BlbmFpLm9wZW5haS5hdXR&q=推荐一个好吃的吧 HTTP/1.1[0m" 400 -
+2023-02-25 17:43:02,419 - server - ERROR - chat - 合法请求，来源ip：163.125.213.4, 问题：推荐一个好吃的吧
+2023-02-25 17:43:02,419 - server - ERROR - ask - 服务器繁忙，拒绝请求，问题：推荐一个好吃的吧
+2023-02-25 17:43:02,420 - werkzeug - INFO - _log - 163.125.213.4 - - [25/Feb/2023 17:43:02] "[31m[1mGET /chat?key=3BlbmFpLm9wZW5haS5hdXR&q=推荐一个好吃的吧 HTTP/1.1[0m" 400 -
+2023-02-25 17:43:02,944 - server - ERROR - chat - 合法请求，来源ip：163.125.213.4, 问题：推荐一个好吃的吧
+2023-02-25 17:43:02,944 - server - ERROR - ask - 服务器繁忙，拒绝请求，问题：推荐一个好吃的吧
+2023-02-25 17:43:02,945 - werkzeug - INFO - _log - 163.125.213.4 - - [25/Feb/2023 17:43:02] "[31m[1mGET /chat?key=3BlbmFpLm9wZW5haS5hdXR&q=推荐一个好吃的吧 HTTP/1.1[0m" 400 -
+2023-02-25 17:43:03,441 - server - ERROR - chat - 合法请求，来源ip：163.125.213.4, 问题：推荐一个好吃的吧
+2023-02-25 17:43:03,443 - server - ERROR - ask - 服务器繁忙，拒绝请求，问题：推荐一个好吃的吧
+2023-02-25 17:43:03,443 - werkzeug - INFO - _log - 163.125.213.4 - - [25/Feb/2023 17:43:03] "[31m[1mGET /chat?key=3BlbmFpLm9wZW5haS5hdXR&q=推荐一个好吃的吧 HTTP/1.1[0m" 400 -
+2023-02-25 17:43:04,019 - server - ERROR - chat - 合法请求，来源ip：163.125.213.4, 问题：推荐一个好吃的吧
+2023-02-25 17:43:04,019 - server - ERROR - ask - 服务器繁忙，拒绝请求，问题：推荐一个好吃的吧
+2023-02-25 17:43:04,020 - werkzeug - INFO - _log - 163.125.213.4 - - [25/Feb/2023 17:43:04] "[31m[1mGET /chat?key=3BlbmFpLm9wZW5haS5hdXR&q=推荐一个好吃的吧 HTTP/1.1[0m" 400 -
+2023-02-25 17:43:04,920 - server - ERROR - chat - 合法请求，来源ip：163.125.213.4, 问题：推荐一个好吃的吧
+2023-02-25 17:43:04,920 - server - ERROR - ask - 服务器繁忙，拒绝请求，问题：推荐一个好吃的吧
+2023-02-25 17:43:04,921 - werkzeug - INFO - _log - 163.125.213.4 - - [25/Feb/2023 17:43:04] "[31m[1mGET /chat?key=3BlbmFpLm9wZW5haS5hdXR&q=推荐一个好吃的吧 HTTP/1.1[0m" 400 -
+2023-02-25 17:43:05,448 - server - ERROR - chat - 合法请求，来源ip：163.125.213.4, 问题：推荐一个好吃的吧
+2023-02-25 17:43:05,448 - server - ERROR - ask - 服务器繁忙，拒绝请求，问题：推荐一个好吃的吧
+2023-02-25 17:43:05,448 - werkzeug - INFO - _log - 163.125.213.4 - - [25/Feb/2023 17:43:05] "[31m[1mGET /chat?key=3BlbmFpLm9wZW5haS5hdXR&q=推荐一个好吃的吧 HTTP/1.1[0m" 400 -
+2023-02-25 17:43:05,903 - server - ERROR - chat - 合法请求，来源ip：163.125.213.4, 问题：推荐一个好吃的吧
+2023-02-25 17:43:05,903 - server - ERROR - ask - 服务器繁忙，拒绝请求，问题：推荐一个好吃的吧
+2023-02-25 17:43:05,903 - werkzeug - INFO - _log - 163.125.213.4 - - [25/Feb/2023 17:43:05] "[31m[1mGET /chat?key=3BlbmFpLm9wZW5haS5hdXR&q=推荐一个好吃的吧 HTTP/1.1[0m" 400 -
+2023-02-25 17:43:06,408 - server - ERROR - chat - 合法请求，来源ip：163.125.213.4, 问题：推荐一个好吃的吧
+2023-02-25 17:43:06,408 - server - ERROR - ask - 服务器繁忙，拒绝请求，问题：推荐一个好吃的吧
+2023-02-25 17:43:06,408 - werkzeug - INFO - _log - 163.125.213.4 - - [25/Feb/2023 17:43:06] "[31m[1mGET /chat?key=3BlbmFpLm9wZW5haS5hdXR&q=推荐一个好吃的吧 HTTP/1.1[0m" 400 -
+2023-02-25 17:43:06,898 - server - ERROR - chat - 合法请求，来源ip：163.125.213.4, 问题：推荐一个好吃的吧
+2023-02-25 17:43:06,898 - server - ERROR - ask - 服务器繁忙，拒绝请求，问题：推荐一个好吃的吧
+2023-02-25 17:43:06,898 - werkzeug - INFO - _log - 163.125.213.4 - - [25/Feb/2023 17:43:06] "[31m[1mGET /chat?key=3BlbmFpLm9wZW5haS5hdXR&q=推荐一个好吃的吧 HTTP/1.1[0m" 400 -
+2023-02-25 17:43:07,383 - server - ERROR - chat - 合法请求，来源ip：163.125.213.4, 问题：推荐一个好吃的吧
+2023-02-25 17:43:07,383 - server - ERROR - ask - 服务器繁忙，拒绝请求，问题：推荐一个好吃的吧
+2023-02-25 17:43:07,383 - werkzeug - INFO - _log - 163.125.213.4 - - [25/Feb/2023 17:43:07] "[31m[1mGET /chat?key=3BlbmFpLm9wZW5haS5hdXR&q=推荐一个好吃的吧 HTTP/1.1[0m" 400 -
+2023-02-25 17:43:07,834 - server - ERROR - chat - 合法请求，来源ip：163.125.213.4, 问题：推荐一个好吃的吧
+2023-02-25 17:43:07,835 - server - ERROR - ask - 服务器繁忙，拒绝请求，问题：推荐一个好吃的吧
+2023-02-25 17:43:07,835 - werkzeug - INFO - _log - 163.125.213.4 - - [25/Feb/2023 17:43:07] "[31m[1mGET /chat?key=3BlbmFpLm9wZW5haS5hdXR&q=推荐一个好吃的吧 HTTP/1.1[0m" 400 -
+2023-02-25 17:43:08,279 - server - ERROR - chat - 合法请求，来源ip：163.125.213.4, 问题：推荐一个好吃的吧
+2023-02-25 17:43:08,279 - server - ERROR - ask - 服务器繁忙，拒绝请求，问题：推荐一个好吃的吧
+2023-02-25 17:43:08,279 - werkzeug - INFO - _log - 163.125.213.4 - - [25/Feb/2023 17:43:08] "[31m[1mGET /chat?key=3BlbmFpLm9wZW5haS5hdXR&q=推荐一个好吃的吧 HTTP/1.1[0m" 400 -
+2023-02-25 17:43:08,704 - server - ERROR - chat - 合法请求，来源ip：163.125.213.4, 问题：推荐一个好吃的吧
+2023-02-25 17:43:08,704 - server - ERROR - ask - 服务器繁忙，拒绝请求，问题：推荐一个好吃的吧
+2023-02-25 17:43:08,705 - werkzeug - INFO - _log - 163.125.213.4 - - [25/Feb/2023 17:43:08] "[31m[1mGET /chat?key=3BlbmFpLm9wZW5haS5hdXR&q=推荐一个好吃的吧 HTTP/1.1[0m" 400 -
+2023-02-25 17:43:09,188 - server - ERROR - chat - 合法请求，来源ip：163.125.213.4, 问题：推荐一个好吃的吧
+2023-02-25 17:43:09,188 - server - ERROR - ask - 服务器繁忙，拒绝请求，问题：推荐一个好吃的吧
+2023-02-25 17:43:09,189 - werkzeug - INFO - _log - 163.125.213.4 - - [25/Feb/2023 17:43:09] "[31m[1mGET /chat?key=3BlbmFpLm9wZW5haS5hdXR&q=推荐一个好吃的吧 HTTP/1.1[0m" 400 -
+2023-02-25 17:43:09,724 - server - ERROR - chat - 合法请求，来源ip：163.125.213.4, 问题：推荐一个好吃的吧
+2023-02-25 17:43:09,724 - server - ERROR - ask - 服务器繁忙，拒绝请求，问题：推荐一个好吃的吧
+2023-02-25 17:43:09,725 - werkzeug - INFO - _log - 163.125.213.4 - - [25/Feb/2023 17:43:09] "[31m[1mGET /chat?key=3BlbmFpLm9wZW5haS5hdXR&q=推荐一个好吃的吧 HTTP/1.1[0m" 400 -
+2023-02-25 17:43:24,104 - server - ERROR - chat - 合法请求，来源ip：163.125.213.4, 问题：推荐一个好吃的吧
+2023-02-25 17:43:24,104 - server - ERROR - ask - 服务器繁忙，拒绝请求，问题：推荐一个好吃的吧
+2023-02-25 17:43:24,104 - werkzeug - INFO - _log - 163.125.213.4 - - [25/Feb/2023 17:43:24] "[31m[1mGET /chat?key=3BlbmFpLm9wZW5haS5hdXR&q=推荐一个好吃的吧 HTTP/1.1[0m" 400 -
+2023-02-25 17:45:09,556 - server - ERROR - chat - 合法请求，来源ip：163.125.213.4, 问题：推荐一个好吃的吧
+2023-02-25 17:45:09,556 - server - ERROR - ask - 服务器繁忙，拒绝请求，问题：推荐一个好吃的吧
+2023-02-25 17:45:09,557 - werkzeug - INFO - _log - 163.125.213.4 - - [25/Feb/2023 17:45:09] "[31m[1mGET /chat?key=3BlbmFpLm9wZW5haS5hdXR&q=推荐一个好吃的吧 HTTP/1.1[0m" 400 -
+ * Serving Flask app 'server' (lazy loading)
+ * Environment: production
+   WARNING: This is a development server. Do not use it in a production deployment.
+   Use a production WSGI server instead.
+ * Debug mode: off
+2023-02-25 17:45:26,963 - werkzeug - WARNING - _log -  * Running on all addresses.
+   WARNING: This is a development server. Do not use it in a production deployment.
+2023-02-25 17:45:26,963 - werkzeug - INFO - _log -  * Running on http://10.0.0.6:8080/ (Press CTRL+C to quit)
+2023-02-25 17:45:27,298 - server - ERROR - chat - 合法请求，来源ip：163.125.213.4, 问题：推荐一个好吃的吧
+2023-02-25 17:45:27,298 - server - INFO - ask - 尝试询问ChatGPT, 问题：推荐一个好吃的吧
+2023-02-25 17:45:30,025 - werkzeug - INFO - _log - 163.125.213.4 - - [25/Feb/2023 17:45:30] "[31m[1mGET /chat?key=3BlbmFpLm9wZW5haS5hdXR&q=推荐一个好吃的吧 HTTP/1.1[0m" 400 -
+2023-02-25 17:45:36,453 - server - ERROR - chat - 合法请求，来源ip：163.125.213.4, 问题：推荐一个好吃的吧
+2023-02-25 17:46:06,482 - server - INFO - ask - 答案等待超时，问题：推荐一个好吃的吧
+2023-02-25 17:46:06,482 - werkzeug - INFO - _log - 163.125.213.4 - - [25/Feb/2023 17:46:06] "[31m[1mGET /chat?key=3BlbmFpLm9wZW5haS5hdXR&q=推荐一个好吃的吧 HTTP/1.1[0m" 400 -
+2023-02-25 17:46:09,227 - server - ERROR - chat - 合法请求，来源ip：163.125.213.4, 问题：推荐一个好吃的吧
+2023-02-25 17:46:37,917 - server - ERROR - chat - 合法请求，来源ip：163.125.213.4, 问题：推荐一个好吃的吧
+2023-02-25 17:46:39,257 - server - ERROR - ask - ChatGPT回答超时，问题：推荐一个好吃的吧
+2023-02-25 17:46:39,257 - server - INFO - ask - 答案等待超时，问题：推荐一个好吃的吧
+2023-02-25 17:46:39,258 - werkzeug - INFO - _log - 163.125.213.4 - - [25/Feb/2023 17:46:39] "[31m[1mGET /chat?key=3BlbmFpLm9wZW5haS5hdXR&q=推荐一个好吃的吧 HTTP/1.1[0m" 400 -
+2023-02-25 17:46:39,920 - server - INFO - ask - 从缓存中得到了答案，问题：推荐一个好吃的吧
+2023-02-25 17:46:39,920 - werkzeug - INFO - _log - 163.125.213.4 - - [25/Feb/2023 17:46:39] "GET /chat?key=3BlbmFpLm9wZW5haS5hdXR&q=推荐一个好吃的吧 HTTP/1.1" 200 -
+2023-02-25 17:46:42,424 - server - ERROR - chat - 合法请求，来源ip：163.125.213.4, 问题：推荐一个好吃的吧
+2023-02-25 17:46:42,424 - server - INFO - ask - 尝试询问ChatGPT, 问题：推荐一个好吃的吧
+2023-02-25 17:46:43,783 - werkzeug - INFO - _log - 163.125.213.4 - - [25/Feb/2023 17:46:43] "[31m[1mGET /chat?key=3BlbmFpLm9wZW5haS5hdXR&q=推荐一个好吃的吧 HTTP/1.1[0m" 400 -
+2023-02-25 17:46:47,233 - server - ERROR - chat - 合法请求，来源ip：163.125.213.4, 问题：推荐一个好吃的吧？
+2023-02-25 17:46:47,233 - server - INFO - ask - 尝试询问ChatGPT, 问题：推荐一个好吃的吧？
+2023-02-25 17:46:49,913 - werkzeug - INFO - _log - 163.125.213.4 - - [25/Feb/2023 17:46:49] "[31m[1mGET /chat?key=3BlbmFpLm9wZW5haS5hdXR&q=推荐一个好吃的吧？ HTTP/1.1[0m" 400 -
+2023-02-25 17:47:06,941 - server - ERROR - chat - 合法请求，来源ip：163.125.213.4, 问题：深圳有哪些地方适合旅游？
+2023-02-25 17:47:06,941 - server - INFO - ask - 尝试询问ChatGPT, 问题：深圳有哪些地方适合旅游？
+2023-02-25 17:47:09,307 - werkzeug - INFO - _log - 163.125.213.4 - - [25/Feb/2023 17:47:09] "[31m[1mGET /chat?key=3BlbmFpLm9wZW5haS5hdXR&q=深圳有哪些地方适合旅游？ HTTP/1.1[0m" 400 -
+ * Serving Flask app 'server' (lazy loading)
+ * Environment: production
+   WARNING: This is a development server. Do not use it in a production deployment.
+   Use a production WSGI server instead.
+ * Debug mode: off
+2023-02-25 17:48:19,601 - werkzeug - WARNING - _log -  * Running on all addresses.
+   WARNING: This is a development server. Do not use it in a production deployment.
+2023-02-25 17:48:19,601 - werkzeug - INFO - _log -  * Running on http://10.0.0.6:8080/ (Press CTRL+C to quit)
+2023-02-25 17:48:19,804 - server - ERROR - chat - 合法请求，来源ip：163.125.213.4, 问题：深圳有哪些地方适合旅游？
+2023-02-25 17:48:19,804 - server - INFO - ask - 尝试询问ChatGPT, 问题：深圳有哪些地方适合旅游？
+2023-02-25 17:48:21,123 - server - ERROR - log_exception - Exception on /chat [GET]
+Traceback (most recent call last):
+  File "/usr/local/lib64/python3.6/site-packages/flask/app.py", line 2073, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/usr/local/lib64/python3.6/site-packages/flask/app.py", line 1518, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/usr/local/lib64/python3.6/site-packages/flask/app.py", line 1516, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/usr/local/lib64/python3.6/site-packages/flask/app.py", line 1502, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "server.py", line 82, in chat
+    flag, rsp.data = chatgpt.ask(question)
+  File "server.py", line 37, in ask
+    question,
+  File "/root/ChatGPT/src/revChatGPT/V1.py", line 247, in ask
+    self.__check_response(response)
+  File "/root/ChatGPT/src/revChatGPT/V1.py", line 40, in wrapper
+    out = func(*args, **kwargs)
+  File "/root/ChatGPT/src/revChatGPT/V1.py", line 316, in __check_response
+    raise error
+V1.Error
+2023-02-25 17:48:21,125 - werkzeug - INFO - _log - 163.125.213.4 - - [25/Feb/2023 17:48:21] "[35m[1mGET /chat?key=3BlbmFpLm9wZW5haS5hdXR&q=深圳有哪些地方适合旅游？ HTTP/1.1[0m" 500 -
+2023-02-25 17:50:14,081 - server - ERROR - chat - 合法请求，来源ip：163.125.213.4, 问题：hello
+2023-02-25 17:50:14,081 - server - ERROR - ask - 服务器繁忙，拒绝请求，问题：hello
+2023-02-25 17:50:14,081 - werkzeug - INFO - _log - 163.125.213.4 - - [25/Feb/2023 17:50:14] "[31m[1mGET /chat?key=3BlbmFpLm9wZW5haS5hdXR&q=hello HTTP/1.1[0m" 400 -
+2023-02-25 17:50:16,238 - server - ERROR - chat - 合法请求，来源ip：163.125.213.4, 问题：hello
+2023-02-25 17:50:16,238 - server - ERROR - ask - 服务器繁忙，拒绝请求，问题：hello
+2023-02-25 17:50:16,239 - werkzeug - INFO - _log - 163.125.213.4 - - [25/Feb/2023 17:50:16] "[31m[1mGET /chat?key=3BlbmFpLm9wZW5haS5hdXR&q=hello HTTP/1.1[0m" 400 -
+2023-02-25 17:50:18,173 - server - ERROR - chat - 合法请求，来源ip：163.125.213.4, 问题：hello
+2023-02-25 17:50:18,173 - server - ERROR - ask - 服务器繁忙，拒绝请求，问题：hello
+2023-02-25 17:50:18,174 - werkzeug - INFO - _log - 163.125.213.4 - - [25/Feb/2023 17:50:18] "[31m[1mGET /chat?key=3BlbmFpLm9wZW5haS5hdXR&q=hello HTTP/1.1[0m" 400 -
+2023-02-25 17:50:18,784 - server - ERROR - chat - 合法请求，来源ip：163.125.213.4, 问题：hello
+2023-02-25 17:50:18,785 - server - ERROR - ask - 服务器繁忙，拒绝请求，问题：hello
+2023-02-25 17:50:18,785 - werkzeug - INFO - _log - 163.125.213.4 - - [25/Feb/2023 17:50:18] "[31m[1mGET /chat?key=3BlbmFpLm9wZW5haS5hdXR&q=hello HTTP/1.1[0m" 400 -
+2023-02-25 17:50:19,256 - server - ERROR - chat - 合法请求，来源ip：163.125.213.4, 问题：hello
+2023-02-25 17:50:19,256 - server - ERROR - ask - 服务器繁忙，拒绝请求，问题：hello
+2023-02-25 17:50:19,256 - werkzeug - INFO - _log - 163.125.213.4 - - [25/Feb/2023 17:50:19] "[31m[1mGET /chat?key=3BlbmFpLm9wZW5haS5hdXR&q=hello HTTP/1.1[0m" 400 -
+2023-02-25 17:50:19,643 - server - ERROR - chat - 合法请求，来源ip：163.125.213.4, 问题：hello
+2023-02-25 17:50:19,643 - server - ERROR - ask - 服务器繁忙，拒绝请求，问题：hello
+2023-02-25 17:50:19,643 - werkzeug - INFO - _log - 163.125.213.4 - - [25/Feb/2023 17:50:19] "[31m[1mGET /chat?key=3BlbmFpLm9wZW5haS5hdXR&q=hello HTTP/1.1[0m" 400 -
+2023-02-25 17:50:20,102 - server - ERROR - chat - 合法请求，来源ip：163.125.213.4, 问题：hello
+2023-02-25 17:50:20,102 - server - ERROR - ask - 服务器繁忙，拒绝请求，问题：hello
+2023-02-25 17:50:20,103 - werkzeug - INFO - _log - 163.125.213.4 - - [25/Feb/2023 17:50:20] "[31m[1mGET /chat?key=3BlbmFpLm9wZW5haS5hdXR&q=hello HTTP/1.1[0m" 400 -
+2023-02-25 17:50:20,287 - server - ERROR - chat - 合法请求，来源ip：163.125.213.4, 问题：hello
+2023-02-25 17:50:20,287 - server - ERROR - ask - 服务器繁忙，拒绝请求，问题：hello
+2023-02-25 17:50:20,288 - werkzeug - INFO - _log - 163.125.213.4 - - [25/Feb/2023 17:50:20] "[31m[1mGET /chat?key=3BlbmFpLm9wZW5haS5hdXR&q=hello HTTP/1.1[0m" 400 -
+2023-02-25 17:50:20,523 - server - ERROR - chat - 合法请求，来源ip：163.125.213.4, 问题：hello
+2023-02-25 17:50:20,524 - server - ERROR - ask - 服务器繁忙，拒绝请求，问题：hello
+2023-02-25 17:50:20,524 - werkzeug - INFO - _log - 163.125.213.4 - - [25/Feb/2023 17:50:20] "[31m[1mGET /chat?key=3BlbmFpLm9wZW5haS5hdXR&q=hello HTTP/1.1[0m" 400 -
+2023-02-25 17:50:20,754 - server - ERROR - chat - 合法请求，来源ip：163.125.213.4, 问题：hello
+2023-02-25 17:50:20,754 - server - ERROR - ask - 服务器繁忙，拒绝请求，问题：hello
+2023-02-25 17:50:20,754 - werkzeug - INFO - _log - 163.125.213.4 - - [25/Feb/2023 17:50:20] "[31m[1mGET /chat?key=3BlbmFpLm9wZW5haS5hdXR&q=hello HTTP/1.1[0m" 400 -
+2023-02-25 17:50:21,045 - server - ERROR - chat - 合法请求，来源ip：163.125.213.4, 问题：hello
+2023-02-25 17:50:21,045 - server - ERROR - ask - 服务器繁忙，拒绝请求，问题：hello
+2023-02-25 17:50:21,046 - werkzeug - INFO - _log - 163.125.213.4 - - [25/Feb/2023 17:50:21] "[31m[1mGET /chat?key=3BlbmFpLm9wZW5haS5hdXR&q=hello HTTP/1.1[0m" 400 -
+2023-02-25 17:50:21,305 - server - ERROR - chat - 合法请求，来源ip：163.125.213.4, 问题：hello
+2023-02-25 17:50:21,305 - server - ERROR - ask - 服务器繁忙，拒绝请求，问题：hello
+2023-02-25 17:50:21,305 - werkzeug - INFO - _log - 163.125.213.4 - - [25/Feb/2023 17:50:21] "[31m[1mGET /chat?key=3BlbmFpLm9wZW5haS5hdXR&q=hello HTTP/1.1[0m" 400 -
+2023-02-25 17:50:22,049 - server - ERROR - chat - 合法请求，来源ip：163.125.213.4, 问题：hello
+2023-02-25 17:50:22,049 - server - ERROR - ask - 服务器繁忙，拒绝请求，问题：hello
+2023-02-25 17:50:22,050 - werkzeug - INFO - _log - 163.125.213.4 - - [25/Feb/2023 17:50:22] "[31m[1mGET /chat?key=3BlbmFpLm9wZW5haS5hdXR&q=hello HTTP/1.1[0m" 400 -
+2023-02-25 17:50:22,585 - server - ERROR - chat - 合法请求，来源ip：163.125.213.4, 问题：hello
+2023-02-25 17:50:22,586 - server - ERROR - ask - 服务器繁忙，拒绝请求，问题：hello
+2023-02-25 17:50:22,586 - werkzeug - INFO - _log - 163.125.213.4 - - [25/Feb/2023 17:50:22] "[31m[1mGET /chat?key=3BlbmFpLm9wZW5haS5hdXR&q=hello HTTP/1.1[0m" 400 -
+2023-02-25 17:50:23,081 - server - ERROR - chat - 合法请求，来源ip：163.125.213.4, 问题：hello
+2023-02-25 17:50:23,081 - server - ERROR - ask - 服务器繁忙，拒绝请求，问题：hello
+2023-02-25 17:50:23,081 - werkzeug - INFO - _log - 163.125.213.4 - - [25/Feb/2023 17:50:23] "[31m[1mGET /chat?key=3BlbmFpLm9wZW5haS5hdXR&q=hello HTTP/1.1[0m" 400 -
+2023-02-25 17:50:23,476 - server - ERROR - chat - 合法请求，来源ip：163.125.213.4, 问题：hello
+2023-02-25 17:50:23,478 - server - ERROR - ask - 服务器繁忙，拒绝请求，问题：hello
+2023-02-25 17:50:23,478 - werkzeug - INFO - _log - 163.125.213.4 - - [25/Feb/2023 17:50:23] "[31m[1mGET /chat?key=3BlbmFpLm9wZW5haS5hdXR&q=hello HTTP/1.1[0m" 400 -
+ * Serving Flask app 'server' (lazy loading)
+ * Environment: production
+   WARNING: This is a development server. Do not use it in a production deployment.
+   Use a production WSGI server instead.
+ * Debug mode: off
+2023-02-25 17:51:25,936 - werkzeug - WARNING - _log -  * Running on all addresses.
+   WARNING: This is a development server. Do not use it in a production deployment.
+2023-02-25 17:51:25,937 - werkzeug - INFO - _log -  * Running on http://10.0.0.6:8080/ (Press CTRL+C to quit)
+2023-02-25 17:51:26,207 - server - ERROR - chat - 合法请求，来源ip：163.125.213.4, 问题：hello
+2023-02-25 17:51:26,207 - server - INFO - ask - 尝试询问ChatGPT, 问题：hello
+2023-02-25 17:51:28,253 - werkzeug - INFO - _log - 163.125.213.4 - - [25/Feb/2023 17:51:28] "[31m[1mGET /chat?key=3BlbmFpLm9wZW5haS5hdXR&q=hello HTTP/1.1[0m" 400 -
+2023-02-25 17:58:45,370 - server - ERROR - chat - 合法请求，来源ip：163.125.213.4, 问题：hello
+2023-02-25 17:59:15,399 - server - ERROR - ask - ChatGPT回答超时，问题：hello
+2023-02-25 17:59:15,399 - server - INFO - ask - 答案等待超时，问题：hello
+2023-02-25 17:59:15,399 - werkzeug - INFO - _log - 163.125.213.4 - - [25/Feb/2023 17:59:15] "[31m[1mGET /chat?key=3BlbmFpLm9wZW5haS5hdXR&q=hello HTTP/1.1[0m" 400 -
+2023-02-25 17:59:15,731 - werkzeug - INFO - _log - 163.125.213.4 - - [25/Feb/2023 17:59:15] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2023-02-25 17:59:20,944 - server - ERROR - chat - 合法请求，来源ip：163.125.213.4, 问题：hello
+2023-02-25 17:59:20,944 - server - INFO - ask - 尝试询问ChatGPT, 问题：hello
+2023-02-25 17:59:22,788 - werkzeug - INFO - _log - 163.125.213.4 - - [25/Feb/2023 17:59:22] "[31m[1mGET /chat?key=3BlbmFpLm9wZW5haS5hdXR&q=hello HTTP/1.1[0m" 400 -
+ * Serving Flask app 'server' (lazy loading)
+ * Environment: production
+   WARNING: This is a development server. Do not use it in a production deployment.
+   Use a production WSGI server instead.
+ * Debug mode: off
+2023-02-25 21:40:12,813 - werkzeug - WARNING - _log -  * Running on all addresses.
+   WARNING: This is a development server. Do not use it in a production deployment.
+2023-02-25 21:40:12,813 - werkzeug - INFO - _log -  * Running on http://10.0.0.6:8080/ (Press CTRL+C to quit)
+2023-02-25 21:40:44,372 - server - ERROR - chat - 合法请求，来源ip：163.125.213.4, 问题：hello
+2023-02-25 21:40:44,373 - server - INFO - ask - 尝试询问ChatGPT, 问题：hello
+2023-02-25 21:40:46,770 - server - INFO - ask - ----------
+ChatGPT回答问题：hello
+答案:helloHello! How can I assist you today?
+----------
+2023-02-25 21:40:46,771 - werkzeug - INFO - _log - 163.125.213.4 - - [25/Feb/2023 21:40:46] "GET /chat?key=3BlbmFpLm9wZW5haS5hdXR&q=hello HTTP/1.1" 200 -
+2023-02-25 21:40:47,130 - werkzeug - INFO - _log - 163.125.213.4 - - [25/Feb/2023 21:40:47] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2023-02-25 21:41:01,613 - server - ERROR - chat - 合法请求，来源ip：163.125.213.4, 问题：成都有什么美食推荐？
+2023-02-25 21:41:01,613 - server - INFO - ask - 尝试询问ChatGPT, 问题：成都有什么美食推荐？
+2023-02-25 21:41:41,936 - server - INFO - ask - ----------
+ChatGPT回答问题：成都有什么美食推荐？
+答案:成都是中国美食的重要城市之一，有很多非常有名的美食。以下是一些您可能会感兴趣的推荐：
+
+1. 麻婆豆腐：一道以豆腐和肉末为主要材料，味道辣而麻的传统川菜。
+
+2. 火锅：成都的火锅以辣味和麻味著称，有很多种不同的口味可供选择。
+
+3. 串串香：类似于火锅，但是将各种食材串起来后再放入汤中煮熟。
+
+4. 龙抄手：一道传统的四川小吃，以猪肉、虾仁等为馅，加入各种香料和调料制成。
+
+5. 回锅肉：以猪肉为主要材料，加上蒜苗和豆瓣酱等调料，煸炒后再加入花椒和辣椒炒制。
+
+6. 酸菜鱼：以鱼肉和酸菜为主要材料，加上各种辣椒和香料制成的热辣酸爽的川菜。
+
+这些只是成都美食的冰山一角，如果您有机会去成都，不妨尝试一些当地的特色美食，您一定会有一个难忘的美食之旅。
+----------
+2023-02-25 21:41:41,937 - werkzeug - INFO - _log - 163.125.213.4 - - [25/Feb/2023 21:41:41] "GET /chat?key=3BlbmFpLm9wZW5haS5hdXR&q=成都有什么美食推荐？ HTTP/1.1" 200 -
+2023-02-25 21:42:42,977 - server - ERROR - chat - 合法请求，来源ip：163.125.213.4, 问题：回锅肉怎么做？
+2023-02-25 21:42:42,977 - server - INFO - ask - 尝试询问ChatGPT, 问题：回锅肉怎么做？
+2023-02-25 21:43:44,359 - server - INFO - ask - ----------
+ChatGPT回答问题：回锅肉怎么做？
+答案:回锅肉是一道非常有名的川菜，以下是一份回锅肉的传统做法：
+
+所需材料：
+- 瘦肉（五花肉）500克
+- 蒜苗适量
+- 姜适量
+- 干辣椒适量
+- 青蒜适量
+- 豆瓣酱适量
+- 生抽适量
+- 料酒适量
+- 盐适量
+- 食用油适量
+
+制作步骤：
+1. 五花肉洗净，切成约1.5厘米见方的小块。
+2. 在热锅中倒入适量的油，加入切好的五花肉块，煸炒至表面金黄色并熟透。
+3. 捞出五花肉块，将锅中多余的油倒掉，留下少许底油。
+4. 加入葱、姜、干辣椒煸炒出香味，再加入豆瓣酱继续炒匀。
+5. 将炒好的五花肉块放入锅中，加入适量的盐、生抽和料酒，继续翻炒均匀。
+6. 最后加入蒜苗、青蒜翻炒均匀，即可出锅。
+
+注意事项：
+1. 切五花肉块的时候，最好切成等大小的块，这样煸炒的时间会更均匀。
+2. 煸炒五花肉块的时候，最好不要用大火，可以先用中火煸炒至金黄色，再用小火煸炒至熟透。
+3. 加入豆瓣酱时，可以根据个人口味适量增减。
+4. 最后加入的蒜苗和青蒜不要炒太久，以保持其独特的香味和口感。
+
+希望这份食谱对您有所帮助，祝您做出美味的回锅肉！
+----------
+2023-02-25 21:43:44,360 - werkzeug - INFO - _log - 163.125.213.4 - - [25/Feb/2023 21:43:44] "GET /chat?key=3BlbmFpLm9wZW5haS5hdXR&q=回锅肉怎么做？ HTTP/1.1" 200 -
+2023-02-25 21:43:45,098 - server - ERROR - chat - 合法请求，来源ip：163.125.213.4, 问题：回锅肉怎么做？
+2023-02-25 21:43:45,098 - server - INFO - ask - 从缓存中得到了答案，问题：回锅肉怎么做？
+2023-02-25 21:43:45,098 - werkzeug - INFO - _log - 163.125.213.4 - - [25/Feb/2023 21:43:45] "GET /chat?key=3BlbmFpLm9wZW5haS5hdXR&q=回锅肉怎么做？ HTTP/1.1" 200 -
+2023-02-25 21:43:46,352 - server - ERROR - chat - 合法请求，来源ip：163.125.213.4, 问题：回锅肉怎么做？
+2023-02-25 21:43:46,352 - server - INFO - ask - 从缓存中得到了答案，问题：回锅肉怎么做？
+2023-02-25 21:43:46,352 - werkzeug - INFO - _log - 163.125.213.4 - - [25/Feb/2023 21:43:46] "GET /chat?key=3BlbmFpLm9wZW5haS5hdXR&q=回锅肉怎么做？ HTTP/1.1" 200 -
+2023-02-25 22:54:01,095 - werkzeug - INFO - _log - 78.108.177.50 - - [25/Feb/2023 22:54:01] "GET / HTTP/1.0" 200 -
+2023-02-25 22:56:26,936 - server - ERROR - chat - 合法请求，来源ip：163.125.213.4, 问题：hello
+2023-02-25 22:56:26,936 - server - ERROR - ask - 已有的答案缓存失效，问题：hello
+2023-02-25 22:56:26,937 - server - INFO - ask - 从缓存中得到了答案，问题：hello
+2023-02-25 22:56:26,938 - werkzeug - INFO - _log - 163.125.213.4 - - [25/Feb/2023 22:56:26] "GET /chat?key=3BlbmFpLm9wZW5haS5hdXR&q=hello HTTP/1.1" 200 -
+2023-02-25 22:56:27,196 - werkzeug - INFO - _log - 163.125.213.4 - - [25/Feb/2023 22:56:27] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2023-02-25 22:56:39,070 - server - ERROR - chat - 合法请求，来源ip：163.125.213.4, 问题：雨下一整晚这首歌是什么调的
+2023-02-25 22:56:39,070 - server - INFO - ask - 尝试询问ChatGPT, 问题：雨下一整晚这首歌是什么调的
+2023-02-25 22:56:45,219 - server - INFO - ask - ----------
+ChatGPT回答问题：雨下一整晚这首歌是什么调的
+答案:《雨一直下》是一首由杨宗纬演唱的歌曲，它是E大调的歌曲。
+----------
+2023-02-25 22:56:45,219 - werkzeug - INFO - _log - 163.125.213.4 - - [25/Feb/2023 22:56:45] "GET /chat?key=3BlbmFpLm9wZW5haS5hdXR&q=雨下一整晚这首歌是什么调的 HTTP/1.1" 200 -
+2023-02-25 22:56:54,626 - server - ERROR - chat - 合法请求，来源ip：163.125.213.4, 问题：周杰伦的雨下一整晚是什么调的
+2023-02-25 22:56:54,626 - server - INFO - ask - 尝试询问ChatGPT, 问题：周杰伦的雨下一整晚是什么调的
+2023-02-25 22:57:07,453 - server - INFO - ask - ----------
+ChatGPT回答问题：周杰伦的雨下一整晚是什么调的
+答案:周杰伦的《一路向北》中有一句歌词是“雨下一整晚”，但是周杰伦本人没有演唱过一首叫做《雨下一整晚》的歌曲，因此可能出现了歌曲名称的混淆。无法回答这个问题。
+----------
+2023-02-25 22:57:07,453 - werkzeug - INFO - _log - 163.125.213.4 - - [25/Feb/2023 22:57:07] "GET /chat?key=3BlbmFpLm9wZW5haS5hdXR&q=周杰伦的雨下一整晚是什么调的 HTTP/1.1" 200 -
+2023-02-25 22:57:31,936 - server - ERROR - chat - 合法请求，来源ip：163.125.213.4, 问题：周杰伦的雨下一整晚是什么调的
+2023-02-25 22:57:31,936 - server - INFO - ask - 从缓存中得到了答案，问题：周杰伦的雨下一整晚是什么调的
+2023-02-25 22:57:31,936 - werkzeug - INFO - _log - 163.125.213.4 - - [25/Feb/2023 22:57:31] "GET /chat?key=3BlbmFpLm9wZW5haS5hdXR&q=周杰伦的雨下一整晚是什么调的 HTTP/1.1" 200 -
+2023-02-25 22:57:33,126 - server - ERROR - chat - 合法请求，来源ip：163.125.213.4, 问题：周杰伦的雨下一整晚是什么调的
+2023-02-25 22:57:33,127 - server - INFO - ask - 从缓存中得到了答案，问题：周杰伦的雨下一整晚是什么调的
+2023-02-25 22:57:33,127 - werkzeug - INFO - _log - 163.125.213.4 - - [25/Feb/2023 22:57:33] "GET /chat?key=3BlbmFpLm9wZW5haS5hdXR&q=周杰伦的雨下一整晚是什么调的 HTTP/1.1" 200 -
+ * Serving Flask app 'server' (lazy loading)
+ * Environment: production
+   WARNING: This is a development server. Do not use it in a production deployment.
+   Use a production WSGI server instead.
+ * Debug mode: off
+2023-02-26 14:41:00,295 - werkzeug - WARNING - _log -  * Running on all addresses.
+   WARNING: This is a development server. Do not use it in a production deployment.
+2023-02-26 14:41:00,295 - werkzeug - INFO - _log -  * Running on http://10.0.0.6:8080/ (Press CTRL+C to quit)
+2023-02-26 14:41:18,101 - server - ERROR - chat - 合法请求，来源ip：163.125.213.4, 问题：黑暗森林法则是什么
+2023-02-26 14:41:18,101 - server - INFO - ask - 尝试询问ChatGPT, 问题：黑暗森林法则是什么
+2023-02-26 14:41:50,555 - server - INFO - ask - ----------
+ChatGPT回答问题：黑暗森林法则是什么
+答案:黑暗森林法则是什么
+
+"黑暗森林法则"（Dark Forest Theory）是刘慈欣所著科幻小说《三体》中的概念，它是一种关于宇宙中文明之间交流和生存策略的假设。该理论的核心思想是：在宇宙中，各个文明间存在潜在的威胁，因此每个文明都应该采取隐蔽的行动，尽量避免向外暴露自己的存在。这是因为，如果一个文明向外扩张、暴露自己，那么其他文明就可能会将它视为潜在的威胁，并采取预防性措施，甚至主动攻击它。因此，每个文明都会选择保持安静，不与其他文明交流，不主动暴露自己的存在。
+
+这个概念类比于森林中的动物，每个生物都隐藏自己，悄悄地等待着猎人的到来，生物之间不会相互信任，而会保持警惕，防止被其他生物发现，因为被发现就有可能遭受攻击。
+
+该理论在小说中是为了解释为什么三体文明会选择攻击地球文明，因为三体文明认为地球文明是一个潜在的威胁，需要在地球文明还未达到自己水平时就将其消灭。但这一理论并没有得到广泛的科学认可，只是小说中的虚构概念。
+----------
+2023-02-26 14:41:50,556 - werkzeug - INFO - _log - 163.125.213.4 - - [26/Feb/2023 14:41:50] "GET /chat?key=3BlbmFpLm9wZW5haS5hdXR&q=黑暗森林法则是什么 HTTP/1.1" 200 -
+2023-02-26 14:41:50,923 - werkzeug - INFO - _log - 163.125.213.4 - - [26/Feb/2023 14:41:50] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2023-02-26 14:41:55,219 - server - ERROR - chat - 合法请求，来源ip：163.125.213.4, 问题：黑暗森林法则是什么
+2023-02-26 14:41:55,219 - server - INFO - ask - 从缓存中得到了答案，问题：黑暗森林法则是什么
+2023-02-26 14:41:55,219 - werkzeug - INFO - _log - 163.125.213.4 - - [26/Feb/2023 14:41:55] "GET /chat?key=3BlbmFpLm9wZW5haS5hdXR&q=黑暗森林法则是什么 HTTP/1.1" 200 -
+2023-02-26 14:41:55,904 - server - ERROR - chat - 合法请求，来源ip：163.125.213.4, 问题：黑暗森林法则是什么
+2023-02-26 14:41:55,905 - server - INFO - ask - 从缓存中得到了答案，问题：黑暗森林法则是什么
+2023-02-26 14:41:55,905 - werkzeug - INFO - _log - 163.125.213.4 - - [26/Feb/2023 14:41:55] "GET /chat?key=3BlbmFpLm9wZW5haS5hdXR&q=黑暗森林法则是什么 HTTP/1.1" 200 -
+2023-02-26 14:41:56,697 - server - ERROR - chat - 合法请求，来源ip：163.125.213.4, 问题：黑暗森林法则是什么
+2023-02-26 14:41:56,697 - server - INFO - ask - 从缓存中得到了答案，问题：黑暗森林法则是什么
+2023-02-26 14:41:56,697 - werkzeug - INFO - _log - 163.125.213.4 - - [26/Feb/2023 14:41:56] "GET /chat?key=3BlbmFpLm9wZW5haS5hdXR&q=黑暗森林法则是什么 HTTP/1.1" 200 -
+2023-02-26 14:42:05,568 - server - ERROR - chat - 合法请求，来源ip：163.125.213.4, 问题：火鸡面怎么煮
+2023-02-26 14:42:05,568 - server - INFO - ask - 尝试询问ChatGPT, 问题：火鸡面怎么煮
+2023-02-26 14:42:31,543 - server - INFO - ask - ----------
+ChatGPT回答问题：火鸡面怎么煮
+答案:火鸡面是一种方便面，通常有两种方法可以煮：
+
+方法1：
+1. 把一碗水煮沸。
+2. 将面条块放入沸水中，用筷子轻轻搅拌，确保面条不粘在一起。
+3. 将调味包撕开，倒入面条中。
+4. 继续煮2-3分钟，直到面条煮熟。
+5. 把面条装在碗里，加入热水，根据口味再加入适量的香菜、葱花等配菜即可。
+
+方法2：
+1. 把一碗水煮沸。
+2. 将调味包撕开，倒入碗中。
+3. 将面条块放入碗中。
+4. 倒入煮沸的水，水量要稍微多一点，刚好淹没面条。
+5. 盖上盖子，等待3-5分钟，直到面条变软煮熟。
+6. 打开盖子，根据口味再加入适量的香菜、葱花等配菜即可。
+
+注意：煮面的时间可以根据自己的口感来进行调整，建议先试一下后再决定煮的时间。
+----------
+2023-02-26 14:42:31,544 - werkzeug - INFO - _log - 163.125.213.4 - - [26/Feb/2023 14:42:31] "GET /chat?key=3BlbmFpLm9wZW5haS5hdXR&q=火鸡面怎么煮 HTTP/1.1" 200 -
+2023-02-26 14:44:42,648 - server - ERROR - chat - 合法请求，来源ip：163.125.213.4, 问题：火鸡面怎么煮
+2023-02-26 14:44:42,648 - server - INFO - ask - 从缓存中得到了答案，问题：火鸡面怎么煮
+2023-02-26 14:44:42,649 - werkzeug - INFO - _log - 163.125.213.4 - - [26/Feb/2023 14:44:42] "GET /chat?key=3BlbmFpLm9wZW5haS5hdXR&q=火鸡面怎么煮 HTTP/1.1" 200 -
+2023-02-26 14:45:03,823 - server - ERROR - chat - 合法请求，来源ip：113.109.161.171, 问题：火鸡面怎么煮
+2023-02-26 14:45:03,823 - server - INFO - ask - 从缓存中得到了答案，问题：火鸡面怎么煮
+2023-02-26 14:45:03,823 - werkzeug - INFO - _log - 113.109.161.171 - - [26/Feb/2023 14:45:03] "GET /chat?key=3BlbmFpLm9wZW5haS5hdXR&q=火鸡面怎么煮 HTTP/1.1" 200 -
+2023-02-26 14:45:07,303 - werkzeug - INFO - _log - 113.109.161.171 - - [26/Feb/2023 14:45:07] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2023-02-26 14:45:15,592 - server - ERROR - chat - 合法请求，来源ip：180.163.28.109, 问题：
+2023-02-26 14:45:15,592 - server - INFO - ask - 尝试询问ChatGPT, 问题：
+2023-02-26 14:45:18,854 - server - INFO - ask - ----------
+ChatGPT回答问题：
+答案:您好，请问有什么可以帮到您的吗？
+----------
+2023-02-26 14:45:18,855 - werkzeug - INFO - _log - 180.163.28.109 - - [26/Feb/2023 14:45:18] "GET /chat?key=3BlbmFpLm9wZW5haS5hdXR&q HTTP/1.1" 200 -
+2023-02-26 14:45:53,284 - server - ERROR - chat - 合法请求，来源ip：157.148.40.30, 问题：
+2023-02-26 14:45:53,284 - server - INFO - ask - 从缓存中得到了答案，问题：
+2023-02-26 14:45:53,285 - werkzeug - INFO - _log - 157.148.40.30 - - [26/Feb/2023 14:45:53] "GET /chat?key=3BlbmFpLm9wZW5haS5hdXR&q= HTTP/1.1" 200 -
+2023-02-26 14:46:04,139 - server - ERROR - chat - 合法请求，来源ip：163.125.213.4, 问题：火鸡面怎么煮
+2023-02-26 14:46:04,139 - server - INFO - ask - 从缓存中得到了答案，问题：火鸡面怎么煮
+2023-02-26 14:46:04,139 - werkzeug - INFO - _log - 163.125.213.4 - - [26/Feb/2023 14:46:04] "GET /chat?key=3BlbmFpLm9wZW5haS5hdXR&q=火鸡面怎么煮 HTTP/1.1" 200 -
+2023-02-26 14:46:05,138 - server - ERROR - chat - 合法请求，来源ip：163.125.213.4, 问题：火鸡面怎么煮
+2023-02-26 14:46:05,138 - server - INFO - ask - 从缓存中得到了答案，问题：火鸡面怎么煮
+2023-02-26 14:46:05,139 - werkzeug - INFO - _log - 163.125.213.4 - - [26/Feb/2023 14:46:05] "GET /chat?key=3BlbmFpLm9wZW5haS5hdXR&q=火鸡面怎么煮 HTTP/1.1" 200 -
+2023-02-26 14:46:43,379 - server - ERROR - chat - 合法请求，来源ip：113.109.161.171, 问题：你是谁
+2023-02-26 14:46:43,379 - server - INFO - ask - 尝试询问ChatGPT, 问题：你是谁
+2023-02-26 14:46:48,895 - server - INFO - ask - ----------
+ChatGPT回答问题：你是谁
+答案:我是 ChatGPT，一个由 OpenAI 训练的大型语言模型，可以回答各种问题并提供有用的信息。请问您有什么需要帮助的吗？
+----------
+2023-02-26 14:46:48,896 - werkzeug - INFO - _log - 113.109.161.171 - - [26/Feb/2023 14:46:48] "GET /chat?key=3BlbmFpLm9wZW5haS5hdXR&q=你是谁 HTTP/1.1" 200 -
+2023-02-26 14:49:25,182 - server - ERROR - chat - 合法请求，来源ip：113.109.161.171, 问题：深圳今天天气怎么样
+2023-02-26 14:49:25,183 - server - INFO - ask - 尝试询问ChatGPT, 问题：深圳今天天气怎么样
+2023-02-26 14:49:37,317 - server - INFO - ask - ----------
+ChatGPT回答问题：深圳今天天气怎么样
+答案:很抱歉，作为一个人工智能，我无法直接获取实时的天气信息。不过您可以通过搜索引擎或者天气类APP来查询深圳今天的天气预报。一般来说，深圳属于南方亚热带气候，四季温暖湿润，气温较为稳定，但是天气变化较快，建议您及时查看天气预报，做好相应的防护措施。
+----------
+2023-02-26 14:49:37,318 - werkzeug - INFO - _log - 113.109.161.171 - - [26/Feb/2023 14:49:37] "GET /chat?key=3BlbmFpLm9wZW5haS5hdXR&q=深圳今天天气怎么样 HTTP/1.1" 200 -
+2023-02-26 14:53:00,656 - werkzeug - INFO - _log - 162.243.149.19 - - [26/Feb/2023 14:53:00] "GET / HTTP/1.1" 200 -
+2023-02-26 14:53:34,172 - server - ERROR - chat - 合法请求，来源ip：163.125.213.4, 问题：庆余年主演是谁
+2023-02-26 14:53:34,172 - server - INFO - ask - 尝试询问ChatGPT, 问题：庆余年主演是谁
+2023-02-26 14:53:58,225 - server - INFO - ask - ----------
+ChatGPT回答问题：庆余年主演是谁
+答案:《庆余年》是由海宁执导，梁智强编剧，张若昀、陈道明、吴刚、刘奕君等人出演的古装剧。以下是主要演员的名单：
+
+- 张若昀 饰演 胡瓶儿
+- 陈道明 饰演 韩总管
+- 吴刚 饰演 刘大爷
+- 刘奕君 饰演 林殊
+- 孙俪 饰演 陈萍萍
+- 郭麒麟 饰演 红拂夜奔
+- 刘敏涛 饰演 沈万三
+- 欧豪 饰演 司马亮
+- 许龄月 饰演 段宴妃
+- 宣璐 饰演 宋姬
+- 杨旻 饰演 程咬金
+
+该剧自2019年11月26日在东方卫视首播以来，备受观众喜爱，并且也获得了很高的口碑评价。
+----------
+2023-02-26 14:53:58,226 - werkzeug - INFO - _log - 163.125.213.4 - - [26/Feb/2023 14:53:58] "GET /chat?key=3BlbmFpLm9wZW5haS5hdXR&q=庆余年主演是谁 HTTP/1.1" 200 -
+2023-02-26 15:09:52,109 - server - ERROR - chat - 合法请求，来源ip：223.104.68.120, 问题：火鸡面怎么煮
+2023-02-26 15:09:52,110 - server - ERROR - ask - 已有的答案缓存失效，问题：火鸡面怎么煮
+2023-02-26 15:09:52,110 - server - INFO - ask - 从缓存中得到了答案，问题：火鸡面怎么煮
+2023-02-26 15:09:52,110 - werkzeug - INFO - _log - 223.104.68.120 - - [26/Feb/2023 15:09:52] "GET /chat?key=3BlbmFpLm9wZW5haS5hdXR&q=火鸡面怎么煮 HTTP/1.1" 200 -
+2023-02-26 15:09:57,647 - server - ERROR - chat - 合法请求，来源ip：223.104.68.120, 问题：火鸡面怎么煮
+2023-02-26 15:09:57,647 - server - INFO - ask - 尝试询问ChatGPT, 问题：火鸡面怎么煮
+2023-02-26 15:10:17,698 - server - ERROR - chat - 合法请求，来源ip：223.104.68.120, 问题：火鸡面怎么煮
+2023-02-26 15:10:25,415 - server - INFO - ask - ----------
+ChatGPT回答问题：火鸡面怎么煮
+答案:火鸡面是一种方便面，通常有两种方法可以煮：
+
+方法1：
+1. 把一碗水煮沸。
+2. 将面条块放入沸水中，用筷子轻轻搅拌，确保面条不粘在一起。
+3. 将调味包撕开，倒入面条中。
+4. 继续煮2-3分钟，直到面条煮熟。
+5. 把面条装在碗里，加入热水，根据口味再加入适量的香菜、葱花等配菜即可。
+
+方法2：
+1. 把一碗水煮沸。
+2. 将调味包撕开，倒入碗中。
+3. 将面条块放入碗中。
+4. 倒入煮沸的水，水量要稍微多一点，刚好淹没面条。
+5. 盖上盖子，等待3-5分钟，直到面条变软煮熟。
+6. 打开盖子，根据口味再加入适量的香菜、葱花等配菜即可。
+
+注意：煮面的时间可以根据自己的口感来进行调整，建议先试一下后再决定煮的时间。
+----------
+2023-02-26 15:10:25,416 - werkzeug - INFO - _log - 223.104.68.120 - - [26/Feb/2023 15:10:25] "GET /chat?key=3BlbmFpLm9wZW5haS5hdXR&q=火鸡面怎么煮 HTTP/1.1" 200 -
+2023-02-26 15:10:25,706 - server - INFO - ask - 从缓存中得到了答案，问题：火鸡面怎么煮
+2023-02-26 15:10:25,706 - werkzeug - INFO - _log - 223.104.68.120 - - [26/Feb/2023 15:10:25] "GET /chat?key=3BlbmFpLm9wZW5haS5hdXR&q=火鸡面怎么煮 HTTP/1.1" 200 -
+2023-02-26 15:10:29,726 - server - ERROR - chat - 合法请求，来源ip：223.104.68.120, 问题：火鸡面怎么煮
+2023-02-26 15:10:29,726 - server - INFO - ask - 从缓存中得到了答案，问题：火鸡面怎么煮
+2023-02-26 15:10:29,727 - werkzeug - INFO - _log - 223.104.68.120 - - [26/Feb/2023 15:10:29] "GET /chat?key=3BlbmFpLm9wZW5haS5hdXR&q=火鸡面怎么煮 HTTP/1.1" 200 -
+2023-02-26 15:10:34,207 - server - ERROR - chat - 合法请求，来源ip：223.104.68.120, 问题：火鸡面怎么煮
+2023-02-26 15:10:34,207 - server - INFO - ask - 从缓存中得到了答案，问题：火鸡面怎么煮
+2023-02-26 15:10:34,207 - werkzeug - INFO - _log - 223.104.68.120 - - [26/Feb/2023 15:10:34] "GET /chat?key=3BlbmFpLm9wZW5haS5hdXR&q=火鸡面怎么煮 HTTP/1.1" 200 -
+2023-02-26 15:11:17,376 - server - ERROR - chat - 合法请求，来源ip：223.104.68.120, 问题：可以跟我进行英语对话吗
+2023-02-26 15:11:17,376 - server - INFO - ask - 尝试询问ChatGPT, 问题：可以跟我进行英语对话吗
+2023-02-26 15:11:23,585 - server - INFO - ask - ----------
+ChatGPT回答问题：可以跟我进行英语对话吗
+答案:当然可以，我非常乐意和您进行英语对话。请问有什么话题或问题您想要讨论的吗？
+----------
+2023-02-26 15:11:23,586 - werkzeug - INFO - _log - 223.104.68.120 - - [26/Feb/2023 15:11:23] "GET /chat?key=3BlbmFpLm9wZW5haS5hdXR&q=可以跟我进行英语对话吗 HTTP/1.1" 200 -
+2023-02-26 15:12:14,835 - server - ERROR - chat - 合法请求，来源ip：223.104.68.120, 问题：hello
+2023-02-26 15:12:14,835 - server - INFO - ask - 尝试询问ChatGPT, 问题：hello
+2023-02-26 15:12:17,511 - server - INFO - ask - ----------
+ChatGPT回答问题：hello
+答案:Hello! How can I assist you today?
+----------
+2023-02-26 15:12:17,512 - werkzeug - INFO - _log - 223.104.68.120 - - [26/Feb/2023 15:12:17] "GET /chat?key=3BlbmFpLm9wZW5haS5hdXR&q=hello HTTP/1.1" 200 -
+2023-02-26 15:13:01,564 - server - ERROR - chat - 合法请求，来源ip：223.104.68.120, 问题：火鸡面怎么煮
+2023-02-26 15:13:01,564 - server - INFO - ask - 从缓存中得到了答案，问题：火鸡面怎么煮
+2023-02-26 15:13:01,564 - werkzeug - INFO - _log - 223.104.68.120 - - [26/Feb/2023 15:13:01] "GET /chat?key=3BlbmFpLm9wZW5haS5hdXR&q=火鸡面怎么煮 HTTP/1.1" 200 -
+2023-02-26 15:14:20,965 - server - ERROR - chat - 合法请求，来源ip：163.125.213.4, 问题：火鸡面怎么煮
+2023-02-26 15:14:20,965 - server - INFO - ask - 从缓存中得到了答案，问题：火鸡面怎么煮
+2023-02-26 15:14:20,966 - werkzeug - INFO - _log - 163.125.213.4 - - [26/Feb/2023 15:14:20] "GET /chat?key=3BlbmFpLm9wZW5haS5hdXR&q=火鸡面怎么煮 HTTP/1.1" 200 -
+2023-02-26 15:14:25,242 - server - ERROR - chat - 合法请求，来源ip：163.125.213.4, 问题：火鸡面怎么煮
+2023-02-26 15:14:25,242 - server - INFO - ask - 从缓存中得到了答案，问题：火鸡面怎么煮
+2023-02-26 15:14:25,243 - werkzeug - INFO - _log - 163.125.213.4 - - [26/Feb/2023 15:14:25] "GET /chat?key=3BlbmFpLm9wZW5haS5hdXR&q=火鸡面怎么煮 HTTP/1.1" 200 -
+2023-02-26 15:14:26,209 - server - ERROR - chat - 合法请求，来源ip：163.125.213.4, 问题：火鸡面怎么煮
+2023-02-26 15:14:26,209 - server - INFO - ask - 从缓存中得到了答案，问题：火鸡面怎么煮
+2023-02-26 15:14:26,209 - werkzeug - INFO - _log - 163.125.213.4 - - [26/Feb/2023 15:14:26] "GET /chat?key=3BlbmFpLm9wZW5haS5hdXR&q=火鸡面怎么煮 HTTP/1.1" 200 -
+2023-02-26 15:14:40,468 - server - ERROR - chat - 合法请求，来源ip：114.93.145.109, 问题：火鸡面怎么煮jiaoweilu.com:8080/chat?key=3BlbmFpLm9wZW5haS5hdXR
+2023-02-26 15:14:40,468 - server - INFO - ask - 尝试询问ChatGPT, 问题：火鸡面怎么煮jiaoweilu.com:8080/chat?key=3BlbmFpLm9wZW5haS5hdXR
+2023-02-26 15:14:48,447 - server - INFO - ask - ----------
+ChatGPT回答问题：火鸡面怎么煮jiaoweilu.com:8080/chat?key=3BlbmFpLm9wZW5haS5hdXR
+答案:火鸡面的烹饪方法在之前的回答中已经提供了，您可以参考一下。不过我注意到您似乎同时输入了一个网址，但是这个网址似乎是无效的。请问您还有其他问题需要我回答吗？
+----------
+2023-02-26 15:14:48,448 - werkzeug - INFO - _log - 114.93.145.109 - - [26/Feb/2023 15:14:48] "GET /chat?key=3BlbmFpLm9wZW5haS5hdXR&q=火鸡面怎么煮jiaoweilu.com:8080/chat?key=3BlbmFpLm9wZW5haS5hdXR&q=火鸡面怎么煮 HTTP/1.1" 200 -
+2023-02-26 15:14:56,873 - server - ERROR - chat - 合法请求，来源ip：114.93.145.109, 问题：火鸡面怎么煮
+2023-02-26 15:14:56,873 - server - INFO - ask - 从缓存中得到了答案，问题：火鸡面怎么煮
+2023-02-26 15:14:56,873 - werkzeug - INFO - _log - 114.93.145.109 - - [26/Feb/2023 15:14:56] "GET /chat?key=3BlbmFpLm9wZW5haS5hdXR&q=火鸡面怎么煮 HTTP/1.1" 200 -
+2023-02-26 15:14:57,522 - werkzeug - INFO - _log - 114.93.145.109 - - [26/Feb/2023 15:14:57] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2023-02-26 15:15:12,603 - server - ERROR - chat - 合法请求，来源ip：114.93.145.109, 问题：火鸡面怎么煮
+2023-02-26 15:15:12,603 - server - INFO - ask - 从缓存中得到了答案，问题：火鸡面怎么煮
+2023-02-26 15:15:12,604 - werkzeug - INFO - _log - 114.93.145.109 - - [26/Feb/2023 15:15:12] "GET /chat?key=3BlbmFpLm9wZW5haS5hdXR&q=火鸡面怎么煮 HTTP/1.1" 200 -
+2023-02-26 15:15:25,912 - server - ERROR - chat - 合法请求，来源ip：114.93.145.109, 问题：火鸡面怎么煮
+2023-02-26 15:15:25,912 - server - INFO - ask - 从缓存中得到了答案，问题：火鸡面怎么煮
+2023-02-26 15:15:25,913 - werkzeug - INFO - _log - 114.93.145.109 - - [26/Feb/2023 15:15:25] "GET /chat?key=3BlbmFpLm9wZW5haS5hdXR&q=火鸡面怎么煮 HTTP/1.1" 200 -
+2023-02-26 15:18:54,859 - server - ERROR - chat - 合法请求，来源ip：124.221.186.82, 问题：
+2023-02-26 15:18:54,859 - server - ERROR - ask - 已有的答案缓存失效，问题：
+2023-02-26 15:18:54,859 - server - INFO - ask - 从缓存中得到了答案，问题：
+2023-02-26 15:18:54,860 - werkzeug - INFO - _log - 124.221.186.82 - - [26/Feb/2023 15:18:54] "GET /chat?key=3BlbmFpLm9wZW5haS5hdXR&q HTTP/1.1" 200 -
+2023-02-26 15:18:55,433 - server - ERROR - chat - 合法请求，来源ip：124.221.186.82, 问题：
+2023-02-26 15:18:55,434 - server - INFO - ask - 尝试询问ChatGPT, 问题：
+2023-02-26 15:19:01,521 - server - INFO - ask - ----------
+ChatGPT回答问题：
+答案:很抱歉，看到您没有输入具体的问题。如果您有任何问题需要我回答，请随时告诉我，我会尽力给您提供帮助。
+----------
+2023-02-26 15:19:01,522 - werkzeug - INFO - _log - 124.221.186.82 - - [26/Feb/2023 15:19:01] "GET /chat?key=3BlbmFpLm9wZW5haS5hdXR&q HTTP/1.1" 200 -
+2023-02-26 15:19:15,864 - server - ERROR - chat - 合法请求，来源ip：124.221.186.82, 问题：
+2023-02-26 15:19:15,864 - server - INFO - ask - 从缓存中得到了答案，问题：
+2023-02-26 15:19:15,864 - werkzeug - INFO - _log - 124.221.186.82 - - [26/Feb/2023 15:19:15] "GET /chat?key=3BlbmFpLm9wZW5haS5hdXR&q HTTP/1.1" 200 -
+2023-02-26 15:19:18,009 - server - ERROR - chat - 合法请求，来源ip：124.221.186.82, 问题：
+2023-02-26 15:19:18,010 - server - INFO - ask - 从缓存中得到了答案，问题：
+2023-02-26 15:19:18,010 - werkzeug - INFO - _log - 124.221.186.82 - - [26/Feb/2023 15:19:18] "GET /chat?key=3BlbmFpLm9wZW5haS5hdXR&q HTTP/1.1" 200 -
+ * Serving Flask app 'server' (lazy loading)
+ * Environment: production
+   WARNING: This is a development server. Do not use it in a production deployment.
+   Use a production WSGI server instead.
+ * Debug mode: off
+2023-02-26 15:20:36,153 - werkzeug - WARNING - _log -  * Running on all addresses.
+   WARNING: This is a development server. Do not use it in a production deployment.
+2023-02-26 15:20:36,153 - werkzeug - INFO - _log -  * Running on http://10.0.0.6:8080/ (Press CTRL+C to quit)
+2023-02-26 15:20:52,350 - server - ERROR - chat - 合法请求，来源ip：223.104.68.120, 问题：火鸡面怎么煮
+2023-02-26 15:20:52,350 - server - INFO - ask - 尝试询问ChatGPT, 问题：火鸡面怎么煮
+2023-02-26 15:21:10,831 - server - ERROR - chat - 合法请求，来源ip：223.104.68.120, 问题：生成可口可乐的宣传文案
+2023-02-26 15:21:10,831 - server - ERROR - ask - 服务器繁忙，拒绝请求，问题：生成可口可乐的宣传文案
+2023-02-26 15:21:10,832 - werkzeug - INFO - _log - 223.104.68.120 - - [26/Feb/2023 15:21:10] "[31m[1mGET /chat?key=3BlbmFpLm9wZW5haS5hdXR&q=生成可口可乐的宣传文案 HTTP/1.1[0m" 400 -
+2023-02-26 15:21:14,507 - server - INFO - ask - ----------
+ChatGPT回答问题：火鸡面怎么煮
+答案:火鸡面怎么煮火鸡面是一种速食面，通常可以通过以下步骤煮熟：
+
+1. 在一口小锅中加入适量的水，将水烧开。
+2. 将火鸡面的调味包打开，取出调味料放到碗里备用。
+3. 将火鸡面放入烧开的水中，用筷子轻轻搅拌，使面条不粘连。
+4. 煮面的时间根据面条的厚度和口感而异，一般约3-5分钟左右即可。
+5. 将煮熟的火鸡面捞出，放入碗中，加入调味料，用筷子搅拌均匀即可食用。
+
+可以根据个人口味加入蔬菜、鸡蛋等食材，调整味道。此外，为了让火鸡面更加美味，建议在煮面的过程中不断地搅拌，让面条充分吸收汤汁，口感更加鲜美。
+----------
+2023-02-26 15:21:14,507 - werkzeug - INFO - _log - 223.104.68.120 - - [26/Feb/2023 15:21:14] "GET /chat?key=3BlbmFpLm9wZW5haS5hdXR&q=火鸡面怎么煮 HTTP/1.1" 200 -
+2023-02-26 15:22:04,433 - server - ERROR - chat - 合法请求，来源ip：163.125.213.4, 问题：庆余年主演是谁
+2023-02-26 15:22:04,433 - server - INFO - ask - 尝试询问ChatGPT, 问题：庆余年主演是谁
+2023-02-26 15:22:22,704 - server - INFO - ask - ----------
+ChatGPT回答问题：庆余年主演是谁
+答案:《庆余年》是一部根据猫腻同名小说改编的古装传奇剧，主演包括：
+
+1. 张若昀 饰演 谢衣
+2. 陈道明 饰演 张若寒
+3. 吴刚 饰演 刘三好
+4. 孙俪 饰演 齐衡
+5. 李沁 饰演 陈萍萍
+6. 辛芷蕾 饰演 高湛
+7. 刘奕君 饰演 桑桥
+8. 袁弘 饰演 长孙无极
+9. 王劲松 饰演 长孙皇后的父亲
+
+该剧的演员阵容强大，表演也备受好评。
+----------
+2023-02-26 15:22:22,705 - werkzeug - INFO - _log - 163.125.213.4 - - [26/Feb/2023 15:22:22] "GET /chat?key=3BlbmFpLm9wZW5haS5hdXR&q=庆余年主演是谁 HTTP/1.1" 200 -
+2023-02-26 15:40:19,660 - server - ERROR - chat - 合法请求，来源ip：163.125.213.4, 问题：庆余年主演是谁
+2023-02-26 15:40:19,660 - server - INFO - ask - 从缓存中得到了答案，问题：庆余年主演是谁
+2023-02-26 15:40:19,660 - werkzeug - INFO - _log - 163.125.213.4 - - [26/Feb/2023 15:40:19] "GET /chat?key=3BlbmFpLm9wZW5haS5hdXR&q=庆余年主演是谁 HTTP/1.1" 200 -
+2023-02-26 15:40:20,389 - server - ERROR - chat - 合法请求，来源ip：163.125.213.4, 问题：庆余年主演是谁
+2023-02-26 15:40:20,389 - server - INFO - ask - 从缓存中得到了答案，问题：庆余年主演是谁
+2023-02-26 15:40:20,389 - werkzeug - INFO - _log - 163.125.213.4 - - [26/Feb/2023 15:40:20] "GET /chat?key=3BlbmFpLm9wZW5haS5hdXR&q=庆余年主演是谁 HTTP/1.1" 200 -
+2023-02-26 15:40:21,065 - server - ERROR - chat - 合法请求，来源ip：163.125.213.4, 问题：庆余年主演是谁
+2023-02-26 15:40:21,065 - server - INFO - ask - 从缓存中得到了答案，问题：庆余年主演是谁
+2023-02-26 15:40:21,066 - werkzeug - INFO - _log - 163.125.213.4 - - [26/Feb/2023 15:40:21] "GET /chat?key=3BlbmFpLm9wZW5haS5hdXR&q=庆余年主演是谁 HTTP/1.1" 200 -
+2023-02-26 15:40:21,562 - server - ERROR - chat - 合法请求，来源ip：163.125.213.4, 问题：庆余年主演是谁
+2023-02-26 15:40:21,562 - server - INFO - ask - 从缓存中得到了答案，问题：庆余年主演是谁
+2023-02-26 15:40:21,562 - werkzeug - INFO - _log - 163.125.213.4 - - [26/Feb/2023 15:40:21] "GET /chat?key=3BlbmFpLm9wZW5haS5hdXR&q=庆余年主演是谁 HTTP/1.1" 200 -
+2023-02-26 15:40:22,055 - server - ERROR - chat - 合法请求，来源ip：163.125.213.4, 问题：庆余年主演是谁
+2023-02-26 15:40:22,055 - server - INFO - ask - 从缓存中得到了答案，问题：庆余年主演是谁
+2023-02-26 15:40:22,055 - werkzeug - INFO - _log - 163.125.213.4 - - [26/Feb/2023 15:40:22] "GET /chat?key=3BlbmFpLm9wZW5haS5hdXR&q=庆余年主演是谁 HTTP/1.1" 200 -
+2023-02-26 15:40:25,568 - server - ERROR - chat - 合法请求，来源ip：163.125.213.4, 问题：火鸡面怎么煮
+2023-02-26 15:40:25,568 - server - INFO - ask - 从缓存中得到了答案，问题：火鸡面怎么煮
+2023-02-26 15:40:25,569 - werkzeug - INFO - _log - 163.125.213.4 - - [26/Feb/2023 15:40:25] "GET /chat?key=3BlbmFpLm9wZW5haS5hdXR&q=火鸡面怎么煮 HTTP/1.1" 200 -
+2023-02-26 15:40:26,570 - server - ERROR - chat - 合法请求，来源ip：163.125.213.4, 问题：火鸡面怎么煮
+2023-02-26 15:40:26,570 - server - INFO - ask - 从缓存中得到了答案，问题：火鸡面怎么煮
+2023-02-26 15:40:26,570 - werkzeug - INFO - _log - 163.125.213.4 - - [26/Feb/2023 15:40:26] "GET /chat?key=3BlbmFpLm9wZW5haS5hdXR&q=火鸡面怎么煮 HTTP/1.1" 200 -
+2023-02-26 15:40:27,149 - server - ERROR - chat - 合法请求，来源ip：163.125.213.4, 问题：火鸡面怎么煮
+2023-02-26 15:40:27,149 - server - INFO - ask - 从缓存中得到了答案，问题：火鸡面怎么煮
+2023-02-26 15:40:27,149 - werkzeug - INFO - _log - 163.125.213.4 - - [26/Feb/2023 15:40:27] "GET /chat?key=3BlbmFpLm9wZW5haS5hdXR&q=火鸡面怎么煮 HTTP/1.1" 200 -
+2023-02-26 15:41:27,618 - server - ERROR - chat - 合法请求，来源ip：223.104.68.120, 问题：生成可口可乐的宣传文案
+2023-02-26 15:41:27,619 - server - INFO - ask - 尝试询问ChatGPT, 问题：生成可口可乐的宣传文案
+2023-02-26 15:41:41,869 - server - INFO - ask - ----------
+ChatGPT回答问题：生成可口可乐的宣传文案
+答案:以下是一则可口可乐的宣传文案：
+
+喝一口可口可乐，瞬间点燃你的活力！每一口都让你感受到甜蜜与清新，每一瓶都蕴藏着无限的能量和激情。无论是在快乐的派对上，还是在疲惫的工作日里，只要喝上一口可口可乐，你就会感受到无穷的动力和冲击力。让可口可乐成为你生活中不可或缺的一部分，和它一起享受无限快乐和幸福！
+----------
+2023-02-26 15:41:41,870 - werkzeug - INFO - _log - 223.104.68.120 - - [26/Feb/2023 15:41:41] "GET /chat?key=3BlbmFpLm9wZW5haS5hdXR&q=生成可口可乐的宣传文案 HTTP/1.1" 200 -
+2023-02-26 15:41:56,261 - server - ERROR - chat - 合法请求，来源ip：223.104.68.120, 问题：生成百事可乐的宣传文案
+2023-02-26 15:41:56,261 - server - INFO - ask - 尝试询问ChatGPT, 问题：生成百事可乐的宣传文案
+2023-02-26 15:42:15,717 - server - INFO - ask - ----------
+ChatGPT回答问题：生成百事可乐的宣传文案
+答案:以下是一则百事可乐的宣传文案：
+
+百事可乐，让你的味蕾燃烧起来！每一口都散发着浓郁的香气和甜蜜的味道，每一瓶都蕴含着无限的激情和活力。百事可乐不仅是一种饮料，更是一种生活方式，它能够让你在疲惫的工作日里恢复活力，在快乐的派对上享受无限乐趣。喝一口百事可乐，让你瞬间感受到生命的热情和激情，享受无限的快乐和幸福。选择百事可乐，选择一种全新的生活方式，和它一起创造更多的美好回忆！
+----------
+2023-02-26 15:42:15,717 - werkzeug - INFO - _log - 223.104.68.120 - - [26/Feb/2023 15:42:15] "GET /chat?key=3BlbmFpLm9wZW5haS5hdXR&q=生成百事可乐的宣传文案 HTTP/1.1" 200 -
+2023-02-26 15:42:23,381 - server - ERROR - chat - 合法请求，来源ip：223.104.68.120, 问题：生成百事可乐的宣传文案
+2023-02-26 15:42:23,381 - server - INFO - ask - 从缓存中得到了答案，问题：生成百事可乐的宣传文案
+2023-02-26 15:42:23,382 - werkzeug - INFO - _log - 223.104.68.120 - - [26/Feb/2023 15:42:23] "GET /chat?key=3BlbmFpLm9wZW5haS5hdXR&q=生成百事可乐的宣传文案 HTTP/1.1" 200 -
+2023-02-26 15:42:35,062 - server - ERROR - chat - 合法请求，来源ip：223.104.68.120, 问题：生成可口可乐的宣传文案
+2023-02-26 15:42:35,062 - server - INFO - ask - 从缓存中得到了答案，问题：生成可口可乐的宣传文案
+2023-02-26 15:42:35,063 - werkzeug - INFO - _log - 223.104.68.120 - - [26/Feb/2023 15:42:35] "GET /chat?key=3BlbmFpLm9wZW5haS5hdXR&q=生成可口可乐的宣传文案 HTTP/1.1" 200 -
+2023-02-26 15:44:29,776 - werkzeug - ERROR - _log - 68.183.93.191 - - [26/Feb/2023 15:44:29] code 400, message Bad HTTP/0.9 request type ('\x16\x03\x01\x00{\x01\x00\x00w\x03\x03K¬÷\x12g,ON\x08¶5jß¦4EëA>C\x10<ò&\x07\x15Vé°|8Û\x00\x00\x1aÀ/À+À\x11À\x07À\x13À')
+2023-02-26 15:44:29,776 - werkzeug - INFO - _log - 68.183.93.191 - - [26/Feb/2023 15:44:29] "[35m[1m {  wK¬÷g,ON¶5jß¦4EëA>C<ò&Vé°|8Û  À/À+ÀÀÀÀ	ÀÀ[0m" HTTPStatus.BAD_REQUEST -
+2023-02-26 15:44:29,813 - werkzeug - ERROR - _log - 68.183.93.191 - - [26/Feb/2023 15:44:29] code 400, message Bad HTTP/0.9 request type ('\x16\x03\x01\x00{\x01\x00\x00w\x03\x03½,\xad(iÚøæhêx$toìäHF\x0f\x9aZl1WnlNÃ7û2Ø\x00\x00\x1aÀ/À+À\x11À\x07À\x13À')
+2023-02-26 15:44:29,813 - werkzeug - INFO - _log - 68.183.93.191 - - [26/Feb/2023 15:44:29] "[35m[1m {  w½,­(iÚøæhêx$toìäHFZl1WnlNÃ7û2Ø  À/À+ÀÀÀÀ	ÀÀ[0m" HTTPStatus.BAD_REQUEST -
+2023-02-26 15:44:29,856 - werkzeug - INFO - _log - 68.183.93.191 - - [26/Feb/2023 15:44:29] "GET / HTTP/1.1" 200 -
+2023-02-26 15:44:29,894 - werkzeug - ERROR - _log - 68.183.93.191 - - [26/Feb/2023 15:44:29] code 400, message Bad request version ('À\x14À')
+2023-02-26 15:44:29,894 - werkzeug - INFO - _log - 68.183.93.191 - - [26/Feb/2023 15:44:29] "[35m[1m {  w*ú:Ñrd ö'&´ËGábûºbGCþeb  À/À+ÀÀÀÀ	ÀÀ[0m" HTTPStatus.BAD_REQUEST -
+2023-02-26 15:44:29,935 - werkzeug - ERROR - _log - 68.183.93.191 - - [26/Feb/2023 15:44:29] code 400, message Bad request version ('À\x14À')
+2023-02-26 15:44:29,935 - werkzeug - INFO - _log - 68.183.93.191 - - [26/Feb/2023 15:44:29] "[35m[1m {  w¦£ÙT.ßhPÅ*%¶ýºÅJuA¾mdçæ  À/À+ÀÀÀÀ	ÀÀ[0m" HTTPStatus.BAD_REQUEST -
+2023-02-26 15:46:16,214 - server - ERROR - chat - 合法请求，来源ip：163.125.213.4, 问题：火鸡面怎么煮
+2023-02-26 15:46:16,215 - server - INFO - ask - 从缓存中得到了答案，问题：火鸡面怎么煮
+2023-02-26 15:46:16,215 - werkzeug - INFO - _log - 163.125.213.4 - - [26/Feb/2023 15:46:16] "GET /chat?key=3BlbmFpLm9wZW5haS5hdXR&q=火鸡面怎么煮 HTTP/1.1" 200 -
+2023-02-26 15:46:16,781 - server - ERROR - chat - 合法请求，来源ip：163.125.213.4, 问题：火鸡面怎么煮
+2023-02-26 15:46:16,781 - server - INFO - ask - 从缓存中得到了答案，问题：火鸡面怎么煮
+2023-02-26 15:46:16,782 - werkzeug - INFO - _log - 163.125.213.4 - - [26/Feb/2023 15:46:16] "GET /chat?key=3BlbmFpLm9wZW5haS5hdXR&q=火鸡面怎么煮 HTTP/1.1" 200 -
+2023-02-26 15:46:17,347 - server - ERROR - chat - 合法请求，来源ip：163.125.213.4, 问题：火鸡面怎么煮
+2023-02-26 15:46:17,347 - server - INFO - ask - 从缓存中得到了答案，问题：火鸡面怎么煮
+2023-02-26 15:46:17,347 - werkzeug - INFO - _log - 163.125.213.4 - - [26/Feb/2023 15:46:17] "GET /chat?key=3BlbmFpLm9wZW5haS5hdXR&q=火鸡面怎么煮 HTTP/1.1" 200 -
+2023-02-26 15:46:19,388 - server - ERROR - chat - 合法请求，来源ip：163.125.213.4, 问题：火鸡面怎么煮
+2023-02-26 15:46:19,388 - server - INFO - ask - 从缓存中得到了答案，问题：火鸡面怎么煮
+2023-02-26 15:46:19,389 - werkzeug - INFO - _log - 163.125.213.4 - - [26/Feb/2023 15:46:19] "GET /chat?key=3BlbmFpLm9wZW5haS5hdXR&q=火鸡面怎么煮 HTTP/1.1" 200 -
+2023-02-26 15:46:19,894 - server - ERROR - chat - 合法请求，来源ip：163.125.213.4, 问题：火鸡面怎么煮
+2023-02-26 15:46:19,894 - server - INFO - ask - 从缓存中得到了答案，问题：火鸡面怎么煮
+2023-02-26 15:46:19,894 - werkzeug - INFO - _log - 163.125.213.4 - - [26/Feb/2023 15:46:19] "GET /chat?key=3BlbmFpLm9wZW5haS5hdXR&q=火鸡面怎么煮 HTTP/1.1" 200 -

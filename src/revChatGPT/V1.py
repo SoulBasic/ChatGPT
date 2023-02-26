@@ -56,7 +56,7 @@ def logger(is_timed):
     return decorator
 
 
-BASE_URL = environ.get("CHATGPT_BASE_URL") or "https://chatgpt.duti.tech/"
+BASE_URL = environ.get("CHATGPT_BASE_URL")
 
 
 class Error(Exception):
