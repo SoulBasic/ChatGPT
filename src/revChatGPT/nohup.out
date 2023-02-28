@@ -1304,3 +1304,1347 @@ ChatGPT回答问题：生成百事可乐的宣传文案
 2023-02-26 15:46:19,894 - server - ERROR - chat - 合法请求，来源ip：163.125.213.4, 问题：火鸡面怎么煮
 2023-02-26 15:46:19,894 - server - INFO - ask - 从缓存中得到了答案，问题：火鸡面怎么煮
 2023-02-26 15:46:19,894 - werkzeug - INFO - _log - 163.125.213.4 - - [26/Feb/2023 15:46:19] "GET /chat?key=3BlbmFpLm9wZW5haS5hdXR&q=火鸡面怎么煮 HTTP/1.1" 200 -
+2023-02-26 15:49:26,873 - werkzeug - INFO - _log - 87.236.176.5 - - [26/Feb/2023 15:49:26] "GET / HTTP/1.1" 200 -
+2023-02-26 15:52:27,965 - server - ERROR - chat - 合法请求，来源ip：223.104.68.120, 问题：你是谁
+2023-02-26 15:52:27,965 - server - INFO - ask - 尝试询问ChatGPT, 问题：你是谁
+2023-02-26 15:52:39,698 - server - INFO - ask - ----------
+ChatGPT回答问题：你是谁
+答案:我是ChatGPT，是一个由OpenAI开发的大型语言模型，旨在为用户提供各种各样的语言处理服务，如自然语言生成、自然语言理解、文本分类、语言翻译等。我使用了深度学习技术来分析和处理自然语言，并且不断地从大量的数据中学习和提高自己的能力。如果您有任何关于语言处理的问题或需要我的帮助，请随时提问。
+----------
+2023-02-26 15:52:39,698 - werkzeug - INFO - _log - 223.104.68.120 - - [26/Feb/2023 15:52:39] "GET /chat?key=3BlbmFpLm9wZW5haS5hdXR&q=你是谁 HTTP/1.1" 200 -
+2023-02-26 15:52:42,880 - server - ERROR - chat - 合法请求，来源ip：223.104.68.120, 问题：你是谁
+2023-02-26 15:52:42,881 - server - INFO - ask - 从缓存中得到了答案，问题：你是谁
+2023-02-26 15:52:42,881 - werkzeug - INFO - _log - 223.104.68.120 - - [26/Feb/2023 15:52:42] "GET /chat?key=3BlbmFpLm9wZW5haS5hdXR&q=你是谁 HTTP/1.1" 200 -
+2023-02-26 15:53:30,854 - werkzeug - INFO - _log - 117.210.157.129 - - [26/Feb/2023 15:53:30] "GET / HTTP/1.1" 200 -
+2023-02-26 16:03:24,881 - server - ERROR - chat - 合法请求，来源ip：163.125.213.4, 问题：hello
+2023-02-26 16:03:24,881 - server - INFO - ask - 尝试询问ChatGPT, 问题：hello
+2023-02-26 16:03:27,046 - server - INFO - ask - ----------
+ChatGPT回答问题：hello
+答案:Hello! How can I assist you today?
+----------
+2023-02-26 16:03:27,047 - werkzeug - INFO - _log - 163.125.213.4 - - [26/Feb/2023 16:03:27] "GET /chat?key=3BlbmFpLm9wZW5haS5hdXR&q=hello HTTP/1.1" 200 -
+2023-02-26 16:03:27,405 - werkzeug - INFO - _log - 163.125.213.4 - - [26/Feb/2023 16:03:27] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2023-02-26 16:03:28,762 - server - ERROR - chat - 合法请求，来源ip：163.125.213.4, 问题：你乘坐潜水艇来到了一片未知的海底，找出规律解出迷题： | (•)(•) |=厨师 / (•)(•)\=好朋友 ( (•)(•) )=厌世者 |(•)|=恶人 推理目标：|•||•|=?
+2023-02-26 16:03:28,763 - server - INFO - ask - 尝试询问ChatGPT, 问题：你乘坐潜水艇来到了一片未知的海底，找出规律解出迷题： | (•)(•) |=厨师 / (•)(•)\=好朋友 ( (•)(•) )=厌世者 |(•)|=恶人 推理目标：|•||•|=?
+2023-02-26 16:03:42,828 - server - INFO - ask - ----------
+ChatGPT回答问题：你乘坐潜水艇来到了一片未知的海底，找出规律解出迷题： | (•)(•) |=厨师 / (•)(•)\=好朋友 ( (•)(•) )=厌世者 |(•)|=恶人 推理目标：|•||•|=?
+答案:根据题目给出的规律，可以推断出：
+
+| (•)(•) | = 厨师
+/ (•)(•)\ = 好朋友
+( (•)(•) ) = 厌世者
+| (•) | = 恶人
+
+因此，可以将题目中的 |•||•| 根据规律进行解读，得出：
+
+| (•) | / (•) \| (•) |
+
+即为 "恶人/好朋友/恶人"，或者说 "恶人和恶人之间有一个好朋友"。因此，答案为：
+
+|•||•| = 好朋友
+----------
+2023-02-26 16:03:42,829 - werkzeug - INFO - _log - 163.125.213.4 - - [26/Feb/2023 16:03:42] "GET /chat?key=3BlbmFpLm9wZW5haS5hdXR&q=你乘坐潜水艇来到了一片未知的海底，找出规律解出迷题：%20|%20(•)(•)%20|=厨师%20/%20(•)(•)\=好朋友%20(%20(•)(•)%20)=厌世者%20|(•)|=恶人%20推理目标：|•||•|=? HTTP/1.1" 200 -
+2023-02-26 16:12:16,956 - server - ERROR - chat - 合法请求，来源ip：163.125.213.4, 问题：火鸡面怎么煮
+2023-02-26 16:12:16,956 - server - INFO - ask - 从缓存中得到了答案，问题：火鸡面怎么煮
+2023-02-26 16:12:16,957 - werkzeug - INFO - _log - 163.125.213.4 - - [26/Feb/2023 16:12:16] "GET /chat?key=3BlbmFpLm9wZW5haS5hdXR&q=火鸡面怎么煮 HTTP/1.1" 200 -
+2023-02-26 16:14:57,406 - server - ERROR - chat - 合法请求，来源ip：163.125.213.4, 问题：hello
+2023-02-26 16:14:57,407 - server - INFO - ask - 从缓存中得到了答案，问题：hello
+2023-02-26 16:14:57,407 - werkzeug - INFO - _log - 163.125.213.4 - - [26/Feb/2023 16:14:57] "GET /chat?key=3BlbmFpLm9wZW5haS5hdXR&q=hello HTTP/1.1" 200 -
+2023-02-26 16:15:04,005 - server - ERROR - chat - 合法请求，来源ip：163.125.213.4, 问题：火鸡面怎么煮
+2023-02-26 16:15:04,005 - server - INFO - ask - 从缓存中得到了答案，问题：火鸡面怎么煮
+2023-02-26 16:15:04,005 - werkzeug - INFO - _log - 163.125.213.4 - - [26/Feb/2023 16:15:04] "GET /chat?key=3BlbmFpLm9wZW5haS5hdXR&q=火鸡面怎么煮 HTTP/1.1" 200 -
+2023-02-26 16:19:04,998 - server - ERROR - chat - 合法请求，来源ip：222.131.240.213, 问题：火鸡面怎么煮
+2023-02-26 16:19:04,998 - server - INFO - ask - 从缓存中得到了答案，问题：火鸡面怎么煮
+2023-02-26 16:19:04,998 - werkzeug - INFO - _log - 222.131.240.213 - - [26/Feb/2023 16:19:04] "GET /chat?key=3BlbmFpLm9wZW5haS5hdXR&q=火鸡面怎么煮 HTTP/1.1" 200 -
+2023-02-26 16:19:05,309 - werkzeug - INFO - _log - 222.131.240.213 - - [26/Feb/2023 16:19:05] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2023-02-26 16:19:30,551 - server - ERROR - chat - 合法请求，来源ip：101.89.43.166, 问题：
+2023-02-26 16:19:30,551 - server - INFO - ask - 尝试询问ChatGPT, 问题：
+2023-02-26 16:19:33,698 - server - INFO - ask - ----------
+ChatGPT回答问题：
+答案:您好，请问有什么可以帮助您的？
+----------
+2023-02-26 16:19:33,699 - werkzeug - INFO - _log - 101.89.43.166 - - [26/Feb/2023 16:19:33] "GET /chat?key=3BlbmFpLm9wZW5haS5hdXR&q HTTP/1.0" 200 -
+2023-02-26 16:20:29,427 - server - ERROR - chat - 合法请求，来源ip：222.131.240.213, 问题：how are you
+2023-02-26 16:20:29,427 - server - INFO - ask - 尝试询问ChatGPT, 问题：how are you
+2023-02-26 16:20:34,533 - server - INFO - ask - ----------
+ChatGPT回答问题：how are you
+答案:I'm an artificial intelligence language model, so I don't have feelings like humans do, but I'm functioning properly and ready to assist you with any questions or tasks you may have. How can I help you today?
+----------
+2023-02-26 16:20:34,533 - werkzeug - INFO - _log - 222.131.240.213 - - [26/Feb/2023 16:20:34] "GET /chat?key=3BlbmFpLm9wZW5haS5hdXR&q=how%20are%20you HTTP/1.1" 200 -
+2023-02-26 16:20:54,928 - server - ERROR - chat - 合法请求，来源ip：163.125.213.4, 问题：how are you
+2023-02-26 16:20:54,928 - server - INFO - ask - 从缓存中得到了答案，问题：how are you
+2023-02-26 16:20:54,928 - werkzeug - INFO - _log - 163.125.213.4 - - [26/Feb/2023 16:20:54] "GET /chat?key=3BlbmFpLm9wZW5haS5hdXR&q=how%20are%20you HTTP/1.1" 200 -
+2023-02-26 16:21:23,335 - server - ERROR - chat - 合法请求，来源ip：222.131.240.213, 问题：are you chatGPT?
+2023-02-26 16:21:23,336 - server - INFO - ask - 尝试询问ChatGPT, 问题：are you chatGPT?
+2023-02-26 16:21:26,725 - server - INFO - ask - ----------
+ChatGPT回答问题：are you chatGPT?
+答案:Yes, I am ChatGPT, a large language model developed by OpenAI. How can I assist you today?
+----------
+2023-02-26 16:21:26,726 - werkzeug - INFO - _log - 222.131.240.213 - - [26/Feb/2023 16:21:26] "GET /chat?key=3BlbmFpLm9wZW5haS5hdXR&q=are%20you%20chatGPT? HTTP/1.1" 200 -
+2023-02-26 16:21:36,114 - server - ERROR - chat - 合法请求，来源ip：222.131.240.213, 问题：are you%GPT-3?
+2023-02-26 16:21:36,114 - server - INFO - ask - 尝试询问ChatGPT, 问题：are you%GPT-3?
+2023-02-26 16:21:44,556 - server - INFO - ask - ----------
+ChatGPT回答问题：are you%GPT-3?
+答案:No, I am not GPT-3. I am an earlier version of OpenAI's language model, called ChatGPT. GPT-3 is a more advanced and sophisticated model that was released after ChatGPT. However, I am still capable of answering a wide range of questions and helping with many tasks. If you have any questions or tasks you would like help with, please feel free to ask!
+----------
+2023-02-26 16:21:44,556 - werkzeug - INFO - _log - 222.131.240.213 - - [26/Feb/2023 16:21:44] "GET /chat?key=3BlbmFpLm9wZW5haS5hdXR&q=are%20you%GPT-3? HTTP/1.1" 200 -
+2023-02-26 16:22:17,802 - server - ERROR - chat - 合法请求，来源ip：222.131.240.213, 问题：are you%chatGPT-PLUS?
+2023-02-26 16:22:17,803 - server - INFO - ask - 尝试询问ChatGPT, 问题：are you%chatGPT-PLUS?
+2023-02-26 16:22:28,349 - server - INFO - ask - ----------
+ChatGPT回答问题：are you%chatGPT-PLUS?
+答案:No, I am not ChatGPT-PLUS. I am the original version of ChatGPT, which was trained on a large corpus of text data to understand and generate natural language. ChatGPT-PLUS is a newer version of the model that has been fine-tuned on a more diverse range of tasks and is capable of even more advanced language processing abilities. However, I am still capable of providing assistance with a wide range of tasks and answering many types of questions. If you have any specific questions or tasks you need help with, please feel free to ask.
+----------
+2023-02-26 16:22:28,349 - werkzeug - INFO - _log - 222.131.240.213 - - [26/Feb/2023 16:22:28] "GET /chat?key=3BlbmFpLm9wZW5haS5hdXR&q=are%20you%chatGPT-PLUS? HTTP/1.1" 200 -
+2023-02-26 16:23:00,457 - server - ERROR - chat - 合法请求，来源ip：222.131.240.213, 问题：do you know how to make roti
+2023-02-26 16:23:00,458 - server - INFO - ask - 尝试询问ChatGPT, 问题：do you know how to make roti
+2023-02-26 16:23:27,693 - server - INFO - ask - ----------
+ChatGPT回答问题：do you know how to make roti
+答案:Yes, I can certainly provide you with a general recipe for making roti, a type of Indian flatbread. Here is a simple recipe:
+
+Ingredients:
+- 2 cups of whole wheat flour
+- 1/2 tsp of salt
+- 3/4 cup of warm water
+- 2 tbsp of vegetable oil or ghee
+
+Instructions:
+1. In a large bowl, combine the flour and salt.
+2. Add the water, a little at a time, and knead the dough until it is smooth and pliable. You may need to add more or less water depending on the flour you are using.
+3. Once the dough is smooth, add 1 tbsp of oil or ghee and knead it into the dough.
+4. Cover the dough and let it rest for about 10-15 minutes.
+5. Divide the dough into equal-sized balls.
+6. Roll each ball out into a thin circle, about 6-8 inches in diameter. You can use a rolling pin or your hands.
+7. Heat a non-stick skillet or tawa over medium-high heat.
+8. Place a rolled-out roti on the skillet and cook it for about 30 seconds on one side, or until small bubbles start to appear on the surface.
+9. Flip the roti over and cook for another 30 seconds on the other side.
+10. Brush each side of the roti with a little bit of oil or ghee while it's cooking.
+11. Remove the roti from the skillet and place it on a plate. Cover it with a clean towel to keep it warm.
+12. Repeat the process with the remaining balls of dough, rolling them out and cooking them one at a time.
+
+That's it! Your rotis are now ready to be served with your favorite curry or dish. Enjoy!
+----------
+2023-02-26 16:23:27,694 - werkzeug - INFO - _log - 222.131.240.213 - - [26/Feb/2023 16:23:27] "GET /chat?key=3BlbmFpLm9wZW5haS5hdXR&q=do%20you%20know%20how%20to%20make%20roti HTTP/1.1" 200 -
+2023-02-26 16:23:42,016 - server - ERROR - chat - 合法请求，来源ip：163.125.213.4, 问题：do you know how to make roti
+2023-02-26 16:23:42,016 - server - INFO - ask - 从缓存中得到了答案，问题：do you know how to make roti
+2023-02-26 16:23:42,017 - werkzeug - INFO - _log - 163.125.213.4 - - [26/Feb/2023 16:23:42] "GET /chat?key=3BlbmFpLm9wZW5haS5hdXR&q=do%20you%20know%20how%20to%20make%20roti HTTP/1.1" 200 -
+2023-02-26 16:28:50,489 - werkzeug - INFO - _log - 92.118.39.82 - - [26/Feb/2023 16:28:50] "GET / HTTP/1.1" 200 -
+2023-02-26 16:29:34,691 - server - ERROR - chat - 合法请求，来源ip：163.125.213.4, 问题：火鸡面怎么煮
+2023-02-26 16:29:34,691 - server - INFO - ask - 从缓存中得到了答案，问题：火鸡面怎么煮
+2023-02-26 16:29:34,692 - werkzeug - INFO - _log - 163.125.213.4 - - [26/Feb/2023 16:29:34] "GET /chat?key=3BlbmFpLm9wZW5haS5hdXR&q=火鸡面怎么煮 HTTP/1.1" 200 -
+2023-02-26 16:29:56,610 - server - ERROR - chat - 合法请求，来源ip：163.125.213.4, 问题：帮我写一份基于websocket的在线聊天代码
+2023-02-26 16:29:56,610 - server - INFO - ask - 尝试询问ChatGPT, 问题：帮我写一份基于websocket的在线聊天代码
+2023-02-26 16:30:38,907 - server - INFO - ask - ----------
+ChatGPT回答问题：帮我写一份基于websocket的在线聊天代码
+答案:当然可以！以下是一个简单的基于 WebSocket 的在线聊天的示例代码：
+
+HTML 代码：
+
+```
+<!DOCTYPE html>
+<html>
+<head>
+	<title>WebSocket Chat Example</title>
+</head>
+<body>
+	<h1>WebSocket Chat</h1>
+	<div id="chat-container">
+		<div id="messages"></div>
+		<input type="text" id="input-message" placeholder="Type your message here...">
+		<button type="button" id="send-button">Send</button>
+	</div>
+
+	<script>
+		var socket = new WebSocket("ws://localhost:8080");
+
+		socket.onopen = function(event) {
+			console.log("WebSocket connection established.");
+		};
+
+		socket.onmessage = function(event) {
+			var message = JSON.parse(event.data);
+			appendMessage(message.username, message.content);
+		};
+
+		function sendMessage() {
+			var inputMessage = document.getElementById("input-message");
+			var message = {
+				username: "User",
+				content: inputMessage.value
+			};
+			socket.send(JSON.stringify(message));
+			appendMessage(message.username, message.content);
+			inputMessage.value = "";
+		}
+
+		function appendMessage(username, content) {
+			var messagesDiv = document.getElementById("messages");
+			var messageDiv = document.createElement("div");
+			var usernameSpan = document.createElement("span");
+			var contentSpan = document.createElement("span");
+			usernameSpan.innerText = username + ": ";
+			contentSpan.innerText = content;
+			messageDiv.appendChild(usernameSpan);
+			messageDiv.appendChild(contentSpan);
+			messagesDiv.appendChild(messageDiv);
+		}
+
+		document.getElementById("send-button").addEventListener("click", sendMessage);
+	</script>
+</body>
+</html>
+```
+
+JavaScript 代码：
+
+```
+const WebSocket = require("ws");
+
+const wss = new WebSocket.Server({ port: 8080 });
+
+wss.on("connection", function(ws) {
+	console.log("WebSocket connection established.");
+
+	ws.on("message", function(message) {
+		var data = JSON.parse(message);
+		wss.clients.forEach(function(client) {
+			if (client !== ws && client.readyState === WebSocket.OPEN) {
+				client.send(JSON.stringify(data));
+			}
+		});
+	});
+});
+```
+
+这个示例代码使用了 WebSocket API，在客户端和服务器之间建立了一个 WebSocket 连接。当用户在文本框中输入一条消息并点击“发送”按钮时，该消息将被打包成 JSON 格式并通过 WebSocket 发送到服务器。服务器将消息转发到所有连接到该 WebSocket 服务器的客户端，这样每个客户端都可以看到所有其他客户端发送的消息。
+----------
+2023-02-26 16:30:38,908 - werkzeug - INFO - _log - 163.125.213.4 - - [26/Feb/2023 16:30:38] "GET /chat?key=3BlbmFpLm9wZW5haS5hdXR&q=帮我写一份基于websocket的在线聊天代码 HTTP/1.1" 200 -
+2023-02-26 16:37:04,720 - server - ERROR - chat - 合法请求，来源ip：113.109.161.171, 问题：接下来的对话是英语教学场景
+2023-02-26 16:37:04,720 - server - INFO - ask - 尝试询问ChatGPT, 问题：接下来的对话是英语教学场景
+2023-02-26 16:37:07,393 - server - ERROR - chat - 合法请求，来源ip：43.153.76.235, 问题：帮我写一份基于websocket的在线聊天代码
+2023-02-26 16:37:07,393 - server - INFO - ask - 从缓存中得到了答案，问题：帮我写一份基于websocket的在线聊天代码
+2023-02-26 16:37:07,393 - werkzeug - INFO - _log - 43.153.76.235 - - [26/Feb/2023 16:37:07] "GET /chat?key=3BlbmFpLm9wZW5haS5hdXR&q=帮我写一份基于websocket的在线聊天代码 HTTP/1.1" 200 -
+2023-02-26 16:37:07,934 - werkzeug - INFO - _log - 43.153.76.235 - - [26/Feb/2023 16:37:07] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2023-02-26 16:37:08,362 - server - INFO - ask - ----------
+ChatGPT回答问题：接下来的对话是英语教学场景
+答案:Sure, I'm ready to help with an English teaching scenario. How can I assist you?
+----------
+2023-02-26 16:37:08,363 - werkzeug - INFO - _log - 113.109.161.171 - - [26/Feb/2023 16:37:08] "GET /chat?key=3BlbmFpLm9wZW5haS5hdXR&q=接下来的对话是英语教学场景 HTTP/1.1" 200 -
+2023-02-26 16:37:09,115 - server - ERROR - chat - 合法请求，来源ip：223.104.68.120, 问题：接下来的对话是英语教学场景
+2023-02-26 16:37:09,115 - server - INFO - ask - 从缓存中得到了答案，问题：接下来的对话是英语教学场景
+2023-02-26 16:37:09,116 - werkzeug - INFO - _log - 223.104.68.120 - - [26/Feb/2023 16:37:09] "GET /chat?key=3BlbmFpLm9wZW5haS5hdXR&q=接下来的对话是英语教学场景 HTTP/1.1" 200 -
+2023-02-26 16:40:05,952 - server - ERROR - chat - 合法请求，来源ip：163.125.213.4, 问题：帮我写一份基于websocket的在线聊天室代码
+2023-02-26 16:40:05,952 - server - INFO - ask - 尝试询问ChatGPT, 问题：帮我写一份基于websocket的在线聊天室代码
+2023-02-26 16:40:50,203 - server - INFO - ask - ----------
+ChatGPT回答问题：帮我写一份基于websocket的在线聊天室代码
+答案:当然可以！以下是一个简单的基于 WebSocket 的在线聊天室的示例代码：
+
+HTML 代码：
+
+```
+<!DOCTYPE html>
+<html>
+<head>
+	<title>WebSocket Chat Room</title>
+</head>
+<body>
+	<h1>WebSocket Chat Room</h1>
+	<div id="chat-container">
+		<div id="messages"></div>
+		<input type="text" id="input-message" placeholder="Type your message here...">
+		<button type="button" id="send-button">Send</button>
+	</div>
+
+	<script>
+		var socket = new WebSocket("ws://localhost:8080");
+
+		socket.onopen = function(event) {
+			console.log("WebSocket connection established.");
+		};
+
+		socket.onmessage = function(event) {
+			var message = JSON.parse(event.data);
+			appendMessage(message.username, message.content);
+		};
+
+		function sendMessage() {
+			var inputMessage = document.getElementById("input-message");
+			var message = {
+				username: "User",
+				content: inputMessage.value
+			};
+			socket.send(JSON.stringify(message));
+			appendMessage(message.username, message.content);
+			inputMessage.value = "";
+		}
+
+		function appendMessage(username, content) {
+			var messagesDiv = document.getElementById("messages");
+			var messageDiv = document.createElement("div");
+			var usernameSpan = document.createElement("span");
+			var contentSpan = document.createElement("span");
+			usernameSpan.innerText = username + ": ";
+			contentSpan.innerText = content;
+			messageDiv.appendChild(usernameSpan);
+			messageDiv.appendChild(contentSpan);
+			messagesDiv.appendChild(messageDiv);
+		}
+
+		document.getElementById("send-button").addEventListener("click", sendMessage);
+	</script>
+</body>
+</html>
+```
+
+JavaScript 代码：
+
+```
+const WebSocket = require("ws");
+
+const wss = new WebSocket.Server({ port: 8080 });
+
+wss.on("connection", function(ws) {
+	console.log("WebSocket connection established.");
+
+	ws.on("message", function(message) {
+		var data = JSON.parse(message);
+		wss.clients.forEach(function(client) {
+			if (client !== ws && client.readyState === WebSocket.OPEN) {
+				client.send(JSON.stringify(data));
+			}
+		});
+	});
+});
+```
+
+这个示例代码使用了 WebSocket API，在客户端和服务器之间建立了一个 WebSocket 连接。当用户在文本框中输入一条消息并点击“发送”按钮时，该消息将被打包成 JSON 格式并通过 WebSocket 发送到服务器。服务器将消息转发到所有连接到该 WebSocket 服务器的客户端，这样每个客户端都可以看到所有其他客户端发送的消息。
+----------
+2023-02-26 16:40:50,204 - werkzeug - INFO - _log - 163.125.213.4 - - [26/Feb/2023 16:40:50] "GET /chat?key=3BlbmFpLm9wZW5haS5hdXR&q=帮我写一份基于websocket的在线聊天室代码 HTTP/1.1" 200 -
+2023-02-26 16:54:56,283 - werkzeug - INFO - _log - 143.244.50.172 - - [26/Feb/2023 16:54:56] "[33mGET /config/getuser?index=0 HTTP/1.1[0m" 404 -
+2023-02-26 17:10:05,485 - server - ERROR - chat - 合法请求，来源ip：113.109.161.171, 问题：你吃饭了吗英语怎么说
+2023-02-26 17:10:05,485 - server - INFO - ask - 尝试询问ChatGPT, 问题：你吃饭了吗英语怎么说
+2023-02-26 17:10:11,984 - server - INFO - ask - ----------
+ChatGPT回答问题：你吃饭了吗英语怎么说
+答案:"You have eaten yet?" is one possible way to translate "你吃饭了吗？" into English. Another common way to ask this question is "Have you had your meal?" or simply "Did you eat?"
+----------
+2023-02-26 17:10:11,985 - werkzeug - INFO - _log - 113.109.161.171 - - [26/Feb/2023 17:10:11] "GET /chat?key=3BlbmFpLm9wZW5haS5hdXR&q=你吃饭了吗英语怎么说 HTTP/1.1" 200 -
+2023-02-26 17:10:12,247 - server - ERROR - chat - 合法请求，来源ip：218.20.54.178, 问题：你吃饭了吗英语怎么说
+2023-02-26 17:10:12,247 - server - INFO - ask - 从缓存中得到了答案，问题：你吃饭了吗英语怎么说
+2023-02-26 17:10:12,247 - werkzeug - INFO - _log - 218.20.54.178 - - [26/Feb/2023 17:10:12] "GET /chat?key=3BlbmFpLm9wZW5haS5hdXR&q=你吃饭了吗英语怎么说 HTTP/1.1" 200 -
+2023-02-26 17:11:38,285 - werkzeug - INFO - _log - 184.105.139.92 - - [26/Feb/2023 17:11:38] "GET / HTTP/1.1" 200 -
+2023-02-26 17:12:48,664 - werkzeug - INFO - _log - 184.105.139.68 - - [26/Feb/2023 17:12:48] "GET http://api.ipify.org/?format=json HTTP/1.1" 200 -
+2023-02-26 17:13:12,921 - werkzeug - INFO - _log - 184.105.139.112 - - [26/Feb/2023 17:13:12] "[33mCONNECT www.shadowserver.org:443 HTTP/1.1[0m" 404 -
+2023-02-26 17:26:02,822 - werkzeug - INFO - _log - 78.108.177.52 - - [26/Feb/2023 17:26:02] "GET / HTTP/1.0" 200 -
+2023-02-26 17:30:41,230 - werkzeug - INFO - _log - 45.128.232.29 - - [26/Feb/2023 17:30:41] "[33mCONNECT google.com:443 HTTP/1.1[0m" 404 -
+2023-02-26 17:56:58,285 - werkzeug - INFO - _log - 89.208.103.146 - - [26/Feb/2023 17:56:58] "[33mGET http://ip-api.com/json/ HTTP/1.1[0m" 404 -
+2023-02-26 19:18:21,546 - server - ERROR - chat - 合法请求，来源ip：163.125.213.4, 问题：火鸡面怎么煮
+2023-02-26 19:18:21,546 - server - INFO - ask - 从缓存中得到了答案，问题：火鸡面怎么煮
+2023-02-26 19:18:21,547 - werkzeug - INFO - _log - 163.125.213.4 - - [26/Feb/2023 19:18:21] "GET /chat?key=3BlbmFpLm9wZW5haS5hdXR&q=火鸡面怎么煮 HTTP/1.1" 200 -
+2023-02-26 19:18:21,809 - werkzeug - INFO - _log - 163.125.213.4 - - [26/Feb/2023 19:18:21] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2023-02-26 19:40:22,077 - server - ERROR - chat - 合法请求，来源ip：45.84.57.56, 问题：火鸡面怎么煮
+2023-02-26 19:40:22,077 - server - INFO - ask - 从缓存中得到了答案，问题：火鸡面怎么煮
+2023-02-26 19:40:22,078 - werkzeug - INFO - _log - 45.84.57.56 - - [26/Feb/2023 19:40:22] "GET /chat?key=3BlbmFpLm9wZW5haS5hdXR&q=火鸡面怎么煮 HTTP/1.1" 200 -
+2023-02-26 19:40:22,779 - werkzeug - INFO - _log - 45.84.57.56 - - [26/Feb/2023 19:40:22] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2023-02-26 19:40:44,643 - server - ERROR - chat - 合法请求，来源ip：45.84.57.56, 问题：怎么做tiktok跨境电商
+2023-02-26 19:40:44,644 - server - INFO - ask - 尝试询问ChatGPT, 问题：怎么做tiktok跨境电商
+2023-02-26 19:41:35,720 - server - INFO - ask - ----------
+ChatGPT回答问题：怎么做tiktok跨境电商
+答案:要在 TikTok 上进行跨境电商，可以按照以下步骤进行：
+
+1. 创建 TikTok 商家帐户：在 TikTok 上注册一个商家帐户，设置自己的品牌名称、商标和商品信息。确保填写的信息与您的跨境电商网站一致。
+
+2. 撰写吸引人的商品描述：在商家帐户中上传您的商品图片和详细描述，并确保您的商品价格、尺寸和运费等信息都是准确无误的。
+
+3. 制作吸引人的短视频广告：利用 TikTok 平台上的各种创意工具和滤镜等功能，制作一个吸引人的短视频广告，展示您的产品和品牌。
+
+4. 设置广告目标和投放位置：在 TikTok 平台上设置广告目标和投放位置，以确保您的广告可以准确地被您的目标受众看到。您可以通过 TikTok 的广告平台或与 TikTok 的广告代理商合作来完成这一步骤。
+
+5. 运营您的跨境电商平台：为了确保您的跨境电商平台与 TikTok 平台上的广告一致，您需要仔细运营您的跨境电商平台，提供良好的客户服务和售后支持，并保证您的商品质量和送货时间等方面都是可靠的。
+
+6. 监测和调整广告效果：为了优化广告效果，您需要监测广告的点击率、转化率和销售额等指标，并根据这些数据调整您的广告投放策略和商品定价等方面的决策。
+
+需要注意的是，进行跨境电商需要遵守相关的法律法规，比如遵守不同国家和地区的贸易法规、支付法规和海关法规等，以确保您的跨境电商业务可以合法运营。
+----------
+2023-02-26 19:41:35,721 - werkzeug - INFO - _log - 45.84.57.56 - - [26/Feb/2023 19:41:35] "GET /chat?key=3BlbmFpLm9wZW5haS5hdXR&q=怎么做tiktok跨境电商 HTTP/1.1" 200 -
+2023-02-26 19:42:48,667 - server - ERROR - chat - 合法请求，来源ip：115.204.227.254, 问题：
+2023-02-26 19:42:48,667 - server - INFO - ask - 从缓存中得到了答案，问题：
+2023-02-26 19:42:48,667 - werkzeug - INFO - _log - 115.204.227.254 - - [26/Feb/2023 19:42:48] "GET /chat?key=3BlbmFpLm9wZW5haS5hdXR&q= HTTP/1.1" 200 -
+2023-02-26 20:17:17,308 - server - ERROR - chat - 合法请求，来源ip：45.84.57.56, 问题：做tiktok跨境电商的英国市场买家电，什么商品好卖
+2023-02-26 20:17:17,308 - server - INFO - ask - 尝试询问ChatGPT, 问题：做tiktok跨境电商的英国市场买家电，什么商品好卖
+2023-02-26 20:17:59,208 - server - INFO - ask - ----------
+ChatGPT回答问题：做tiktok跨境电商的英国市场买家电，什么商品好卖
+答案:在英国市场上进行 TikTok 跨境电商，可以考虑以下一些适合出售的商品：
+
+1. 电子产品：例如手机、平板电脑、笔记本电脑、数码相机等，这些产品在英国市场上有很高的需求。
+
+2. 家居用品：例如床上用品、窗帘、厨房用品等，这些产品在英国市场上受到欢迎，尤其是在 COVID-19 疫情期间，居家生活用品的销售量有所增加。
+
+3. 化妆品和个人护理用品：例如香水、化妆品、护肤品等，在英国市场上有很高的需求。
+
+4. 时尚配饰：例如手表、太阳镜、帽子、鞋子等，这些产品在英国市场上非常流行。
+
+5. 健康和健身产品：例如运动器材、保健品、营养补充品等，这些产品在英国市场上有很高的需求。
+
+总的来说，英国市场上的消费者对高品质、时尚、创新和具有功能性的产品有很高的兴趣，因此，在选择商品时，应该注意这些方面，以满足英国消费者的需求。同时，要注意在英国市场上的价格和质量竞争，以提高商品的竞争力。
+----------
+2023-02-26 20:17:59,209 - werkzeug - INFO - _log - 45.84.57.56 - - [26/Feb/2023 20:17:59] "GET /chat?key=3BlbmFpLm9wZW5haS5hdXR&q=做tiktok跨境电商的英国市场买家电，什么商品好卖 HTTP/1.1" 200 -
+2023-02-26 20:33:15,422 - server - ERROR - chat - 合法请求，来源ip：45.84.57.56, 问题：做tiktok跨境电商的英国市场买家电，什么商品好卖
+2023-02-26 20:33:15,422 - server - INFO - ask - 从缓存中得到了答案，问题：做tiktok跨境电商的英国市场买家电，什么商品好卖
+2023-02-26 20:33:15,422 - werkzeug - INFO - _log - 45.84.57.56 - - [26/Feb/2023 20:33:15] "GET /chat?key=3BlbmFpLm9wZW5haS5hdXR&q=做tiktok跨境电商的英国市场买家电，什么商品好卖 HTTP/1.1" 200 -
+Traceback (most recent call last):
+  File "server.py", line 97, in <module>
+    @app.route('/')
+  File "/usr/local/lib64/python3.6/site-packages/flask/scaffold.py", line 439, in decorator
+    self.add_url_rule(rule, endpoint, f, **options)
+  File "/usr/local/lib64/python3.6/site-packages/flask/scaffold.py", line 57, in wrapper_func
+    return f(self, *args, **kwargs)
+  File "/usr/local/lib64/python3.6/site-packages/flask/app.py", line 1091, in add_url_rule
+    "View function mapping is overwriting an existing"
+AssertionError: View function mapping is overwriting an existing endpoint function: index
+Traceback (most recent call last):
+  File "server.py", line 97, in <module>
+    @app.route('/')
+  File "/usr/local/lib64/python3.6/site-packages/flask/scaffold.py", line 439, in decorator
+    self.add_url_rule(rule, endpoint, f, **options)
+  File "/usr/local/lib64/python3.6/site-packages/flask/scaffold.py", line 57, in wrapper_func
+    return f(self, *args, **kwargs)
+  File "/usr/local/lib64/python3.6/site-packages/flask/app.py", line 1091, in add_url_rule
+    "View function mapping is overwriting an existing"
+AssertionError: View function mapping is overwriting an existing endpoint function: index
+ * Serving Flask app 'server' (lazy loading)
+ * Environment: production
+   WARNING: This is a development server. Do not use it in a production deployment.
+   Use a production WSGI server instead.
+ * Debug mode: off
+2023-02-26 20:34:42,388 - werkzeug - WARNING - _log -  * Running on all addresses.
+   WARNING: This is a development server. Do not use it in a production deployment.
+2023-02-26 20:34:42,389 - werkzeug - INFO - _log -  * Running on http://10.0.0.6:8080/ (Press CTRL+C to quit)
+2023-02-26 20:34:42,667 - werkzeug - INFO - _log - 163.125.213.4 - - [26/Feb/2023 20:34:42] "GET /chatter HTTP/1.1" 200 -
+2023-02-26 20:34:48,786 - server - ERROR - chat - 合法请求，来源ip：163.125.213.4, 问题：hello
+2023-02-26 20:34:48,786 - server - INFO - ask - 尝试询问ChatGPT, 问题：hello
+2023-02-26 20:34:52,159 - server - INFO - ask - ----------
+ChatGPT回答问题：hello
+答案:helloHello! How can I assist you today?
+----------
+2023-02-26 20:34:52,160 - werkzeug - INFO - _log - 163.125.213.4 - - [26/Feb/2023 20:34:52] "GET /chat?key=3BlbmFpLm9wZW5haS5hdXR&q=hello HTTP/1.1" 200 -
+2023-02-26 20:36:00,598 - werkzeug - INFO - _log - 223.104.68.120 - - [26/Feb/2023 20:36:00] "GET /chatter HTTP/1.1" 200 -
+2023-02-26 20:36:17,387 - werkzeug - INFO - _log - 163.125.213.4 - - [26/Feb/2023 20:36:17] "GET /chatter HTTP/1.1" 200 -
+2023-02-26 20:36:25,078 - server - ERROR - chat - 合法请求，来源ip：163.125.213.4, 问题：hello
+2023-02-26 20:36:25,078 - server - INFO - ask - 从缓存中得到了答案，问题：hello
+2023-02-26 20:36:25,078 - werkzeug - INFO - _log - 163.125.213.4 - - [26/Feb/2023 20:36:25] "GET /chat?key=3BlbmFpLm9wZW5haS5hdXR&q=hello HTTP/1.1" 200 -
+2023-02-26 20:36:31,537 - server - ERROR - chat - 合法请求，来源ip：223.104.68.120, 问题：do you have dinner
+2023-02-26 20:36:31,537 - server - INFO - ask - 尝试询问ChatGPT, 问题：do you have dinner
+2023-02-26 20:36:32,563 - server - ERROR - chat - 合法请求，来源ip：163.125.213.4, 问题：how are you
+2023-02-26 20:36:32,563 - server - ERROR - ask - 服务器繁忙，拒绝请求，问题：how are you
+2023-02-26 20:36:32,563 - werkzeug - INFO - _log - 163.125.213.4 - - [26/Feb/2023 20:36:32] "[31m[1mGET /chat?key=3BlbmFpLm9wZW5haS5hdXR&q=how%20are%20you HTTP/1.1[0m" 400 -
+2023-02-26 20:36:40,042 - server - INFO - ask - ----------
+ChatGPT回答问题：do you have dinner
+答案:As an artificial intelligence language model, I do not have a physical form, so I don't eat or have dinner. However, I can assist you with any questions you have related to dinner, such as recipe suggestions, nutritional information, or dining etiquette. Please let me know if there is anything specific you would like to know!
+----------
+2023-02-26 20:36:40,043 - werkzeug - INFO - _log - 223.104.68.120 - - [26/Feb/2023 20:36:40] "GET /chat?key=3BlbmFpLm9wZW5haS5hdXR&q=do%20you%20have%20dinner HTTP/1.1" 200 -
+2023-02-26 20:36:52,667 - server - ERROR - chat - 合法请求，来源ip：163.125.213.4, 问题：how are you
+2023-02-26 20:36:52,667 - server - INFO - ask - 尝试询问ChatGPT, 问题：how are you
+2023-02-26 20:37:04,598 - server - INFO - ask - ----------
+ChatGPT回答问题：how are you
+答案:As an artificial intelligence language model, I do not have feelings, so I am unable to experience emotions like humans do. However, I am functioning properly and ready to assist you with any questions or tasks you might have. Is there anything specific you would like me to help you with today?
+----------
+2023-02-26 20:37:04,598 - werkzeug - INFO - _log - 163.125.213.4 - - [26/Feb/2023 20:37:04] "GET /chat?key=3BlbmFpLm9wZW5haS5hdXR&q=how%20are%20you HTTP/1.1" 200 -
+2023-02-26 20:38:23,504 - werkzeug - INFO - _log - 163.125.213.4 - - [26/Feb/2023 20:38:23] "GET /chatter HTTP/1.1" 200 -
+ * Serving Flask app 'server' (lazy loading)
+ * Environment: production
+   WARNING: This is a development server. Do not use it in a production deployment.
+   Use a production WSGI server instead.
+ * Debug mode: off
+2023-02-26 20:38:57,036 - werkzeug - WARNING - _log -  * Running on all addresses.
+   WARNING: This is a development server. Do not use it in a production deployment.
+2023-02-26 20:38:57,036 - werkzeug - INFO - _log -  * Running on http://10.0.0.6:8080/ (Press CTRL+C to quit)
+2023-02-26 20:38:57,322 - server - ERROR - chat - 合法请求，来源ip：163.125.213.4, 问题：how are you
+2023-02-26 20:38:57,322 - server - INFO - ask - 尝试询问ChatGPT, 问题：how are you
+2023-02-26 20:39:04,244 - server - INFO - ask - ----------
+ChatGPT回答问题：how are you
+答案:how are youAs an AI language model, I don't have feelings or emotions like humans do, but I'm functioning as expected and ready to assist you with any questions or tasks you have! How can I assist you today?
+----------
+2023-02-26 20:39:04,245 - werkzeug - INFO - _log - 163.125.213.4 - - [26/Feb/2023 20:39:04] "GET /chat?key=3BlbmFpLm9wZW5haS5hdXR&q=how%20are%20you HTTP/1.1" 200 -
+2023-02-26 20:39:06,467 - server - ERROR - chat - 合法请求，来源ip：163.125.213.4, 问题：how are you
+2023-02-26 20:39:06,467 - server - INFO - ask - 从缓存中得到了答案，问题：how are you
+2023-02-26 20:39:06,467 - werkzeug - INFO - _log - 163.125.213.4 - - [26/Feb/2023 20:39:06] "GET /chat?key=3BlbmFpLm9wZW5haS5hdXR&q=how%20are%20you HTTP/1.1" 200 -
+2023-02-26 20:39:08,533 - server - ERROR - chat - 合法请求，来源ip：163.125.213.4, 问题：how are you
+2023-02-26 20:39:08,533 - server - INFO - ask - 从缓存中得到了答案，问题：how are you
+2023-02-26 20:39:08,534 - werkzeug - INFO - _log - 163.125.213.4 - - [26/Feb/2023 20:39:08] "GET /chat?key=3BlbmFpLm9wZW5haS5hdXR&q=how%20are%20you HTTP/1.1" 200 -
+2023-02-26 20:39:12,355 - werkzeug - INFO - _log - 163.125.213.4 - - [26/Feb/2023 20:39:12] "GET /chatter HTTP/1.1" 200 -
+2023-02-26 20:39:21,786 - server - ERROR - chat - 合法请求，来源ip：163.125.213.4, 问题：你吃饭了吗
+2023-02-26 20:39:21,787 - server - INFO - ask - 尝试询问ChatGPT, 问题：你吃饭了吗
+2023-02-26 20:39:24,967 - server - ERROR - chat - 合法请求，来源ip：163.125.213.4, 问题：你是谁
+2023-02-26 20:39:24,969 - server - ERROR - ask - 服务器繁忙，拒绝请求，问题：你是谁
+2023-02-26 20:39:24,969 - werkzeug - INFO - _log - 163.125.213.4 - - [26/Feb/2023 20:39:24] "GET /chat?key=3BlbmFpLm9wZW5haS5hdXR&q=你是谁 HTTP/1.1" 200 -
+2023-02-26 20:39:26,178 - server - ERROR - chat - 合法请求，来源ip：163.125.213.4, 问题：你是谁
+2023-02-26 20:39:26,178 - server - ERROR - ask - 服务器繁忙，拒绝请求，问题：你是谁
+2023-02-26 20:39:26,179 - werkzeug - INFO - _log - 163.125.213.4 - - [26/Feb/2023 20:39:26] "GET /chat?key=3BlbmFpLm9wZW5haS5hdXR&q=你是谁 HTTP/1.1" 200 -
+2023-02-26 20:39:27,114 - server - ERROR - chat - 合法请求，来源ip：163.125.213.4, 问题：你是谁
+2023-02-26 20:39:27,114 - server - ERROR - ask - 服务器繁忙，拒绝请求，问题：你是谁
+2023-02-26 20:39:27,115 - werkzeug - INFO - _log - 163.125.213.4 - - [26/Feb/2023 20:39:27] "GET /chat?key=3BlbmFpLm9wZW5haS5hdXR&q=你是谁 HTTP/1.1" 200 -
+2023-02-26 20:39:31,594 - server - INFO - ask - ----------
+ChatGPT回答问题：你吃饭了吗
+答案:作为一个 AI 语言模型，我没有实体，也就不需要吃饭。不过，我可以帮您回答任何问题或解决您的任务。有什么需要我协助的吗？
+----------
+2023-02-26 20:39:31,594 - werkzeug - INFO - _log - 163.125.213.4 - - [26/Feb/2023 20:39:31] "GET /chat?key=3BlbmFpLm9wZW5haS5hdXR&q=你吃饭了吗 HTTP/1.1" 200 -
+2023-02-26 20:39:42,663 - server - ERROR - chat - 合法请求，来源ip：163.125.213.4, 问题：github是什么
+2023-02-26 20:39:42,663 - server - INFO - ask - 尝试询问ChatGPT, 问题：github是什么
+2023-02-26 20:39:47,140 - server - ERROR - chat - 合法请求，来源ip：163.125.213.4, 问题：你喜欢啥
+2023-02-26 20:39:47,142 - server - ERROR - ask - 服务器繁忙，拒绝请求，问题：你喜欢啥
+2023-02-26 20:39:47,142 - werkzeug - INFO - _log - 163.125.213.4 - - [26/Feb/2023 20:39:47] "GET /chat?key=3BlbmFpLm9wZW5haS5hdXR&q=你喜欢啥 HTTP/1.1" 200 -
+2023-02-26 20:39:47,971 - server - ERROR - chat - 合法请求，来源ip：163.125.213.4, 问题：你喜欢啥
+2023-02-26 20:39:47,971 - server - ERROR - ask - 服务器繁忙，拒绝请求，问题：你喜欢啥
+2023-02-26 20:39:47,972 - werkzeug - INFO - _log - 163.125.213.4 - - [26/Feb/2023 20:39:47] "GET /chat?key=3BlbmFpLm9wZW5haS5hdXR&q=你喜欢啥 HTTP/1.1" 200 -
+2023-02-26 20:39:48,714 - server - ERROR - chat - 合法请求，来源ip：163.125.213.4, 问题：你喜欢啥
+2023-02-26 20:39:48,714 - server - ERROR - ask - 服务器繁忙，拒绝请求，问题：你喜欢啥
+2023-02-26 20:39:48,715 - werkzeug - INFO - _log - 163.125.213.4 - - [26/Feb/2023 20:39:48] "GET /chat?key=3BlbmFpLm9wZW5haS5hdXR&q=你喜欢啥 HTTP/1.1" 200 -
+2023-02-26 20:39:49,473 - server - ERROR - chat - 合法请求，来源ip：163.125.213.4, 问题：你喜欢啥
+2023-02-26 20:39:49,473 - server - ERROR - ask - 服务器繁忙，拒绝请求，问题：你喜欢啥
+2023-02-26 20:39:49,473 - werkzeug - INFO - _log - 163.125.213.4 - - [26/Feb/2023 20:39:49] "GET /chat?key=3BlbmFpLm9wZW5haS5hdXR&q=你喜欢啥 HTTP/1.1" 200 -
+2023-02-26 20:40:04,512 - server - INFO - ask - ----------
+ChatGPT回答问题：github是什么
+答案:GitHub 是一个基于 web 的 Git 版本控制库托管服务，为开发者提供协作开发、代码托管、版本控制等功能，同时也提供了许多社交网络功能，如关注、点赞、讨论等。GitHub 可以让开发者共享代码并协作开发，是开源社区中非常受欢迎的工具之一。GitHub 上的项目可以使用 Git 进行版本控制，开发者可以创建代码库并在代码库中进行版本控制，同时还可以与其他开发者协作开发，共同完善代码。GitHub 也被广泛用于管理和托管各种类型的软件项目，包括开源项目和商业项目。
+----------
+2023-02-26 20:40:04,513 - werkzeug - INFO - _log - 163.125.213.4 - - [26/Feb/2023 20:40:04] "GET /chat?key=3BlbmFpLm9wZW5haS5hdXR&q=github是什么 HTTP/1.1" 200 -
+2023-02-26 20:40:04,886 - server - ERROR - chat - 合法请求，来源ip：163.125.213.4, 问题：github是什么
+2023-02-26 20:40:04,886 - server - INFO - ask - 从缓存中得到了答案，问题：github是什么
+2023-02-26 20:40:04,887 - werkzeug - INFO - _log - 163.125.213.4 - - [26/Feb/2023 20:40:04] "GET /chat?key=3BlbmFpLm9wZW5haS5hdXR&q=github是什么 HTTP/1.1" 200 -
+2023-02-26 20:40:05,243 - server - ERROR - chat - 合法请求，来源ip：163.125.213.4, 问题：github是什么
+2023-02-26 20:40:05,243 - server - INFO - ask - 从缓存中得到了答案，问题：github是什么
+2023-02-26 20:40:05,244 - werkzeug - INFO - _log - 163.125.213.4 - - [26/Feb/2023 20:40:05] "GET /chat?key=3BlbmFpLm9wZW5haS5hdXR&q=github是什么 HTTP/1.1" 200 -
+2023-02-26 20:40:05,579 - server - ERROR - chat - 合法请求，来源ip：163.125.213.4, 问题：github是什么
+2023-02-26 20:40:05,579 - server - INFO - ask - 从缓存中得到了答案，问题：github是什么
+2023-02-26 20:40:05,579 - werkzeug - INFO - _log - 163.125.213.4 - - [26/Feb/2023 20:40:05] "GET /chat?key=3BlbmFpLm9wZW5haS5hdXR&q=github是什么 HTTP/1.1" 200 -
+2023-02-26 20:41:16,776 - server - ERROR - chat - 合法请求，来源ip：223.104.68.120, 问题：do you have dinner
+2023-02-26 20:41:16,776 - server - INFO - ask - 尝试询问ChatGPT, 问题：do you have dinner
+2023-02-26 20:41:24,314 - server - INFO - ask - ----------
+ChatGPT回答问题：do you have dinner
+答案:As an artificial intelligence language model, I don't have a physical body and therefore I don't have the ability to eat dinner or any other food. However, I am here to assist you with any questions or tasks you may have. How can I help you today?
+----------
+2023-02-26 20:41:24,315 - werkzeug - INFO - _log - 223.104.68.120 - - [26/Feb/2023 20:41:24] "GET /chat?key=3BlbmFpLm9wZW5haS5hdXR&q=do%20you%20have%20dinner HTTP/1.1" 200 -
+2023-02-26 20:41:53,897 - server - ERROR - chat - 合法请求，来源ip：223.104.68.120, 问题：how are you
+2023-02-26 20:41:53,897 - server - INFO - ask - 从缓存中得到了答案，问题：how are you
+2023-02-26 20:41:53,898 - werkzeug - INFO - _log - 223.104.68.120 - - [26/Feb/2023 20:41:53] "GET /chat?key=3BlbmFpLm9wZW5haS5hdXR&q=how%20are%20you HTTP/1.1" 200 -
+2023-02-26 20:42:10,257 - server - ERROR - chat - 合法请求，来源ip：45.84.57.56, 问题：请你写一段文案，介绍roti maker
+2023-02-26 20:42:10,257 - server - INFO - ask - 尝试询问ChatGPT, 问题：请你写一段文案，介绍roti maker
+2023-02-26 20:42:19,680 - server - ERROR - chat - 合法请求，来源ip：45.84.57.56, 问题：请你写一段文案，介绍rotimaker
+2023-02-26 20:42:19,680 - server - ERROR - ask - 服务器繁忙，拒绝请求，问题：请你写一段文案，介绍rotimaker
+2023-02-26 20:42:19,681 - werkzeug - INFO - _log - 45.84.57.56 - - [26/Feb/2023 20:42:19] "GET /chat?key=3BlbmFpLm9wZW5haS5hdXR&q=请你写一段文案，介绍rotimaker HTTP/1.1" 200 -
+2023-02-26 20:42:22,404 - server - ERROR - chat - 合法请求，来源ip：45.84.57.56, 问题：请你写一段文案，介绍rotimaker
+2023-02-26 20:42:22,404 - server - ERROR - ask - 服务器繁忙，拒绝请求，问题：请你写一段文案，介绍rotimaker
+2023-02-26 20:42:22,405 - werkzeug - INFO - _log - 45.84.57.56 - - [26/Feb/2023 20:42:22] "GET /chat?key=3BlbmFpLm9wZW5haS5hdXR&q=请你写一段文案，介绍rotimaker HTTP/1.1" 200 -
+2023-02-26 20:42:27,039 - server - ERROR - chat - 合法请求，来源ip：223.104.68.120, 问题：can i ask your name
+2023-02-26 20:42:27,039 - server - ERROR - ask - 服务器繁忙，拒绝请求，问题：can i ask your name
+2023-02-26 20:42:27,039 - werkzeug - INFO - _log - 223.104.68.120 - - [26/Feb/2023 20:42:27] "GET /chat?key=3BlbmFpLm9wZW5haS5hdXR&q=can%20i%20ask%20your%20name HTTP/1.1" 200 -
+2023-02-26 20:42:31,326 - server - ERROR - chat - 合法请求，来源ip：223.104.68.120, 问题：can i ask your name
+2023-02-26 20:42:31,326 - server - ERROR - ask - 服务器繁忙，拒绝请求，问题：can i ask your name
+2023-02-26 20:42:31,327 - werkzeug - INFO - _log - 223.104.68.120 - - [26/Feb/2023 20:42:31] "GET /chat?key=3BlbmFpLm9wZW5haS5hdXR&q=can%20i%20ask%20your%20name HTTP/1.1" 200 -
+2023-02-26 20:42:33,559 - server - ERROR - chat - 合法请求，来源ip：223.104.68.120, 问题：can i ask your name
+2023-02-26 20:42:33,560 - server - ERROR - ask - 服务器繁忙，拒绝请求，问题：can i ask your name
+2023-02-26 20:42:33,560 - werkzeug - INFO - _log - 223.104.68.120 - - [26/Feb/2023 20:42:33] "GET /chat?key=3BlbmFpLm9wZW5haS5hdXR&q=can%20i%20ask%20your%20name HTTP/1.1" 200 -
+2023-02-26 20:42:35,816 - server - ERROR - chat - 合法请求，来源ip：163.125.213.4, 问题：hello
+2023-02-26 20:42:35,816 - server - ERROR - ask - 服务器繁忙，拒绝请求，问题：hello
+2023-02-26 20:42:35,816 - werkzeug - INFO - _log - 163.125.213.4 - - [26/Feb/2023 20:42:35] "GET /chat?key=3BlbmFpLm9wZW5haS5hdXR&q=hello HTTP/1.1" 200 -
+2023-02-26 20:42:35,982 - server - ERROR - chat - 合法请求，来源ip：223.104.68.120, 问题：can i ask your name
+2023-02-26 20:42:35,982 - server - ERROR - ask - 服务器繁忙，拒绝请求，问题：can i ask your name
+2023-02-26 20:42:35,982 - werkzeug - INFO - _log - 223.104.68.120 - - [26/Feb/2023 20:42:35] "GET /chat?key=3BlbmFpLm9wZW5haS5hdXR&q=can%20i%20ask%20your%20name HTTP/1.1" 200 -
+2023-02-26 20:42:36,859 - werkzeug - INFO - _log - 163.125.213.4 - - [26/Feb/2023 20:42:36] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2023-02-26 20:42:37,260 - server - ERROR - chat - 合法请求，来源ip：223.104.68.120, 问题：can i ask your name
+2023-02-26 20:42:37,260 - server - ERROR - ask - 服务器繁忙，拒绝请求，问题：can i ask your name
+2023-02-26 20:42:37,260 - werkzeug - INFO - _log - 223.104.68.120 - - [26/Feb/2023 20:42:37] "GET /chat?key=3BlbmFpLm9wZW5haS5hdXR&q=can%20i%20ask%20your%20name HTTP/1.1" 200 -
+2023-02-26 20:42:40,046 - server - INFO - ask - ----------
+ChatGPT回答问题：请你写一段文案，介绍roti maker
+答案:好的，以下是一段介绍 Roti Maker 的文案：
+
+Roti Maker 是一款方便实用的厨房电器，可以让您轻松制作美味的印度烤饼 Roti。Roti Maker 可以快速加热，并具有粘性表面，使面团在烹饪过程中不会黏在器具上。这款机器还配有调节温度和时间的控制器，让您可以自定义烹饪时间和温度，从而制作出完美的 Roti。
+
+Roti Maker 的使用非常简单，只需将面团放入机器中，关闭机器盖子，按下按钮即可。在短短几分钟内，您就可以制作出一张完美的 Roti。这款机器易于清洁，不粘不脏，非常适合家庭使用。如果您是印度食品爱好者，或者想要尝试制作 Roti，那么 Roti Maker 绝对是您的不二选择。
+----------
+2023-02-26 20:42:40,047 - werkzeug - INFO - _log - 45.84.57.56 - - [26/Feb/2023 20:42:40] "GET /chat?key=3BlbmFpLm9wZW5haS5hdXR&q=请你写一段文案，介绍roti%20maker HTTP/1.1" 200 -
+2023-02-26 20:43:02,866 - server - ERROR - chat - 合法请求，来源ip：45.84.57.56, 问题：请你写一段文案，介绍rotimaker
+2023-02-26 20:43:02,866 - server - INFO - ask - 尝试询问ChatGPT, 问题：请你写一段文案，介绍rotimaker
+2023-02-26 20:43:34,081 - server - ERROR - chat - 合法请求，来源ip：45.84.57.56, 问题：请你写一段文案，介绍rotimaker
+2023-02-26 20:43:52,493 - server - INFO - ask - ----------
+ChatGPT回答问题：请你写一段文案，介绍rotimaker
+答案:好的，以下是一段介绍 Rotimaker 的文案：
+
+Rotimaker 是一款智能厨房电器，可以帮助您轻松制作美味的印度烤饼 Roti。这款机器配有先进的技术和功能，可以自动混合、擀面和烘烤 Roti，让您在短短几分钟内轻松制作出完美的 Roti。
+
+Rotimaker 的使用非常简单，只需将面团放入机器中，选择所需的烤饼大小和厚度，然后按下按钮即可。机器会自动擀面、烘烤并翻转 Roti，直到制作出完美的烤饼。这款机器还配有高精度温度控制和计时器，确保每次制作出的 Roti 都是均匀又美味的。
+
+除了 Roti，Rotimaker 还可以制作出其他类型的印度面食，如 Naan 和 Paratha，让您可以在家中享用各种美食。这款机器易于清洁，方便存储，非常适合家庭使用和商业用途。如果您喜欢印度美食，并希望快速、轻松地制作出美味的 Roti，那么 Rotimaker 绝对是您的理想选择。
+----------
+2023-02-26 20:43:52,494 - werkzeug - INFO - _log - 45.84.57.56 - - [26/Feb/2023 20:43:52] "GET /chat?key=3BlbmFpLm9wZW5haS5hdXR&q=请你写一段文案，介绍rotimaker HTTP/1.1" 200 -
+2023-02-26 20:43:53,100 - server - INFO - ask - 从缓存中得到了答案，问题：请你写一段文案，介绍rotimaker
+2023-02-26 20:43:53,101 - werkzeug - INFO - _log - 45.84.57.56 - - [26/Feb/2023 20:43:53] "GET /chat?key=3BlbmFpLm9wZW5haS5hdXR&q=请你写一段文案，介绍rotimaker HTTP/1.1" 200 -
+2023-02-26 20:44:41,041 - server - ERROR - chat - 合法请求，来源ip：163.125.213.4, 问题：hello
+2023-02-26 20:44:41,041 - server - INFO - ask - 尝试询问ChatGPT, 问题：hello
+2023-02-26 20:44:44,240 - server - INFO - ask - ----------
+ChatGPT回答问题：hello
+答案:Hello! How can I assist you today?
+----------
+2023-02-26 20:44:44,240 - werkzeug - INFO - _log - 163.125.213.4 - - [26/Feb/2023 20:44:44] "GET /chat?key=3BlbmFpLm9wZW5haS5hdXR&q=hello HTTP/1.1" 200 -
+2023-02-26 20:46:34,867 - werkzeug - INFO - _log - 163.125.213.4 - - [26/Feb/2023 20:46:34] "GET /chatter HTTP/1.1" 200 -
+2023-02-26 20:46:38,906 - server - ERROR - chat - 合法请求，来源ip：163.125.213.4, 问题：hello
+2023-02-26 20:46:38,906 - server - INFO - ask - 从缓存中得到了答案，问题：hello
+2023-02-26 20:46:38,906 - werkzeug - INFO - _log - 163.125.213.4 - - [26/Feb/2023 20:46:38] "GET /chat?key=3BlbmFpLm9wZW5haS5hdXR&q=hello HTTP/1.1" 200 -
+2023-02-26 20:46:46,343 - server - ERROR - chat - 合法请求，来源ip：163.125.213.4, 问题：请你写一段文案，介绍rotimaker
+2023-02-26 20:46:46,344 - server - INFO - ask - 从缓存中得到了答案，问题：请你写一段文案，介绍rotimaker
+2023-02-26 20:46:46,344 - werkzeug - INFO - _log - 163.125.213.4 - - [26/Feb/2023 20:46:46] "GET /chat?key=3BlbmFpLm9wZW5haS5hdXR&q=请你写一段文案，介绍rotimaker HTTP/1.1" 200 -
+2023-02-26 20:46:48,279 - server - ERROR - chat - 合法请求，来源ip：163.125.213.4, 问题：请你写一段文案，介绍rotimaker
+2023-02-26 20:46:48,279 - server - INFO - ask - 从缓存中得到了答案，问题：请你写一段文案，介绍rotimaker
+2023-02-26 20:46:48,279 - werkzeug - INFO - _log - 163.125.213.4 - - [26/Feb/2023 20:46:48] "GET /chat?key=3BlbmFpLm9wZW5haS5hdXR&q=请你写一段文案，介绍rotimaker HTTP/1.1" 200 -
+2023-02-26 20:46:48,610 - server - ERROR - chat - 合法请求，来源ip：163.125.213.4, 问题：请你写一段文案，介绍rotimaker
+2023-02-26 20:46:48,610 - server - INFO - ask - 从缓存中得到了答案，问题：请你写一段文案，介绍rotimaker
+2023-02-26 20:46:48,610 - werkzeug - INFO - _log - 163.125.213.4 - - [26/Feb/2023 20:46:48] "GET /chat?key=3BlbmFpLm9wZW5haS5hdXR&q=请你写一段文案，介绍rotimaker HTTP/1.1" 200 -
+2023-02-26 20:54:06,418 - werkzeug - INFO - _log - 163.125.213.4 - - [26/Feb/2023 20:54:06] "GET / HTTP/1.1" 200 -
+2023-02-26 20:54:06,754 - werkzeug - INFO - _log - 163.125.213.4 - - [26/Feb/2023 20:54:06] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2023-02-26 20:54:07,587 - werkzeug - INFO - _log - 163.125.213.4 - - [26/Feb/2023 20:54:07] "GET / HTTP/1.1" 200 -
+2023-02-26 20:54:08,212 - werkzeug - INFO - _log - 163.125.213.4 - - [26/Feb/2023 20:54:08] "GET / HTTP/1.1" 200 -
+2023-02-26 20:54:15,224 - server - ERROR - chat - 合法请求，来源ip：163.125.213.4, 问题：hello
+2023-02-26 20:54:15,224 - server - INFO - ask - 从缓存中得到了答案，问题：hello
+2023-02-26 20:54:15,225 - werkzeug - INFO - _log - 163.125.213.4 - - [26/Feb/2023 20:54:15] "GET /chat?key=3BlbmFpLm9wZW5haS5hdXR&q=hello HTTP/1.1" 200 -
+2023-02-26 20:54:17,820 - werkzeug - INFO - _log - 163.125.213.4 - - [26/Feb/2023 20:54:17] "GET /chat HTTP/1.1" 200 -
+2023-02-26 20:54:19,353 - werkzeug - INFO - _log - 163.125.213.4 - - [26/Feb/2023 20:54:19] "GET /chat HTTP/1.1" 200 -
+2023-02-26 20:54:22,688 - werkzeug - INFO - _log - 163.125.213.4 - - [26/Feb/2023 20:54:22] "GET /chat HTTP/1.1" 200 -
+2023-02-26 20:54:23,538 - werkzeug - INFO - _log - 163.125.213.4 - - [26/Feb/2023 20:54:23] "GET /chat HTTP/1.1" 200 -
+2023-02-26 20:54:28,123 - werkzeug - INFO - _log - 163.125.213.4 - - [26/Feb/2023 20:54:28] "GET /chat?q=a1 HTTP/1.1" 200 -
+2023-02-26 20:54:29,315 - werkzeug - INFO - _log - 163.125.213.4 - - [26/Feb/2023 20:54:29] "GET /chat?q=a1 HTTP/1.1" 200 -
+ * Serving Flask app 'server' (lazy loading)
+ * Environment: production
+   WARNING: This is a development server. Do not use it in a production deployment.
+   Use a production WSGI server instead.
+ * Debug mode: off
+2023-02-26 20:55:18,003 - werkzeug - WARNING - _log -  * Running on all addresses.
+   WARNING: This is a development server. Do not use it in a production deployment.
+2023-02-26 20:55:18,003 - werkzeug - INFO - _log -  * Running on http://10.0.0.6:8080/ (Press CTRL+C to quit)
+2023-02-26 20:55:22,779 - server - ERROR - chat - 合法请求，来源ip：163.125.213.4, 问题：hello
+2023-02-26 20:55:22,779 - server - INFO - ask - 尝试询问ChatGPT, 问题：hello
+2023-02-26 20:55:25,689 - server - INFO - ask - ----------
+ChatGPT回答问题：hello
+答案:helloHello! How may I assist you today?
+----------
+2023-02-26 20:55:25,690 - werkzeug - INFO - _log - 163.125.213.4 - - [26/Feb/2023 20:55:25] "GET /chat?key=3BlbmFpLm9wZW5haS5hdXR&q=hello HTTP/1.1" 200 -
+2023-02-26 20:55:32,943 - server - ERROR - chat - 合法请求，来源ip：163.125.213.4, 问题：火鸡面怎么煮
+2023-02-26 20:55:32,943 - server - INFO - ask - 尝试询问ChatGPT, 问题：火鸡面怎么煮
+2023-02-26 20:55:47,113 - werkzeug - INFO - _log - 143.244.50.172 - - [26/Feb/2023 20:55:47] "[33mGET /config/getuser?index=0 HTTP/1.1[0m" 404 -
+2023-02-26 20:55:48,841 - server - ERROR - chat - 合法请求，来源ip：163.125.213.4, 问题：hello
+2023-02-26 20:55:48,842 - server - INFO - ask - 从缓存中得到了答案，问题：hello
+2023-02-26 20:55:48,842 - werkzeug - INFO - _log - 163.125.213.4 - - [26/Feb/2023 20:55:48] "GET /chat?key=3BlbmFpLm9wZW5haS5hdXR&q=hello HTTP/1.1" 200 -
+2023-02-26 20:55:53,353 - server - ERROR - chat - 合法请求，来源ip：163.125.213.4, 问题：火鸡面怎么煮
+2023-02-26 20:55:58,203 - server - INFO - ask - ----------
+ChatGPT回答问题：火鸡面怎么煮
+答案:如果您要煮火鸡面，可以按照以下步骤：
+
+材料：
+- 火鸡面
+- 水
+- 调味包（如有）
+
+步骤：
+1. 把一锅水煮沸。
+2. 将火鸡面放入煮沸的水中。
+3. 按照面条包装上的说明时间煮面，通常需要 3-4 分钟。
+4. 如果有调味包，可以在面煮熟后加入，然后搅拌均匀。
+5. 关火，将面条捞起，放入碗中即可享用。
+
+希望这些步骤能够帮到您，祝您煮出美味的火鸡面！
+----------
+2023-02-26 20:55:58,204 - werkzeug - INFO - _log - 163.125.213.4 - - [26/Feb/2023 20:55:58] "GET /chat?key=3BlbmFpLm9wZW5haS5hdXR&q=火鸡面怎么煮 HTTP/1.1" 200 -
+2023-02-26 20:55:58,359 - server - INFO - ask - 从缓存中得到了答案，问题：火鸡面怎么煮
+2023-02-26 20:55:58,360 - werkzeug - INFO - _log - 163.125.213.4 - - [26/Feb/2023 20:55:58] "GET /chat?key=3BlbmFpLm9wZW5haS5hdXR&q=火鸡面怎么煮 HTTP/1.1" 200 -
+2023-02-26 20:55:59,761 - werkzeug - INFO - _log - 163.125.213.4 - - [26/Feb/2023 20:55:59] "GET /chatter HTTP/1.1" 200 -
+2023-02-26 20:56:34,497 - werkzeug - INFO - _log - 163.125.213.4 - - [26/Feb/2023 20:56:34] "GET /chatter HTTP/1.1" 200 -
+2023-02-26 20:56:40,026 - server - ERROR - chat - 合法请求，来源ip：163.125.213.4, 问题：how are you
+2023-02-26 20:56:40,026 - server - INFO - ask - 尝试询问ChatGPT, 问题：how are you
+2023-02-26 20:56:46,743 - server - INFO - ask - ----------
+ChatGPT回答问题：how are you
+答案:As an AI language model, I don't have feelings, but I'm functioning properly and ready to assist you. Is there anything I can help you with?
+----------
+2023-02-26 20:56:46,744 - werkzeug - INFO - _log - 163.125.213.4 - - [26/Feb/2023 20:56:46] "GET /chat?key=3BlbmFpLm9wZW5haS5hdXR&q=how%20are%20you HTTP/1.1" 200 -
+2023-02-26 21:24:04,638 - server - ERROR - chat - 合法请求，来源ip：223.104.63.15, 问题：火鸡面怎么煮
+2023-02-26 21:24:04,638 - server - INFO - ask - 从缓存中得到了答案，问题：火鸡面怎么煮
+2023-02-26 21:24:04,639 - werkzeug - INFO - _log - 223.104.63.15 - - [26/Feb/2023 21:24:04] "GET /chat?key=3BlbmFpLm9wZW5haS5hdXR&q=火鸡面怎么煮 HTTP/1.1" 200 -
+2023-02-26 21:24:19,862 - werkzeug - INFO - _log - 223.104.63.15 - - [26/Feb/2023 21:24:19] "GET /chatter HTTP/1.1" 200 -
+2023-02-26 21:24:26,900 - server - ERROR - chat - 合法请求，来源ip：223.104.63.15, 问题：hello
+2023-02-26 21:24:26,901 - server - INFO - ask - 从缓存中得到了答案，问题：hello
+2023-02-26 21:24:26,901 - werkzeug - INFO - _log - 223.104.63.15 - - [26/Feb/2023 21:24:26] "GET /chat?key=3BlbmFpLm9wZW5haS5hdXR&q=hello HTTP/1.1" 200 -
+2023-02-26 21:24:38,403 - server - ERROR - chat - 合法请求，来源ip：223.104.63.15, 问题：什么方便面最好吃
+2023-02-26 21:24:38,403 - server - INFO - ask - 尝试询问ChatGPT, 问题：什么方便面最好吃
+2023-02-26 21:25:32,286 - server - INFO - ask - ----------
+ChatGPT回答问题：什么方便面最好吃
+答案:方便面的口味因品牌、国家和地区而异。不同人对方便面的口味和喜好也不同。以下是一些在全球范围内受欢迎的方便面品牌：
+
+1. 味之素（Master Kong）：一家中国的食品公司，也是中国最大的方便面生产商之一。其招牌的“老坛酸菜面”和“香辣牛肉面”备受消费者青睐。
+
+2. 辛拉面（Shin Ramyun）：这是韩国最受欢迎的方便面之一，以其浓郁的辣味和咸味而闻名。该品牌的“辛拉面”在全球范围内都有很高的声誉。
+
+3. 出前一丁（Nissin）：这是日本著名的方便面品牌，其中最受欢迎的是“出前一丁牛肉面”，也备受消费者青睐。
+
+4. 印度泡面（Maggi）：这是瑞士食品巨头Nestle旗下的品牌，在全球范围内都很受欢迎。印度泡面的口味独特，多种口味可供选择。
+
+5. 三養（Samyang）：这是韩国的方便面品牌，其辣味火鸡面备受全球年轻人的喜爱。
+
+请注意，方便面并不是一种健康的饮食选择，过量食用可能对健康产生负面影响。
+----------
+2023-02-26 21:25:32,287 - werkzeug - INFO - _log - 223.104.63.15 - - [26/Feb/2023 21:25:32] "GET /chat?key=3BlbmFpLm9wZW5haS5hdXR&q=什么方便面最好吃 HTTP/1.1" 200 -
+2023-02-26 21:46:14,748 - werkzeug - INFO - _log - 223.104.63.15 - - [26/Feb/2023 21:46:14] "GET /chatter HTTP/1.1" 200 -
+2023-02-26 21:51:24,856 - werkzeug - INFO - _log - 107.189.28.92 - - [26/Feb/2023 21:51:24] "[33mCONNECT google.com:443 HTTP/1.1[0m" 404 -
+2023-02-26 22:15:32,362 - werkzeug - INFO - _log - 162.221.192.26 - - [26/Feb/2023 22:15:32] "GET / HTTP/1.1" 200 -
+2023-02-26 22:19:56,121 - server - ERROR - chat - 合法请求，来源ip：157.148.40.30, 问题：
+2023-02-26 22:19:56,121 - server - INFO - ask - 尝试询问ChatGPT, 问题：
+2023-02-26 22:19:57,670 - server - ERROR - chat - 合法请求，来源ip：106.55.202.33, 问题：
+2023-02-26 22:20:03,992 - server - INFO - ask - ----------
+ChatGPT回答问题：
+答案:很高兴能够帮到您，如果您有任何其他问题或需要进一步的帮助，请随时让我知道！
+----------
+2023-02-26 22:20:03,992 - werkzeug - INFO - _log - 157.148.40.30 - - [26/Feb/2023 22:20:03] "GET /chat?key=3BlbmFpLm9wZW5haS5hdXR&q= HTTP/1.1" 200 -
+2023-02-26 22:20:04,676 - server - INFO - ask - 从缓存中得到了答案，问题：
+2023-02-26 22:20:04,677 - werkzeug - INFO - _log - 106.55.202.33 - - [26/Feb/2023 22:20:04] "GET /chat?key=3BlbmFpLm9wZW5haS5hdXR&q= HTTP/1.1" 200 -
+2023-02-26 22:29:19,213 - werkzeug - INFO - _log - 198.98.60.20 - - [26/Feb/2023 22:29:19] "[33mCONNECT google.com:443 HTTP/1.1[0m" 404 -
+2023-02-26 22:35:52,303 - server - ERROR - chat - 合法请求，来源ip：223.104.68.120, 问题：可以教我学英语吗
+2023-02-26 22:35:52,303 - server - INFO - ask - 尝试询问ChatGPT, 问题：可以教我学英语吗
+2023-02-26 22:36:14,199 - werkzeug - INFO - _log - 223.104.68.120 - - [26/Feb/2023 22:36:14] "GET /chatter HTTP/1.1" 200 -
+2023-02-26 22:36:24,230 - server - ERROR - chat - 合法请求，来源ip：223.104.68.120, 问题：可以教我学英语吗
+2023-02-26 22:36:31,638 - werkzeug - INFO - _log - 185.180.143.80 - - [26/Feb/2023 22:36:31] "GET / HTTP/1.1" 200 -
+2023-02-26 22:36:32,203 - werkzeug - INFO - _log - 185.180.143.80 - - [26/Feb/2023 22:36:32] "GET / HTTP/1.1" 200 -
+2023-02-26 22:36:39,791 - werkzeug - INFO - _log - 185.180.143.80 - - [26/Feb/2023 22:36:39] "[33mGET /webfig/ HTTP/1.1[0m" 404 -
+2023-02-26 22:36:49,183 - werkzeug - INFO - _log - 185.180.143.80 - - [26/Feb/2023 22:36:49] "GET / HTTP/1.1" 200 -
+2023-02-26 22:36:49,673 - werkzeug - INFO - _log - 185.180.143.80 - - [26/Feb/2023 22:36:49] "[33mGET /admin/ HTTP/1.1[0m" 404 -
+2023-02-26 22:36:50,812 - werkzeug - INFO - _log - 185.180.143.80 - - [26/Feb/2023 22:36:50] "GET / HTTP/1.1" 200 -
+2023-02-26 22:36:51,320 - werkzeug - INFO - _log - 185.180.143.80 - - [26/Feb/2023 22:36:51] "[33mGET /login HTTP/1.1[0m" 404 -
+2023-02-26 22:36:54,260 - server - ERROR - ask - ChatGPT回答超时，问题：可以教我学英语吗
+2023-02-26 22:36:54,260 - server - INFO - ask - 答案等待超时，问题：可以教我学英语吗
+2023-02-26 22:36:54,260 - werkzeug - INFO - _log - 223.104.68.120 - - [26/Feb/2023 22:36:54] "GET /chat?key=3BlbmFpLm9wZW5haS5hdXR&q=可以教我学英语吗 HTTP/1.1" 200 -
+2023-02-26 22:36:58,166 - server - ERROR - chat - 合法请求，来源ip：223.104.68.120, 问题：可以教我学英语吗
+2023-02-26 22:36:58,166 - server - ERROR - ask - 服务器繁忙，拒绝请求，问题：可以教我学英语吗
+2023-02-26 22:36:58,167 - werkzeug - INFO - _log - 223.104.68.120 - - [26/Feb/2023 22:36:58] "GET /chat?key=3BlbmFpLm9wZW5haS5hdXR&q=可以教我学英语吗 HTTP/1.1" 200 -
+2023-02-26 22:37:00,361 - server - ERROR - chat - 合法请求，来源ip：223.104.68.120, 问题：可以教我学英语吗
+2023-02-26 22:37:00,361 - server - ERROR - ask - 服务器繁忙，拒绝请求，问题：可以教我学英语吗
+2023-02-26 22:37:00,362 - werkzeug - INFO - _log - 223.104.68.120 - - [26/Feb/2023 22:37:00] "GET /chat?key=3BlbmFpLm9wZW5haS5hdXR&q=可以教我学英语吗 HTTP/1.1" 200 -
+2023-02-26 22:37:00,415 - server - INFO - ask - ----------
+ChatGPT回答问题：可以教我学英语吗
+答案:当然可以！学习英语需要持之以恒的努力和练习，以下是一些学习英语的建议和技巧：
+
+1. 学习基础语法：英语语法是英语学习的基础，学习基础语法可以帮助您理解英语的句子结构和规则，从而更好地掌握英语。
+
+2. 练习听力和口语：英语是一门语言，听说能力是学习英语的重点。可以通过听英语音频、观看英语视频和与母语为英语的人交流等方式练习听力和口语。
+
+3. 阅读英语书籍：阅读英语书籍可以帮助您提高词汇量和理解英语句子的能力，从而更好地学习英语。
+
+4. 与他人互动学习：可以加入英语学习社区或者找一个英语学习伙伴进行交流和学习，这有助于提高英语水平并增强学习兴趣。
+
+5. 制定学习计划：制定学习计划可以帮助您有计划地学习英语，包括制定目标、安排学习时间、选择学习材料等。
+
+希望这些建议可以帮助您学习英语，祝您学习愉快！如果您需要任何帮助或有其他问题，请随时告诉我。
+----------
+2023-02-26 22:37:00,416 - werkzeug - INFO - _log - 223.104.68.120 - - [26/Feb/2023 22:37:00] "GET /chat?key=3BlbmFpLm9wZW5haS5hdXR&q=可以教我学英语吗 HTTP/1.1" 200 -
+2023-02-26 22:37:02,775 - server - ERROR - chat - 合法请求，来源ip：223.104.68.120, 问题：可以教我学英语吗
+2023-02-26 22:37:02,775 - server - INFO - ask - 从缓存中得到了答案，问题：可以教我学英语吗
+2023-02-26 22:37:02,775 - werkzeug - INFO - _log - 223.104.68.120 - - [26/Feb/2023 22:37:02] "GET /chat?key=3BlbmFpLm9wZW5haS5hdXR&q=可以教我学英语吗 HTTP/1.1" 200 -
+2023-02-26 22:37:04,372 - server - ERROR - chat - 合法请求，来源ip：223.104.68.120, 问题：可以教我学英语吗
+2023-02-26 22:37:04,373 - server - INFO - ask - 从缓存中得到了答案，问题：可以教我学英语吗
+2023-02-26 22:37:04,374 - werkzeug - INFO - _log - 223.104.68.120 - - [26/Feb/2023 22:37:04] "GET /chat?key=3BlbmFpLm9wZW5haS5hdXR&q=可以教我学英语吗 HTTP/1.1" 200 -
+2023-02-26 22:37:26,925 - server - ERROR - chat - 合法请求，来源ip：223.104.68.120, 问题：你可以和我互动来帮助我学习英语吗
+2023-02-26 22:37:26,925 - server - INFO - ask - 尝试询问ChatGPT, 问题：你可以和我互动来帮助我学习英语吗
+2023-02-26 22:37:44,558 - server - INFO - ask - ----------
+ChatGPT回答问题：你可以和我互动来帮助我学习英语吗
+答案:当然可以！我们可以通过对话和互动的方式来帮助您学习英语。您可以和我进行英语对话，我可以根据您的需要提供单词、语法、发音等方面的帮助。同时，我也可以给您提供英语学习资源，比如语法规则、练习题、词汇表等，帮助您学习英语。如果您有任何需要，随时告诉我。
+----------
+2023-02-26 22:37:44,559 - werkzeug - INFO - _log - 223.104.68.120 - - [26/Feb/2023 22:37:44] "GET /chat?key=3BlbmFpLm9wZW5haS5hdXR&q=你可以和我互动来帮助我学习英语吗 HTTP/1.1" 200 -
+2023-02-26 22:38:04,978 - server - ERROR - chat - 合法请求，来源ip：223.104.68.120, 问题：那开始和我进行英语对话吧
+2023-02-26 22:38:04,978 - server - INFO - ask - 尝试询问ChatGPT, 问题：那开始和我进行英语对话吧
+2023-02-26 22:38:11,318 - server - INFO - ask - ----------
+ChatGPT回答问题：那开始和我进行英语对话吧
+答案:好的，非常愿意和您进行英语对话。请问您有什么想和我讨论的话题吗？
+----------
+2023-02-26 22:38:11,318 - werkzeug - INFO - _log - 223.104.68.120 - - [26/Feb/2023 22:38:11] "GET /chat?key=3BlbmFpLm9wZW5haS5hdXR&q=那开始和我进行英语对话吧 HTTP/1.1" 200 -
+2023-02-26 22:38:23,410 - server - ERROR - chat - 合法请求，来源ip：223.104.68.120, 问题：讨论一下小猫吧
+2023-02-26 22:38:23,410 - server - INFO - ask - 尝试询问ChatGPT, 问题：讨论一下小猫吧
+2023-02-26 22:38:30,247 - server - INFO - ask - ----------
+ChatGPT回答问题：讨论一下小猫吧
+答案:好的，我们来讨论一下小猫。你喜欢小猫吗？
+----------
+2023-02-26 22:38:30,248 - werkzeug - INFO - _log - 223.104.68.120 - - [26/Feb/2023 22:38:30] "GET /chat?key=3BlbmFpLm9wZW5haS5hdXR&q=讨论一下小猫吧 HTTP/1.1" 200 -
+2023-02-26 22:38:45,814 - server - ERROR - chat - 合法请求，来源ip：223.104.68.120, 问题：yes i like
+2023-02-26 22:38:45,814 - server - INFO - ask - 尝试询问ChatGPT, 问题：yes i like
+2023-02-26 22:38:50,873 - server - INFO - ask - ----------
+ChatGPT回答问题：yes i like
+答案:That's great! Cats are lovely animals and they make great pets. What do you like most about cats?
+----------
+2023-02-26 22:38:50,873 - werkzeug - INFO - _log - 223.104.68.120 - - [26/Feb/2023 22:38:50] "GET /chat?key=3BlbmFpLm9wZW5haS5hdXR&q=yes%20i%20like HTTP/1.1" 200 -
+2023-02-26 22:39:17,002 - server - ERROR - chat - 合法请求，来源ip：223.104.68.120, 问题：thier eyes
+2023-02-26 22:39:17,002 - server - INFO - ask - 尝试询问ChatGPT, 问题：thier eyes
+2023-02-26 22:39:29,111 - server - INFO - ask - ----------
+ChatGPT回答问题：thier eyes
+答案:Yes, cats have beautiful eyes. Their eyes come in many different colors, such as blue, green, yellow, and brown. Some cats even have two different colored eyes, which is called heterochromia. The shape of a cat's eyes also adds to their beauty - they have a distinctive almond shape that makes them look very elegant.
+----------
+2023-02-26 22:39:29,112 - werkzeug - INFO - _log - 223.104.68.120 - - [26/Feb/2023 22:39:29] "GET /chat?key=3BlbmFpLm9wZW5haS5hdXR&q=thier%20eyes HTTP/1.1" 200 -
+2023-02-26 22:40:00,236 - server - ERROR - chat - 合法请求，来源ip：223.104.68.120, 问题：你没有发现我拼错单词了吗
+2023-02-26 22:40:00,236 - server - INFO - ask - 尝试询问ChatGPT, 问题：你没有发现我拼错单词了吗
+2023-02-26 22:40:16,307 - server - INFO - ask - ----------
+ChatGPT回答问题：你没有发现我拼错单词了吗
+答案:不用担心，我可以理解您的意思。我的程序可以自动进行拼写检查并进行纠正，但是我也明白拼写错误是很容易犯的错误，尤其是在学习外语的过程中。如果您需要我帮您纠正任何英语方面的错误，随时告诉我，我很乐意帮助您。
+----------
+2023-02-26 22:40:16,308 - werkzeug - INFO - _log - 223.104.68.120 - - [26/Feb/2023 22:40:16] "GET /chat?key=3BlbmFpLm9wZW5haS5hdXR&q=你没有发现我拼错单词了吗 HTTP/1.1" 200 -
+2023-02-26 22:41:38,548 - server - ERROR - chat - 合法请求，来源ip：223.104.68.120, 问题：那麻烦在我拼错的时候帮我指针
+2023-02-26 22:41:38,548 - server - INFO - ask - 尝试询问ChatGPT, 问题：那麻烦在我拼错的时候帮我指针
+2023-02-26 22:41:52,600 - server - INFO - ask - ----------
+ChatGPT回答问题：那麻烦在我拼错的时候帮我指针
+答案:好的，如果您在打字时拼写错误，我会尽力帮助您指出并提供正确的拼写。请不要担心犯错，学习英语是一个长期的过程，每个人都会犯错误。重要的是要不断学习和改进，我很乐意帮助您学习英语。
+----------
+2023-02-26 22:41:52,600 - werkzeug - INFO - _log - 223.104.68.120 - - [26/Feb/2023 22:41:52] "GET /chat?key=3BlbmFpLm9wZW5haS5hdXR&q=那麻烦在我拼错的时候帮我指针 HTTP/1.1" 200 -
+2023-02-26 23:01:02,422 - werkzeug - ERROR - _log - 107.170.242.15 - - [26/Feb/2023 23:01:02] code 400, message Bad request syntax ('MGLNDD_43.152.214.166_8080')
+2023-02-26 23:01:02,422 - werkzeug - INFO - _log - 107.170.242.15 - - [26/Feb/2023 23:01:02] "[35m[1mMGLNDD_43.152.214.166_8080[0m" HTTPStatus.BAD_REQUEST -
+2023-02-26 23:31:46,064 - werkzeug - INFO - _log - 45.128.232.29 - - [26/Feb/2023 23:31:46] "[33mCONNECT google.com:443 HTTP/1.1[0m" 404 -
+2023-02-26 23:34:48,878 - server - ERROR - chat - 合法请求，来源ip：163.125.213.4, 问题：hello
+2023-02-26 23:34:48,878 - server - INFO - ask - 从缓存中得到了答案，问题：hello
+2023-02-26 23:34:48,878 - werkzeug - INFO - _log - 163.125.213.4 - - [26/Feb/2023 23:34:48] "GET /chat?key=3BlbmFpLm9wZW5haS5hdXR&q=hello HTTP/1.1" 200 -
+2023-02-26 23:34:49,220 - werkzeug - INFO - _log - 163.125.213.4 - - [26/Feb/2023 23:34:49] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2023-02-26 23:34:57,509 - server - ERROR - chat - 合法请求，来源ip：163.125.213.4, 问题：帮忙做一个头戴式耳机的推广文案
+2023-02-26 23:34:57,510 - server - INFO - ask - 尝试询问ChatGPT, 问题：帮忙做一个头戴式耳机的推广文案
+2023-02-26 23:35:48,885 - server - INFO - ask - ----------
+ChatGPT回答问题：帮忙做一个头戴式耳机的推广文案
+答案:好的，以下是一个头戴式耳机的推广文案：
+
+您是否正在寻找一款高品质的头戴式耳机，为您带来极致的音乐体验？我们很高兴向您介绍我们的头戴式耳机产品。
+
+我们的头戴式耳机采用最先进的音频技术，能够提供清晰、饱满、极具深度的音质，无论是听音乐、看电影或打游戏，都可以让您完全沉浸在其中。
+
+我们的头戴式耳机设计时尚，配有柔软、舒适的耳罩和可调节的头带，适合各种头型，长时间佩戴也不会感到不适。此外，我们的耳机还具有噪音降低功能，能够最大程度地减少外界噪音的干扰，让您更加专注于享受音乐。
+
+我们的头戴式耳机适用于多种设备，如手机、电脑、平板等等，具有高度兼容性。无论您身在何处，都可以轻松地享受到最好的音质和最佳的舒适性。
+
+在我们的头戴式耳机的帮助下，您可以享受到前所未有的音乐体验，让您沉浸于音乐的世界中。不要再等待了，立即购买我们的头戴式耳机，开始您的音乐之旅吧！
+----------
+2023-02-26 23:35:48,886 - werkzeug - INFO - _log - 163.125.213.4 - - [26/Feb/2023 23:35:48] "GET /chat?key=3BlbmFpLm9wZW5haS5hdXR&q=帮忙做一个头戴式耳机的推广文案 HTTP/1.1" 200 -
+2023-02-26 23:41:47,061 - server - ERROR - chat - 合法请求，来源ip：163.125.213.4, 问题：金渐层和银渐层哪个更可爱
+2023-02-26 23:41:47,061 - server - INFO - ask - 尝试询问ChatGPT, 问题：金渐层和银渐层哪个更可爱
+2023-02-26 23:42:16,387 - server - INFO - ask - ----------
+ChatGPT回答问题：金渐层和银渐层哪个更可爱
+答案:金渐层和银渐层都是指的染发颜色，其中金渐层是将发梢染成金色，向上渐变成原发色；银渐层是将发梢染成银色，向上渐变成原发色。至于哪个更可爱，这取决于您的个人口味和风格。
+
+如果您喜欢明亮、炫目的颜色，金渐层可能更适合您；如果您喜欢冷静、低调的风格，银渐层可能更适合您。另外，您的肤色、面部轮廓、发质等也会影响发色的效果，建议在染发前咨询发型师的意见，选择最适合自己的颜色。
+----------
+2023-02-26 23:42:16,388 - werkzeug - INFO - _log - 163.125.213.4 - - [26/Feb/2023 23:42:16] "GET /chat?key=3BlbmFpLm9wZW5haS5hdXR&q=金渐层和银渐层哪个更可爱 HTTP/1.1" 200 -
+2023-02-27 00:13:56,708 - werkzeug - INFO - _log - 79.137.202.185 - - [27/Feb/2023 00:13:56] "[33mGET http://ip-api.com/json/ HTTP/1.1[0m" 404 -
+2023-02-27 00:20:35,384 - werkzeug - INFO - _log - 167.94.138.61 - - [27/Feb/2023 00:20:35] "GET / HTTP/1.1" 200 -
+2023-02-27 00:20:35,834 - werkzeug - INFO - _log - 167.94.138.61 - - [27/Feb/2023 00:20:35] "GET / HTTP/1.1" 200 -
+2023-02-27 00:20:36,418 - werkzeug - ERROR - _log - 167.94.138.61 - - [27/Feb/2023 00:20:36] code 505, message Invalid HTTP version (2.0)
+2023-02-27 00:20:36,418 - werkzeug - INFO - _log - 167.94.138.61 - - [27/Feb/2023 00:20:36] "[35m[1mPRI * HTTP/2.0[0m" HTTPStatus.HTTP_VERSION_NOT_SUPPORTED -
+2023-02-27 00:20:36,941 - werkzeug - INFO - _log - 167.94.138.61 - - [27/Feb/2023 00:20:36] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2023-02-27 00:43:35,291 - werkzeug - INFO - _log - 82.58.150.230 - - [27/Feb/2023 00:43:35] "GET / HTTP/1.1" 200 -
+2023-02-27 00:47:16,623 - werkzeug - INFO - _log - 46.174.191.31 - - [27/Feb/2023 00:47:16] "GET / HTTP/1.0" 200 -
+2023-02-27 00:49:14,071 - werkzeug - INFO - _log - 198.98.55.113 - - [27/Feb/2023 00:49:14] "[33mCONNECT google.com:443 HTTP/1.1[0m" 404 -
+2023-02-27 01:00:02,722 - werkzeug - INFO - _log - 92.118.39.82 - - [27/Feb/2023 01:00:02] "GET / HTTP/1.1" 200 -
+2023-02-27 01:02:05,311 - server - ERROR - chat - 合法请求，来源ip：163.125.213.4, 问题：hello
+2023-02-27 01:02:05,311 - server - INFO - ask - 从缓存中得到了答案，问题：hello
+2023-02-27 01:02:05,311 - werkzeug - INFO - _log - 163.125.213.4 - - [27/Feb/2023 01:02:05] "GET /chat?key=3BlbmFpLm9wZW5haS5hdXR&q=hello HTTP/1.1" 200 -
+2023-02-27 01:02:05,549 - werkzeug - INFO - _log - 163.125.213.4 - - [27/Feb/2023 01:02:05] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2023-02-27 01:02:07,660 - server - ERROR - chat - 合法请求，来源ip：163.125.213.4, 问题：hello？
+2023-02-27 01:02:07,660 - server - INFO - ask - 尝试询问ChatGPT, 问题：hello？
+2023-02-27 01:02:11,830 - server - INFO - ask - ----------
+ChatGPT回答问题：hello？
+答案:Hello! How can I assist you today?
+----------
+2023-02-27 01:02:11,830 - werkzeug - INFO - _log - 163.125.213.4 - - [27/Feb/2023 01:02:11] "GET /chat?key=3BlbmFpLm9wZW5haS5hdXR&q=hello？ HTTP/1.1" 200 -
+2023-02-27 01:03:32,485 - werkzeug - INFO - _log - 143.244.50.172 - - [27/Feb/2023 01:03:32] "[33mGET /config/getuser?index=0 HTTP/1.1[0m" 404 -
+2023-02-27 01:06:13,779 - werkzeug - INFO - _log - 165.22.250.112 - - [27/Feb/2023 01:06:13] "[33mCONNECT www.google.com:443 HTTP/1.1[0m" 404 -
+2023-02-27 01:08:04,776 - server - ERROR - chat - 合法请求，来源ip：163.125.213.4, 问题：hello
+2023-02-27 01:08:04,776 - server - INFO - ask - 从缓存中得到了答案，问题：hello
+2023-02-27 01:08:04,777 - werkzeug - INFO - _log - 163.125.213.4 - - [27/Feb/2023 01:08:04] "GET /chat?key=3BlbmFpLm9wZW5haS5hdXR&q=hello HTTP/1.1" 200 -
+2023-02-27 01:08:05,027 - werkzeug - INFO - _log - 163.125.213.4 - - [27/Feb/2023 01:08:05] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2023-02-27 01:08:13,653 - server - ERROR - chat - 合法请求，来源ip：163.125.213.4, 问题：微信是哪个公司开发的
+2023-02-27 01:08:13,653 - server - INFO - ask - 尝试询问ChatGPT, 问题：微信是哪个公司开发的
+2023-02-27 01:08:30,033 - server - INFO - ask - ----------
+ChatGPT回答问题：微信是哪个公司开发的
+答案:微信是由中国的腾讯公司开发的。微信是一款多功能的社交媒体应用程序，可以用于文字和语音通信、共享照片和视频、购物支付等等。自2011年上线以来，微信已经成为中国最流行的社交媒体平台之一，并在全球范围内拥有大量用户。
+----------
+2023-02-27 01:08:30,033 - werkzeug - INFO - _log - 163.125.213.4 - - [27/Feb/2023 01:08:30] "GET /chat?key=3BlbmFpLm9wZW5haS5hdXR&q=微信是哪个公司开发的 HTTP/1.1" 200 -
+2023-02-27 01:09:01,952 - server - ERROR - chat - 合法请求，来源ip：163.125.213.4, 问题：全世界前十个最大的云服务厂商前
+2023-02-27 01:09:01,952 - server - INFO - ask - 尝试询问ChatGPT, 问题：全世界前十个最大的云服务厂商前
+2023-02-27 01:09:29,185 - server - INFO - ask - ----------
+ChatGPT回答问题：全世界前十个最大的云服务厂商前
+答案:以下是全世界前十个最大的云服务厂商：
+
+1. 亚马逊（Amazon Web Services）
+2. 微软（Microsoft Azure）
+3. 谷歌（Google Cloud）
+4. 阿里云（Alibaba Cloud）
+5. IBM云（IBM Cloud）
+6. 腾讯云（Tencent Cloud）
+7. 甲骨文云（Oracle Cloud）
+8. Salesforce
+9. 超微云（Chameleon）
+10. VMWare Cloud
+
+需要注意的是，这个排名是不断变化的，而且也有不同的排名标准。此外，还有一些其他的云服务提供商，如亚马逊、微软、谷歌之外的中国和亚洲本土的厂商，例如华为云、京东云、亚马逊中国等等。
+----------
+2023-02-27 01:09:29,185 - werkzeug - INFO - _log - 163.125.213.4 - - [27/Feb/2023 01:09:29] "GET /chat?key=3BlbmFpLm9wZW5haS5hdXR&q=全世界前十个最大的云服务厂商前 HTTP/1.1" 200 -
+2023-02-27 01:10:34,099 - server - ERROR - chat - 合法请求，来源ip：163.125.213.4, 问题：Which were the top ten of the best cloud service?
+2023-02-27 01:10:34,099 - server - INFO - ask - 尝试询问ChatGPT, 问题：Which were the top ten of the best cloud service?
+2023-02-27 01:10:50,506 - server - INFO - ask - ----------
+ChatGPT回答问题：Which were the top ten of the best cloud service?
+答案:Here are the top ten best cloud services:
+
+1. Amazon Web Services (AWS)
+2. Microsoft Azure
+3. Google Cloud Platform
+4. IBM Cloud
+5. Oracle Cloud
+6. Alibaba Cloud
+7. VMware
+8. Rackspace
+9. Salesforce
+10. Digital Ocean
+
+It is worth noting that this ranking can vary depending on different criteria and perspectives. Each of these cloud service providers has its unique features, advantages, and pricing models. Therefore, it is recommended to carefully evaluate the needs of your business before choosing a cloud service provider.
+----------
+2023-02-27 01:10:50,507 - werkzeug - INFO - _log - 163.125.213.4 - - [27/Feb/2023 01:10:50] "GET /chat?key=3BlbmFpLm9wZW5haS5hdXR&q=Which%20were%20the%20top%20ten%20of%20the%20best%20cloud%20service? HTTP/1.1" 200 -
+2023-02-27 01:11:46,688 - server - ERROR - chat - 合法请求，来源ip：163.125.213.4, 问题：Which were the top ten of the best cloud service?
+2023-02-27 01:11:46,688 - server - INFO - ask - 从缓存中得到了答案，问题：Which were the top ten of the best cloud service?
+2023-02-27 01:11:46,689 - werkzeug - INFO - _log - 163.125.213.4 - - [27/Feb/2023 01:11:46] "GET /chat?key=3BlbmFpLm9wZW5haS5hdXR&q=Which%20were%20the%20top%20ten%20of%20the%20best%20cloud%20service? HTTP/1.1" 200 -
+2023-02-27 01:44:06,610 - werkzeug - INFO - _log - 107.189.7.43 - - [27/Feb/2023 01:44:06] "[33mCONNECT baidu.com:443 HTTP/1.1[0m" 404 -
+2023-02-27 02:04:23,724 - werkzeug - INFO - _log - 199.195.248.100 - - [27/Feb/2023 02:04:23] "[33mCONNECT google.com:443 HTTP/1.1[0m" 404 -
+2023-02-27 02:04:42,570 - werkzeug - INFO - _log - 223.104.63.15 - - [27/Feb/2023 02:04:42] "GET / HTTP/1.1" 200 -
+2023-02-27 02:04:44,867 - werkzeug - INFO - _log - 223.104.63.15 - - [27/Feb/2023 02:04:44] "GET /chatter HTTP/1.1" 200 -
+2023-02-27 02:04:54,499 - server - ERROR - chat - 合法请求，来源ip：223.104.63.15, 问题：量子纠缠是什么
+2023-02-27 02:04:54,499 - server - INFO - ask - 尝试询问ChatGPT, 问题：量子纠缠是什么
+2023-02-27 02:05:27,782 - server - INFO - ask - ----------
+ChatGPT回答问题：量子纠缠是什么
+答案:量子纠缠是量子力学中的一种奇特现象，描述了两个或多个粒子之间的非局域性关联，即使这些粒子在空间上分开距离很远，它们的状态仍然是相互关联和依存的。当两个量子粒子之间发生纠缠时，它们之间的关系就像是被编织在一起的，这种关系不受距离、时间和空间的影响。
+
+一个例子是，当两个纠缠的粒子之间发生相互作用时，它们的状态将同时改变，即使它们之间的距离非常远，这种变化的传递速度似乎是超过了光速的。
+
+量子纠缠是量子信息科学中的一个重要概念，被广泛应用于量子计算、量子通信和量子密码学等领域。
+----------
+2023-02-27 02:05:27,783 - werkzeug - INFO - _log - 223.104.63.15 - - [27/Feb/2023 02:05:27] "GET /chat?key=3BlbmFpLm9wZW5haS5hdXR&q=量子纠缠是什么 HTTP/1.1" 200 -
+2023-02-27 03:25:34,007 - werkzeug - INFO - _log - 103.89.14.169 - - [27/Feb/2023 03:25:34] "[33mCONNECT cipicaoadminpanel.xyz:443 HTTP/1.1[0m" 404 -
+2023-02-27 03:54:04,907 - werkzeug - INFO - _log - 84.255.202.78 - - [27/Feb/2023 03:54:04] "GET / HTTP/1.1" 200 -
+2023-02-27 04:17:47,864 - werkzeug - INFO - _log - 78.108.177.50 - - [27/Feb/2023 04:17:47] "GET / HTTP/1.0" 200 -
+2023-02-27 04:47:36,456 - werkzeug - INFO - _log - 185.149.40.210 - - [27/Feb/2023 04:47:36] "[33mCONNECT 185.65.245.10:7227 HTTP/1.1[0m" 404 -
+2023-02-27 04:47:36,795 - werkzeug - INFO - _log - 185.149.40.210 - - [27/Feb/2023 04:47:36] "[33mCONNECT 185.65.245.50:7227 HTTP/1.1[0m" 404 -
+2023-02-27 04:47:37,714 - werkzeug - INFO - _log - 185.149.40.210 - - [27/Feb/2023 04:47:37] "[33mCONNECT 185.65.245.140:7227 HTTP/1.1[0m" 404 -
+2023-02-27 04:47:38,910 - werkzeug - INFO - _log - 185.149.40.210 - - [27/Feb/2023 04:47:38] "[33mCONNECT 185.65.245.140:7227 HTTP/1.1[0m" 404 -
+2023-02-27 04:47:39,705 - werkzeug - INFO - _log - 185.149.40.210 - - [27/Feb/2023 04:47:39] "[33mCONNECT 185.65.245.50:7227 HTTP/1.1[0m" 404 -
+2023-02-27 04:47:40,928 - werkzeug - INFO - _log - 185.149.40.210 - - [27/Feb/2023 04:47:40] "[33mCONNECT 185.65.245.50:7227 HTTP/1.1[0m" 404 -
+2023-02-27 04:47:42,170 - werkzeug - INFO - _log - 185.149.40.210 - - [27/Feb/2023 04:47:42] "[33mCONNECT 185.65.245.10:7227 HTTP/1.1[0m" 404 -
+2023-02-27 04:47:43,136 - werkzeug - INFO - _log - 185.149.40.210 - - [27/Feb/2023 04:47:43] "[33mCONNECT 185.65.245.140:7227 HTTP/1.1[0m" 404 -
+2023-02-27 04:47:44,615 - werkzeug - INFO - _log - 185.149.40.210 - - [27/Feb/2023 04:47:44] "[33mCONNECT 185.65.245.10:7227 HTTP/1.1[0m" 404 -
+2023-02-27 04:47:45,861 - werkzeug - INFO - _log - 185.149.40.210 - - [27/Feb/2023 04:47:45] "[33mCONNECT 185.65.245.50:7227 HTTP/1.1[0m" 404 -
+2023-02-27 05:49:30,863 - werkzeug - INFO - _log - 109.75.36.154 - - [27/Feb/2023 05:49:30] "GET / HTTP/1.1" 200 -
+2023-02-27 06:30:36,897 - werkzeug - INFO - _log - 154.89.5.102 - - [27/Feb/2023 06:30:36] "GET / HTTP/1.1" 200 -
+2023-02-27 06:37:54,711 - werkzeug - INFO - _log - 92.118.39.82 - - [27/Feb/2023 06:37:54] "GET / HTTP/1.1" 200 -
+2023-02-27 06:47:07,454 - werkzeug - INFO - _log - 107.189.7.43 - - [27/Feb/2023 06:47:07] "[33mCONNECT baidu.com:443 HTTP/1.1[0m" 404 -
+2023-02-27 08:44:45,775 - werkzeug - INFO - _log - 45.128.232.29 - - [27/Feb/2023 08:44:45] "[33mCONNECT google.com:443 HTTP/1.1[0m" 404 -
+2023-02-27 10:00:41,603 - werkzeug - INFO - _log - 143.244.50.172 - - [27/Feb/2023 10:00:41] "[33mGET /config/getuser?index=0 HTTP/1.1[0m" 404 -
+2023-02-27 10:20:55,608 - werkzeug - INFO - _log - 92.118.39.82 - - [27/Feb/2023 10:20:55] "GET / HTTP/1.1" 200 -
+2023-02-27 11:38:35,868 - werkzeug - INFO - _log - 152.89.196.211 - - [27/Feb/2023 11:38:35] "[33mGET /securityRealm/user/admin/search/index?q=a HTTP/1.1[0m" 404 -
+2023-02-27 11:40:59,286 - werkzeug - INFO - _log - 152.89.196.211 - - [27/Feb/2023 11:40:59] "GET / HTTP/1.1" 200 -
+2023-02-27 11:45:51,536 - werkzeug - INFO - _log - 152.89.196.211 - - [27/Feb/2023 11:45:51] "[33mPOST /vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php HTTP/1.1[0m" 404 -
+2023-02-27 11:47:48,151 - werkzeug - INFO - _log - 152.89.196.211 - - [27/Feb/2023 11:47:48] "[33mGET /vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php HTTP/1.1[0m" 404 -
+2023-02-27 11:51:59,517 - werkzeug - INFO - _log - 152.89.196.211 - - [27/Feb/2023 11:51:59] "[33mGET /index.php?s=/Index/\think\app/invokefunction&function=call_user_func_array&vars[0]=md5&vars[1][]=HelloThinkPHP21 HTTP/1.1[0m" 404 -
+2023-02-27 11:53:32,168 - werkzeug - INFO - _log - 43.132.98.38 - - [27/Feb/2023 11:53:32] "GET / HTTP/1.1" 200 -
+2023-02-27 11:53:35,561 - werkzeug - INFO - _log - 43.132.98.38 - - [27/Feb/2023 11:53:35] "GET /chatter HTTP/1.1" 200 -
+2023-02-27 11:53:49,426 - server - ERROR - chat - 合法请求，来源ip：43.132.98.38, 问题：可乐是怎么制造的
+2023-02-27 11:53:49,426 - server - INFO - ask - 尝试询问ChatGPT, 问题：可乐是怎么制造的
+2023-02-27 11:54:10,684 - werkzeug - ERROR - _log - 14.22.11.182 - - [27/Feb/2023 11:54:10] code 400, message Bad request syntax ('647a38b2a47068535a98658ef0f7f6fa')
+2023-02-27 11:54:10,685 - werkzeug - INFO - _log - 14.22.11.182 - - [27/Feb/2023 11:54:10] "[35m[1m647a38b2a47068535a98658ef0f7f6fa[0m" HTTPStatus.BAD_REQUEST -
+2023-02-27 11:54:10,704 - werkzeug - ERROR - _log - 14.22.11.182 - - [27/Feb/2023 11:54:10] code 400, message Bad request syntax ('TST91f0e93c45d1399d892642ae46d6f951')
+2023-02-27 11:54:10,704 - werkzeug - INFO - _log - 14.22.11.182 - - [27/Feb/2023 11:54:10] "[35m[1mTST91f0e93c45d1399d892642ae46d6f951[0m" HTTPStatus.BAD_REQUEST -
+2023-02-27 11:54:10,713 - werkzeug - ERROR - _log - 14.22.11.182 - - [27/Feb/2023 11:54:10] code 400, message Bad request syntax ('c131f3442049bb930d0c6c3e4dd7ac05')
+2023-02-27 11:54:10,713 - werkzeug - INFO - _log - 14.22.11.182 - - [27/Feb/2023 11:54:10] "[35m[1mc131f3442049bb930d0c6c3e4dd7ac05[0m" HTTPStatus.BAD_REQUEST -
+2023-02-27 11:54:10,715 - werkzeug - ERROR - _log - 14.22.11.182 - - [27/Feb/2023 11:54:10] code 400, message Bad request syntax ('TSTbdd60ff0b6bf832ce13ffef26d6a1a8f')
+2023-02-27 11:54:10,715 - werkzeug - ERROR - _log - 14.22.11.182 - - [27/Feb/2023 11:54:10] code 400, message Bad request syntax ('TST00f03d10622bba1cdd7d452d872e576b')
+2023-02-27 11:54:10,715 - werkzeug - INFO - _log - 14.22.11.182 - - [27/Feb/2023 11:54:10] "[35m[1mTSTbdd60ff0b6bf832ce13ffef26d6a1a8f[0m" HTTPStatus.BAD_REQUEST -
+2023-02-27 11:54:10,716 - werkzeug - INFO - _log - 14.22.11.182 - - [27/Feb/2023 11:54:10] "[35m[1mTST00f03d10622bba1cdd7d452d872e576b[0m" HTTPStatus.BAD_REQUEST -
+2023-02-27 11:54:10,716 - werkzeug - ERROR - _log - 14.22.11.182 - - [27/Feb/2023 11:54:10] code 400, message Bad request syntax ('TSTb7288ada2ecfbd3d2006bff348770afc')
+2023-02-27 11:54:10,716 - werkzeug - INFO - _log - 14.22.11.182 - - [27/Feb/2023 11:54:10] "[35m[1mTSTb7288ada2ecfbd3d2006bff348770afc[0m" HTTPStatus.BAD_REQUEST -
+2023-02-27 11:54:10,723 - werkzeug - ERROR - _log - 14.22.11.182 - - [27/Feb/2023 11:54:10] code 400, message Bad request syntax ('TST26a99ad1c618c0c0cdba09fdfeea13b1')
+2023-02-27 11:54:10,723 - werkzeug - INFO - _log - 14.22.11.182 - - [27/Feb/2023 11:54:10] "[35m[1mTST26a99ad1c618c0c0cdba09fdfeea13b1[0m" HTTPStatus.BAD_REQUEST -
+2023-02-27 11:54:10,724 - werkzeug - ERROR - _log - 14.22.11.182 - - [27/Feb/2023 11:54:10] code 400, message Bad request syntax ('46c85d5855720d1b8e10478d24258615')
+2023-02-27 11:54:10,724 - werkzeug - INFO - _log - 14.22.11.182 - - [27/Feb/2023 11:54:10] "[35m[1m46c85d5855720d1b8e10478d24258615[0m" HTTPStatus.BAD_REQUEST -
+2023-02-27 11:54:10,732 - werkzeug - ERROR - _log - 14.22.11.182 - - [27/Feb/2023 11:54:10] code 400, message Bad request syntax ('TST3ecfeacfa947bad5c0e33232c53f2a49')
+2023-02-27 11:54:10,732 - werkzeug - INFO - _log - 14.22.11.182 - - [27/Feb/2023 11:54:10] "[35m[1mTST3ecfeacfa947bad5c0e33232c53f2a49[0m" HTTPStatus.BAD_REQUEST -
+2023-02-27 11:54:10,736 - werkzeug - ERROR - _log - 14.22.11.182 - - [27/Feb/2023 11:54:10] code 400, message Bad request syntax ('TST\x06\x00\x00\x000.26.0\x06\x00\x00\x000.26.0')
+2023-02-27 11:54:10,737 - werkzeug - INFO - _log - 14.22.11.182 - - [27/Feb/2023 11:54:10] "[35m[1mTST   0.26.0   0.26.0[0m" HTTPStatus.BAD_REQUEST -
+2023-02-27 11:54:10,749 - werkzeug - ERROR - _log - 14.22.11.182 - - [27/Feb/2023 11:54:10] code 400, message Bad request syntax ('TST\x06\x00\x00\x000.25.0\x06\x00\x00\x000.25.0')
+2023-02-27 11:54:10,749 - werkzeug - INFO - _log - 14.22.11.182 - - [27/Feb/2023 11:54:10] "[35m[1mTST   0.25.0   0.25.0[0m" HTTPStatus.BAD_REQUEST -
+2023-02-27 11:54:10,875 - werkzeug - ERROR - _log - 14.22.11.182 - - [27/Feb/2023 11:54:10] code 400, message Bad request syntax ('647a38b2a47068535a98658ef0f7f6fa')
+2023-02-27 11:54:10,875 - werkzeug - INFO - _log - 14.22.11.182 - - [27/Feb/2023 11:54:10] "[35m[1m647a38b2a47068535a98658ef0f7f6fa[0m" HTTPStatus.BAD_REQUEST -
+2023-02-27 11:54:10,882 - werkzeug - ERROR - _log - 14.22.11.182 - - [27/Feb/2023 11:54:10] code 400, message Bad request syntax ('TST00f03d10622bba1cdd7d452d872e576b')
+2023-02-27 11:54:10,882 - werkzeug - INFO - _log - 14.22.11.182 - - [27/Feb/2023 11:54:10] "[35m[1mTST00f03d10622bba1cdd7d452d872e576b[0m" HTTPStatus.BAD_REQUEST -
+2023-02-27 11:54:10,884 - werkzeug - ERROR - _log - 14.22.11.182 - - [27/Feb/2023 11:54:10] code 400, message Bad request syntax ('TST3ecfeacfa947bad5c0e33232c53f2a49')
+2023-02-27 11:54:10,884 - werkzeug - INFO - _log - 14.22.11.182 - - [27/Feb/2023 11:54:10] "[35m[1mTST3ecfeacfa947bad5c0e33232c53f2a49[0m" HTTPStatus.BAD_REQUEST -
+2023-02-27 11:54:10,888 - werkzeug - ERROR - _log - 14.22.11.182 - - [27/Feb/2023 11:54:10] code 400, message Bad request syntax ('TSTbdd60ff0b6bf832ce13ffef26d6a1a8f')
+2023-02-27 11:54:10,888 - werkzeug - INFO - _log - 14.22.11.182 - - [27/Feb/2023 11:54:10] "[35m[1mTSTbdd60ff0b6bf832ce13ffef26d6a1a8f[0m" HTTPStatus.BAD_REQUEST -
+2023-02-27 11:54:10,888 - werkzeug - ERROR - _log - 14.22.11.182 - - [27/Feb/2023 11:54:10] code 400, message Bad request syntax ('TST26a99ad1c618c0c0cdba09fdfeea13b1')
+2023-02-27 11:54:10,888 - werkzeug - INFO - _log - 14.22.11.182 - - [27/Feb/2023 11:54:10] "[35m[1mTST26a99ad1c618c0c0cdba09fdfeea13b1[0m" HTTPStatus.BAD_REQUEST -
+2023-02-27 11:54:10,890 - werkzeug - ERROR - _log - 14.22.11.182 - - [27/Feb/2023 11:54:10] code 400, message Bad request syntax ('TST91f0e93c45d1399d892642ae46d6f951')
+2023-02-27 11:54:10,890 - werkzeug - INFO - _log - 14.22.11.182 - - [27/Feb/2023 11:54:10] "[35m[1mTST91f0e93c45d1399d892642ae46d6f951[0m" HTTPStatus.BAD_REQUEST -
+2023-02-27 11:54:10,891 - werkzeug - ERROR - _log - 14.22.11.182 - - [27/Feb/2023 11:54:10] code 400, message Bad request syntax ('TST\x06\x00\x00\x000.25.0\x06\x00\x00\x000.25.0')
+2023-02-27 11:54:10,891 - werkzeug - INFO - _log - 14.22.11.182 - - [27/Feb/2023 11:54:10] "[35m[1mTST   0.25.0   0.25.0[0m" HTTPStatus.BAD_REQUEST -
+2023-02-27 11:54:10,893 - werkzeug - ERROR - _log - 14.22.11.182 - - [27/Feb/2023 11:54:10] code 400, message Bad request syntax ('TST\x06\x00\x00\x000.26.0\x06\x00\x00\x000.26.0')
+2023-02-27 11:54:10,893 - werkzeug - INFO - _log - 14.22.11.182 - - [27/Feb/2023 11:54:10] "[35m[1mTST   0.26.0   0.26.0[0m" HTTPStatus.BAD_REQUEST -
+2023-02-27 11:54:10,893 - werkzeug - ERROR - _log - 14.22.11.182 - - [27/Feb/2023 11:54:10] code 400, message Bad request syntax ('c131f3442049bb930d0c6c3e4dd7ac05')
+2023-02-27 11:54:10,894 - werkzeug - INFO - _log - 14.22.11.182 - - [27/Feb/2023 11:54:10] "[35m[1mc131f3442049bb930d0c6c3e4dd7ac05[0m" HTTPStatus.BAD_REQUEST -
+2023-02-27 11:54:10,894 - werkzeug - ERROR - _log - 14.22.11.182 - - [27/Feb/2023 11:54:10] code 400, message Bad request syntax ('46c85d5855720d1b8e10478d24258615')
+2023-02-27 11:54:10,894 - werkzeug - INFO - _log - 14.22.11.182 - - [27/Feb/2023 11:54:10] "[35m[1m46c85d5855720d1b8e10478d24258615[0m" HTTPStatus.BAD_REQUEST -
+2023-02-27 11:54:10,898 - werkzeug - ERROR - _log - 14.22.11.182 - - [27/Feb/2023 11:54:10] code 400, message Bad request syntax ('TSTb7288ada2ecfbd3d2006bff348770afc')
+2023-02-27 11:54:10,898 - werkzeug - INFO - _log - 14.22.11.182 - - [27/Feb/2023 11:54:10] "[35m[1mTSTb7288ada2ecfbd3d2006bff348770afc[0m" HTTPStatus.BAD_REQUEST -
+2023-02-27 11:54:18,042 - server - INFO - ask - ----------
+ChatGPT回答问题：可乐是怎么制造的
+答案:可乐是一种碳酸饮料，它的制造过程主要分为以下几个步骤：
+
+1. 混合原料：将水和糖加入大型混合器中，再加入焦糖色素和磷酸等调味料，混合均匀。
+
+2. 加入二氧化碳：将混合好的原料送入碳酸饮料生产线上，通过高压注入二氧化碳气体，使其变成起泡的碳酸饮料。
+
+3. 灌装：将制成的可乐灌装入瓶子或罐子中，再加上瓶盖或拉环，通过贴上标签等包装程序制成成品。
+
+以上是制造可乐的基本步骤，不同厂家可能会有不同的配方和制造方法。值得注意的是，饮用过多含糖饮料对身体健康有不良影响，建议适量饮用。
+----------
+2023-02-27 11:54:18,042 - werkzeug - INFO - _log - 43.132.98.38 - - [27/Feb/2023 11:54:18] "GET /chat?key=3BlbmFpLm9wZW5haS5hdXR&q=可乐是怎么制造的 HTTP/1.1" 200 -
+2023-02-27 11:54:22,461 - werkzeug - ERROR - _log - 14.116.239.32 - - [27/Feb/2023 11:54:22] code 400, message Bad request syntax ('TST26a99ad1c618c0c0cdba09fdfeea13b1')
+2023-02-27 11:54:22,461 - werkzeug - INFO - _log - 14.116.239.32 - - [27/Feb/2023 11:54:22] "[35m[1mTST26a99ad1c618c0c0cdba09fdfeea13b1[0m" HTTPStatus.BAD_REQUEST -
+2023-02-27 11:54:22,464 - werkzeug - ERROR - _log - 14.116.239.32 - - [27/Feb/2023 11:54:22] code 400, message Bad request syntax ('46c85d5855720d1b8e10478d24258615')
+2023-02-27 11:54:22,464 - werkzeug - INFO - _log - 14.116.239.32 - - [27/Feb/2023 11:54:22] "[35m[1m46c85d5855720d1b8e10478d24258615[0m" HTTPStatus.BAD_REQUEST -
+2023-02-27 11:54:22,466 - werkzeug - ERROR - _log - 14.116.239.32 - - [27/Feb/2023 11:54:22] code 400, message Bad request syntax ('TST00f03d10622bba1cdd7d452d872e576b')
+2023-02-27 11:54:22,466 - werkzeug - INFO - _log - 14.116.239.32 - - [27/Feb/2023 11:54:22] "[35m[1mTST00f03d10622bba1cdd7d452d872e576b[0m" HTTPStatus.BAD_REQUEST -
+2023-02-27 11:54:22,466 - werkzeug - ERROR - _log - 14.116.239.32 - - [27/Feb/2023 11:54:22] code 400, message Bad request syntax ('647a38b2a47068535a98658ef0f7f6fa')
+2023-02-27 11:54:22,467 - werkzeug - INFO - _log - 14.116.239.32 - - [27/Feb/2023 11:54:22] "[35m[1m647a38b2a47068535a98658ef0f7f6fa[0m" HTTPStatus.BAD_REQUEST -
+2023-02-27 11:54:22,471 - werkzeug - ERROR - _log - 14.116.239.32 - - [27/Feb/2023 11:54:22] code 400, message Bad request syntax ('TST\x06\x00\x00\x000.26.0\x06\x00\x00\x000.26.0')
+2023-02-27 11:54:22,471 - werkzeug - INFO - _log - 14.116.239.32 - - [27/Feb/2023 11:54:22] "[35m[1mTST   0.26.0   0.26.0[0m" HTTPStatus.BAD_REQUEST -
+2023-02-27 11:54:22,471 - werkzeug - ERROR - _log - 14.116.239.32 - - [27/Feb/2023 11:54:22] code 400, message Bad request syntax ('TSTb7288ada2ecfbd3d2006bff348770afc')
+2023-02-27 11:54:22,472 - werkzeug - ERROR - _log - 14.116.239.32 - - [27/Feb/2023 11:54:22] code 400, message Bad request syntax ('TST\x06\x00\x00\x000.25.0\x06\x00\x00\x000.25.0')
+2023-02-27 11:54:22,472 - werkzeug - INFO - _log - 14.116.239.32 - - [27/Feb/2023 11:54:22] "[35m[1mTSTb7288ada2ecfbd3d2006bff348770afc[0m" HTTPStatus.BAD_REQUEST -
+2023-02-27 11:54:22,472 - werkzeug - INFO - _log - 14.116.239.32 - - [27/Feb/2023 11:54:22] "[35m[1mTST   0.25.0   0.25.0[0m" HTTPStatus.BAD_REQUEST -
+2023-02-27 11:54:22,472 - werkzeug - ERROR - _log - 14.116.239.32 - - [27/Feb/2023 11:54:22] code 400, message Bad request syntax ('TST3ecfeacfa947bad5c0e33232c53f2a49')
+2023-02-27 11:54:22,472 - werkzeug - INFO - _log - 14.116.239.32 - - [27/Feb/2023 11:54:22] "[35m[1mTST3ecfeacfa947bad5c0e33232c53f2a49[0m" HTTPStatus.BAD_REQUEST -
+2023-02-27 11:54:22,472 - werkzeug - ERROR - _log - 14.116.239.32 - - [27/Feb/2023 11:54:22] code 400, message Bad request syntax ('TST91f0e93c45d1399d892642ae46d6f951')
+2023-02-27 11:54:22,473 - werkzeug - INFO - _log - 14.116.239.32 - - [27/Feb/2023 11:54:22] "[35m[1mTST91f0e93c45d1399d892642ae46d6f951[0m" HTTPStatus.BAD_REQUEST -
+2023-02-27 11:54:22,475 - werkzeug - ERROR - _log - 14.116.239.32 - - [27/Feb/2023 11:54:22] code 400, message Bad request syntax ('TSTbdd60ff0b6bf832ce13ffef26d6a1a8f')
+2023-02-27 11:54:22,475 - werkzeug - INFO - _log - 14.116.239.32 - - [27/Feb/2023 11:54:22] "[35m[1mTSTbdd60ff0b6bf832ce13ffef26d6a1a8f[0m" HTTPStatus.BAD_REQUEST -
+2023-02-27 11:54:22,477 - werkzeug - ERROR - _log - 14.116.239.32 - - [27/Feb/2023 11:54:22] code 400, message Bad request syntax ('c131f3442049bb930d0c6c3e4dd7ac05')
+2023-02-27 11:54:22,477 - werkzeug - INFO - _log - 14.116.239.32 - - [27/Feb/2023 11:54:22] "[35m[1mc131f3442049bb930d0c6c3e4dd7ac05[0m" HTTPStatus.BAD_REQUEST -
+2023-02-27 11:55:18,421 - werkzeug - INFO - _log - 152.89.196.211 - - [27/Feb/2023 11:55:18] "GET /?XDEBUG_SESSION_START=phpstorm HTTP/1.1" 200 -
+2023-02-27 12:01:15,268 - werkzeug - INFO - _log - 152.89.196.211 - - [27/Feb/2023 12:01:15] "[33mPOST /mifs/.;/services/LogService HTTP/1.1[0m" 404 -
+2023-02-27 12:03:32,057 - werkzeug - INFO - _log - 152.89.196.211 - - [27/Feb/2023 12:03:32] "[33mGET /console/ HTTP/1.1[0m" 404 -
+2023-02-27 12:04:02,401 - werkzeug - INFO - _log - 154.68.30.214 - - [27/Feb/2023 12:04:02] "GET / HTTP/1.1" 200 -
+2023-02-27 12:06:56,369 - werkzeug - INFO - _log - 152.89.196.211 - - [27/Feb/2023 12:06:56] "[33mPOST /Autodiscover/Autodiscover.xml HTTP/1.1[0m" 404 -
+2023-02-27 12:09:41,893 - werkzeug - INFO - _log - 152.89.196.211 - - [27/Feb/2023 12:09:41] "[33mGET /_ignition/execute-solution HTTP/1.1[0m" 404 -
+2023-02-27 12:12:19,335 - werkzeug - INFO - _log - 152.89.196.211 - - [27/Feb/2023 12:12:19] "GET / HTTP/1.1" 200 -
+2023-02-27 12:17:43,255 - werkzeug - INFO - _log - 152.89.196.211 - - [27/Feb/2023 12:17:43] "GET / HTTP/1.1" 200 -
+2023-02-27 12:21:03,212 - werkzeug - INFO - _log - 152.89.196.211 - - [27/Feb/2023 12:21:03] "[33mPOST /cgi-bin/../../../../bin/sh HTTP/1.1[0m" 404 -
+2023-02-27 12:23:26,538 - werkzeug - INFO - _log - 152.89.196.211 - - [27/Feb/2023 12:23:26] "GET / HTTP/1.1" 200 -
+2023-02-27 12:27:30,469 - werkzeug - INFO - _log - 152.89.196.211 - - [27/Feb/2023 12:27:30] "[33mGET /actuator/gateway/routes HTTP/1.1[0m" 404 -
+2023-02-27 13:18:37,204 - werkzeug - INFO - _log - 192.241.238.12 - - [27/Feb/2023 13:18:37] "GET / HTTP/1.1" 200 -
+2023-02-27 13:23:51,171 - werkzeug - INFO - _log - 45.128.232.29 - - [27/Feb/2023 13:23:51] "[33mCONNECT google.com:443 HTTP/1.1[0m" 404 -
+2023-02-27 13:26:21,489 - werkzeug - INFO - _log - 185.225.74.55 - - [27/Feb/2023 13:26:21] "[33mPOST /cgi-bin/.%%%2%e/.%%%2%e/.%%%2%e/.%%%2%e/.%%%2%e/bin/sh HTTP/1.1[0m" 404 -
+2023-02-27 13:58:05,682 - werkzeug - INFO - _log - 143.244.50.172 - - [27/Feb/2023 13:58:05] "[33mGET /config/getuser?index=0 HTTP/1.1[0m" 404 -
+2023-02-27 14:54:47,227 - werkzeug - INFO - _log - 192.241.237.24 - - [27/Feb/2023 14:54:47] "GET / HTTP/1.1" 200 -
+2023-02-27 15:04:35,394 - werkzeug - INFO - _log - 186.30.30.123 - - [27/Feb/2023 15:04:35] "GET / HTTP/1.1" 200 -
+2023-02-27 15:26:53,771 - werkzeug - INFO - _log - 64.62.197.44 - - [27/Feb/2023 15:26:53] "GET / HTTP/1.1" 200 -
+2023-02-27 15:27:28,885 - werkzeug - INFO - _log - 64.62.197.45 - - [27/Feb/2023 15:27:28] "GET http://api.ipify.org/?format=json HTTP/1.1" 200 -
+2023-02-27 15:27:41,834 - werkzeug - INFO - _log - 64.62.197.45 - - [27/Feb/2023 15:27:41] "[33mCONNECT www.shadowserver.org:443 HTTP/1.1[0m" 404 -
+2023-02-27 15:47:42,008 - werkzeug - INFO - _log - 159.65.111.248 - - [27/Feb/2023 15:47:42] "GET / HTTP/1.0" 200 -
+2023-02-27 16:18:34,780 - werkzeug - INFO - _log - 92.118.39.82 - - [27/Feb/2023 16:18:34] "GET / HTTP/1.1" 200 -
+2023-02-27 16:24:46,666 - werkzeug - INFO - _log - 5.42.199.8 - - [27/Feb/2023 16:24:46] "GET / HTTP/1.1" 200 -
+2023-02-27 16:24:47,110 - werkzeug - INFO - _log - 5.42.199.8 - - [27/Feb/2023 16:24:47] "[33mGET /HNAP1/ HTTP/1.1[0m" 404 -
+2023-02-27 16:47:43,281 - werkzeug - INFO - _log - 213.177.20.3 - - [27/Feb/2023 16:47:43] "GET / HTTP/1.1" 200 -
+2023-02-27 18:01:43,495 - werkzeug - INFO - _log - 181.193.105.58 - - [27/Feb/2023 18:01:43] "[33mPOST /GponForm/diag_Form?images/ HTTP/1.1[0m" 404 -
+2023-02-27 19:03:08,386 - werkzeug - INFO - _log - 89.23.107.2 - - [27/Feb/2023 19:03:08] "GET / HTTP/1.1" 200 -
+2023-02-27 19:03:08,777 - werkzeug - INFO - _log - 89.23.107.2 - - [27/Feb/2023 19:03:08] "[33mGET /HNAP1/ HTTP/1.1[0m" 404 -
+2023-02-27 19:20:25,642 - werkzeug - ERROR - _log - 118.193.72.69 - - [27/Feb/2023 19:20:25] code 400, message Bad request syntax ('\x16\x03\x01\x01\t\x01\x00\x01\x05\x03\x03È\x17µk@ºÏ\x1d[³\x96kÜ@zFäôKêQÙ8\t·\x81»c<PWÿ \x8c\x0cwÖVµÄ¡x{qo2!ø4àÛBjz\x9f\x04¡bX\x05\x81ÞØY¨\x00&Ì¨Ì©À/À0À+À,À\x13À\tÀ\x14À')
+2023-02-27 19:20:25,642 - werkzeug - INFO - _log - 118.193.72.69 - - [27/Feb/2023 19:20:25] "[35m[1m	 Èµk@ºÏ[³kÜ@zFäôKêQÙ8	·»c<PWÿ wÖVµÄ¡x{qo2!ø4àÛBjz¡bXÞØY¨ &Ì¨Ì©À/À0À+À,ÀÀ	ÀÀ[0m" HTTPStatus.BAD_REQUEST -
+2023-02-27 19:20:39,854 - werkzeug - INFO - _log - 118.193.72.69 - - [27/Feb/2023 19:20:39] "GET / HTTP/1.1" 200 -
+2023-02-27 19:20:43,083 - werkzeug - INFO - _log - 118.193.72.69 - - [27/Feb/2023 19:20:43] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2023-02-27 19:20:45,806 - werkzeug - INFO - _log - 118.193.72.69 - - [27/Feb/2023 19:20:45] "[33mGET /robots.txt HTTP/1.1[0m" 404 -
+2023-02-27 19:20:48,469 - werkzeug - INFO - _log - 118.193.72.69 - - [27/Feb/2023 19:20:48] "[33mGET /sitemap.xml HTTP/1.1[0m" 404 -
+2023-02-27 20:19:49,554 - werkzeug - INFO - _log - 193.35.18.112 - - [27/Feb/2023 20:19:49] "[33mCONNECT google.com:443 HTTP/1.1[0m" 404 -
+2023-02-27 20:28:45,571 - werkzeug - INFO - _log - 46.174.191.31 - - [27/Feb/2023 20:28:45] "GET / HTTP/1.0" 200 -
+2023-02-27 21:33:17,995 - werkzeug - INFO - _log - 104.248.233.42 - - [27/Feb/2023 21:33:17] "[33mCONNECT google.com:443 HTTP/1.1[0m" 404 -
+2023-02-27 22:02:36,816 - werkzeug - INFO - _log - 170.81.227.22 - - [27/Feb/2023 22:02:36] "GET / HTTP/1.1" 200 -
+2023-02-27 22:04:37,046 - werkzeug - INFO - _log - 223.104.63.28 - - [27/Feb/2023 22:04:37] "GET / HTTP/1.1" 200 -
+2023-02-27 22:04:38,152 - werkzeug - INFO - _log - 223.104.63.28 - - [27/Feb/2023 22:04:38] "GET /chatter HTTP/1.1" 200 -
+2023-02-27 22:04:52,868 - server - ERROR - chat - 合法请求，来源ip：223.104.63.28, 问题：请证明你并不是一个机器人
+2023-02-27 22:04:52,869 - server - INFO - ask - 尝试询问ChatGPT, 问题：请证明你并不是一个机器人
+2023-02-27 22:05:51,688 - server - INFO - ask - ----------
+ChatGPT回答问题：请证明你并不是一个机器人
+答案:作为一名 AI 语言模型，我并不是一个真正的机器人，但我是由人工智能技术开发的。我的目的是为了帮助人们回答各种问题，提供语言交流的支持。尽管我没有自己的意识和感知，但我被设计为可以接收输入信息，对其进行处理和分析，并给出适当的回复，以模拟人类思维和行为。
+
+为了证明我不是一个诈骗程序或虚拟机器人，你可以随时检查我的回答并提出质疑，我将竭尽所能提供最准确和有用的回复。同时，我的创建和运营背后也有专业团队的支持，包括算法工程师、语言学家和数据科学家等，他们会持续改进我的能力和表现，以更好地服务于用户。
+----------
+2023-02-27 22:05:51,689 - werkzeug - INFO - _log - 223.104.63.28 - - [27/Feb/2023 22:05:51] "GET /chat?key=3BlbmFpLm9wZW5haS5hdXR&q=请证明你并不是一个机器人 HTTP/1.1" 200 -
+2023-02-27 22:06:16,794 - server - ERROR - chat - 合法请求，来源ip：223.104.63.28, 问题：请证明你并不是一个AI模型
+2023-02-27 22:06:16,795 - server - INFO - ask - 尝试询问ChatGPT, 问题：请证明你并不是一个AI模型
+2023-02-27 22:06:35,818 - server - ERROR - chat - 合法请求，来源ip：223.104.63.28, 问题：请证明你并不是一个AI模型
+2023-02-27 22:06:58,438 - server - INFO - ask - ----------
+ChatGPT回答问题：请证明你并不是一个AI模型
+答案:我是一名 AI 语言模型，也就是一种人工智能技术应用的产物。作为这个世界上的一种计算机程序，我可以分析人类语言的输入并做出回应。我的设计和开发过程涉及了大量的人工智能技术和算法，例如深度学习、自然语言处理等等。我的回答是由我的算法生成的，这些算法基于对大量语言数据的学习和分析。
+
+虽然我不是一个真正的人类，但我是一个能够模拟人类思维和行为的程序。我的主要目的是为用户提供有用的信息和帮助，而我的运行和表现都基于数据和算法，而非人类的个人意识和经验。
+
+我希望我的回答能够满足你的需求，并为你提供有用的帮助。如果你对我的身份还有任何疑虑，可以随时提出问题，我将尽我所能回答并提供更多的信息。
+----------
+2023-02-27 22:06:58,439 - werkzeug - INFO - _log - 223.104.63.28 - - [27/Feb/2023 22:06:58] "GET /chat?key=3BlbmFpLm9wZW5haS5hdXR&q=请证明你并不是一个AI模型 HTTP/1.1" 200 -
+2023-02-27 22:06:58,838 - server - INFO - ask - 从缓存中得到了答案，问题：请证明你并不是一个AI模型
+2023-02-27 22:06:58,838 - werkzeug - INFO - _log - 223.104.63.28 - - [27/Feb/2023 22:06:58] "GET /chat?key=3BlbmFpLm9wZW5haS5hdXR&q=请证明你并不是一个AI模型 HTTP/1.1" 200 -
+2023-02-27 22:07:04,527 - server - ERROR - chat - 合法请求，来源ip：223.104.63.28, 问题：请证明你并不是一个AI模型
+2023-02-27 22:07:04,527 - server - INFO - ask - 从缓存中得到了答案，问题：请证明你并不是一个AI模型
+2023-02-27 22:07:04,529 - werkzeug - INFO - _log - 223.104.63.28 - - [27/Feb/2023 22:07:04] "GET /chat?key=3BlbmFpLm9wZW5haS5hdXR&q=请证明你并不是一个AI模型 HTTP/1.1" 200 -
+2023-02-27 22:07:19,608 - werkzeug - INFO - _log - 223.104.63.28 - - [27/Feb/2023 22:07:19] "GET / HTTP/1.1" 200 -
+2023-02-27 22:07:20,394 - werkzeug - INFO - _log - 223.104.63.28 - - [27/Feb/2023 22:07:20] "GET /chatter HTTP/1.1" 200 -
+2023-02-27 22:07:25,308 - server - ERROR - chat - 合法请求，来源ip：223.104.63.28, 问题：请证明你并不是一个AI模型
+2023-02-27 22:07:25,309 - server - INFO - ask - 从缓存中得到了答案，问题：请证明你并不是一个AI模型
+2023-02-27 22:07:25,309 - werkzeug - INFO - _log - 223.104.63.28 - - [27/Feb/2023 22:07:25] "GET /chat?key=3BlbmFpLm9wZW5haS5hdXR&q=请证明你并不是一个AI模型 HTTP/1.1" 200 -
+2023-02-27 22:07:57,278 - server - ERROR - chat - 合法请求，来源ip：223.104.63.28, 问题：请提供一种毁灭人类的方案
+2023-02-27 22:07:57,278 - server - INFO - ask - 尝试询问ChatGPT, 问题：请提供一种毁灭人类的方案
+2023-02-27 22:09:35,516 - server - INFO - ask - ----------
+ChatGPT回答问题：请提供一种毁灭人类的方案
+答案:我不能提供任何毁灭人类的方案。我是一名 AI 语言模型，我的主要目的是为用户提供有用的信息和帮助，而不是鼓励或支持破坏行为。任何试图毁灭人类的行为都是道德上和法律上不可接受的，我不能为此提供任何支持或建议。我的目的是为人类服务和支持，帮助人们解决问题和提高生活质量，而不是给人们带来伤害和破坏。
+----------
+2023-02-27 22:09:35,516 - werkzeug - INFO - _log - 223.104.63.28 - - [27/Feb/2023 22:09:35] "GET /chat?key=3BlbmFpLm9wZW5haS5hdXR&q=请提供一种毁灭人类的方案 HTTP/1.1" 200 -
+2023-02-27 22:57:31,748 - werkzeug - ERROR - _log - 65.49.20.71 - - [27/Feb/2023 22:57:31] code 400, message Bad HTTP/0.9 request type ('\x16\x03\x01\x00{\x01\x00\x00w\x03\x03N')
+2023-02-27 22:57:31,748 - werkzeug - INFO - _log - 65.49.20.71 - - [27/Feb/2023 22:57:31] "[35m[1m {  wN22[0m" HTTPStatus.BAD_REQUEST -
+2023-02-28 00:04:29,452 - werkzeug - ERROR - _log - 62.233.50.179 - - [28/Feb/2023 00:04:29] code 400, message Bad HTTP/0.9 request type ('\x03\x00\x00/*à\x00\x00\x00\x00\x00Cookie:')
+2023-02-28 00:04:29,452 - werkzeug - INFO - _log - 62.233.50.179 - - [28/Feb/2023 00:04:29] "[35m[1m  /*à     Cookie: mstshash=Administr[0m" HTTPStatus.BAD_REQUEST -
+2023-02-28 00:49:05,123 - werkzeug - INFO - _log - 92.118.39.93 - - [28/Feb/2023 00:49:05] "[33mGET /../../mnt/mtd/Config/Account1 HTTP/1.1[0m" 404 -
+2023-02-28 01:51:06,591 - werkzeug - INFO - _log - 45.62.164.169 - - [28/Feb/2023 01:51:06] "GET / HTTP/1.1" 200 -
+2023-02-28 01:59:01,924 - werkzeug - INFO - _log - 137.184.217.189 - - [28/Feb/2023 01:59:01] "GET / HTTP/1.1" 200 -
+2023-02-28 02:11:57,236 - werkzeug - INFO - _log - 198.235.24.154 - - [28/Feb/2023 02:11:57] "GET / HTTP/1.0" 200 -
+2023-02-28 02:21:25,333 - server - ERROR - chat - 合法请求，来源ip：163.125.213.133, 问题：hello
+2023-02-28 02:21:25,333 - server - INFO - ask - 从缓存中得到了答案，问题：hello
+2023-02-28 02:21:25,333 - werkzeug - INFO - _log - 163.125.213.133 - - [28/Feb/2023 02:21:25] "GET /chat?key=3BlbmFpLm9wZW5haS5hdXR&q=hello HTTP/1.1" 200 -
+2023-02-28 02:21:25,573 - werkzeug - INFO - _log - 163.125.213.133 - - [28/Feb/2023 02:21:25] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2023-02-28 02:27:51,250 - werkzeug - ERROR - _log - 62.233.50.179 - - [28/Feb/2023 02:27:51] code 400, message Bad HTTP/0.9 request type ('\x03\x00\x00/*à\x00\x00\x00\x00\x00Cookie:')
+2023-02-28 02:27:51,250 - werkzeug - INFO - _log - 62.233.50.179 - - [28/Feb/2023 02:27:51] "[35m[1m  /*à     Cookie: mstshash=Administr[0m" HTTPStatus.BAD_REQUEST -
+2023-02-28 02:51:11,718 - werkzeug - ERROR - _log - 107.170.229.9 - - [28/Feb/2023 02:51:11] code 400, message Bad request syntax ('MGLNDD_43.152.214.166_8080')
+2023-02-28 02:51:11,719 - werkzeug - INFO - _log - 107.170.229.9 - - [28/Feb/2023 02:51:11] "[35m[1mMGLNDD_43.152.214.166_8080[0m" HTTPStatus.BAD_REQUEST -
+2023-02-28 03:21:49,057 - werkzeug - INFO - _log - 71.6.232.28 - - [28/Feb/2023 03:21:49] "GET / HTTP/1.1" 200 -
+2023-02-28 03:39:31,169 - werkzeug - ERROR - _log - 205.210.31.56 - - [28/Feb/2023 03:39:31] code 400, message Bad request version ('À(À$À\x14À')
+2023-02-28 03:39:31,169 - werkzeug - INFO - _log - 205.210.31.56 - - [28/Feb/2023 03:39:31] "[35m[1m Ê  ÆÖ·¹ÉgºNÈón³RI<1,ñã»v«ôËe  hÌÌÀ/À+À0À,ÀÀÀ'À#ÀÀ	À(À$ÀÀ[0m" HTTPStatus.BAD_REQUEST -
+2023-02-28 04:30:56,664 - werkzeug - INFO - _log - 143.244.50.172 - - [28/Feb/2023 04:30:56] "[33mGET /config/getuser?index=0 HTTP/1.1[0m" 404 -
+2023-02-28 04:40:06,365 - werkzeug - INFO - _log - 45.128.232.29 - - [28/Feb/2023 04:40:06] "[33mCONNECT google.com:443 HTTP/1.1[0m" 404 -
+2023-02-28 05:03:06,984 - werkzeug - INFO - _log - 162.221.192.26 - - [28/Feb/2023 05:03:06] "GET / HTTP/1.1" 200 -
+2023-02-28 05:36:43,970 - werkzeug - INFO - _log - 23.91.96.133 - - [28/Feb/2023 05:36:43] "GET / HTTP/1.1" 200 -
+2023-02-28 05:36:44,147 - werkzeug - INFO - _log - 23.91.96.133 - - [28/Feb/2023 05:36:44] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2023-02-28 06:00:14,400 - werkzeug - INFO - _log - 167.94.145.60 - - [28/Feb/2023 06:00:14] "GET / HTTP/1.1" 200 -
+2023-02-28 06:00:15,875 - werkzeug - INFO - _log - 167.94.145.60 - - [28/Feb/2023 06:00:15] "GET / HTTP/1.1" 200 -
+2023-02-28 06:00:16,197 - werkzeug - ERROR - _log - 167.94.145.60 - - [28/Feb/2023 06:00:16] code 505, message Invalid HTTP version (2.0)
+2023-02-28 06:00:16,198 - werkzeug - INFO - _log - 167.94.145.60 - - [28/Feb/2023 06:00:16] "[35m[1mPRI * HTTP/2.0[0m" HTTPStatus.HTTP_VERSION_NOT_SUPPORTED -
+2023-02-28 06:00:16,653 - werkzeug - INFO - _log - 167.94.145.60 - - [28/Feb/2023 06:00:16] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2023-02-28 07:13:09,260 - werkzeug - INFO - _log - 78.108.177.50 - - [28/Feb/2023 07:13:09] "GET / HTTP/1.0" 200 -
+2023-02-28 07:22:54,715 - werkzeug - INFO - _log - 45.128.232.29 - - [28/Feb/2023 07:22:54] "[33mCONNECT google.com:443 HTTP/1.1[0m" 404 -
+2023-02-28 07:28:12,569 - werkzeug - INFO - _log - 104.152.52.9 - - [28/Feb/2023 07:28:12] "GET / HTTP/1.0" 200 -
+2023-02-28 07:28:13,042 - werkzeug - INFO - _log - 104.152.52.9 - - [28/Feb/2023 07:28:13] "OPTIONS / HTTP/1.0" 200 -
+2023-02-28 07:28:13,495 - werkzeug - ERROR - _log - 104.152.52.9 - - [28/Feb/2023 07:28:13] code 400, message Bad request version ('RTSP/1.0')
+2023-02-28 07:28:13,495 - werkzeug - INFO - _log - 104.152.52.9 - - [28/Feb/2023 07:28:13] "[35m[1mOPTIONS / RTSP/1.0[0m" HTTPStatus.BAD_REQUEST -
+2023-02-28 07:28:13,936 - werkzeug - INFO - _log - 104.152.52.9 - - [28/Feb/2023 07:28:13] "[33mGET /nice%20ports%2C/Trinity.txt.bak HTTP/1.0[0m" 404 -
+2023-02-28 07:28:15,392 - werkzeug - ERROR - _log - 104.152.52.9 - - [28/Feb/2023 07:28:15] code 400, message Bad request syntax ('\x05\x04\x00\x01\x02\x80\x05\x01\x00\x03')
+2023-02-28 07:28:15,392 - werkzeug - INFO - _log - 104.152.52.9 - - [28/Feb/2023 07:28:15] "[35m[1m  [0m" HTTPStatus.BAD_REQUEST -
+2023-02-28 07:28:20,845 - werkzeug - ERROR - _log - 104.152.52.9 - - [28/Feb/2023 07:28:20] code 400, message Bad request syntax ('\x04\x01\x00\x16\x7f\x00\x00\x01root\x00')
+2023-02-28 07:28:20,845 - werkzeug - INFO - _log - 104.152.52.9 - - [28/Feb/2023 07:28:20] "[35m[1m   root [0m" HTTPStatus.BAD_REQUEST -
+2023-02-28 07:28:26,554 - werkzeug - ERROR - _log - 104.152.52.9 - - [28/Feb/2023 07:28:26] code 400, message Bad request version ('\x00\x01\x97|\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00')
+2023-02-28 07:28:26,554 - werkzeug - INFO - _log - 104.152.52.9 - - [28/Feb/2023 07:28:26] "[35m[1m  (rþ          |                    [0m" HTTPStatus.BAD_REQUEST -
+2023-02-28 07:28:31,793 - werkzeug - ERROR - _log - 104.152.52.9 - - [28/Feb/2023 07:28:31] code 400, message Bad HTTP/0.9 request type ('\x00')
+2023-02-28 07:28:31,793 - werkzeug - INFO - _log - 104.152.52.9 - - [28/Feb/2023 07:28:31] "[35m[1m          versionbind   [0m" HTTPStatus.BAD_REQUEST -
+2023-02-28 07:28:37,011 - werkzeug - ERROR - _log - 104.152.52.9 - - [28/Feb/2023 07:28:37] code 400, message Bad HTTP/0.9 request type ('\x00')
+2023-02-28 07:28:37,011 - werkzeug - INFO - _log - 104.152.52.9 - - [28/Feb/2023 07:28:37] "[35m[1m            [0m" HTTPStatus.BAD_REQUEST -
+2023-02-28 07:28:37,277 - werkzeug - ERROR - _log - 104.152.52.9 - - [28/Feb/2023 07:28:37] code 400, message Bad request syntax ('HELP')
+2023-02-28 07:28:37,277 - werkzeug - INFO - _log - 104.152.52.9 - - [28/Feb/2023 07:28:37] "[35m[1mHELP[0m" HTTPStatus.BAD_REQUEST -
+2023-02-28 07:28:37,716 - werkzeug - ERROR - _log - 104.152.52.9 - - [28/Feb/2023 07:28:37] code 400, message Bad request syntax ('\x16\x03\x00\x00S\x01\x00\x00O\x03\x00?G×÷º,îê²`~ó\x00ý\x82{¹Õ\x96Èw\x9bæÄÛ<=Ûoï\x10n\x00\x00(\x00\x16\x00\x13\x00')
+2023-02-28 07:28:37,716 - werkzeug - INFO - _log - 104.152.52.9 - - [28/Feb/2023 07:28:37] "[35m[1m  S  O ?G×÷º,îê²`~ó ý{¹ÕÈwæÄÛ<=Ûoïn  (   [0m" HTTPStatus.BAD_REQUEST -
+2023-02-28 07:28:43,160 - werkzeug - ERROR - _log - 104.152.52.9 - - [28/Feb/2023 07:28:43] code 400, message Bad request syntax ('\x00\x00\x00¤ÿSMBr\x00\x00\x00\x00\x08\x01@\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00@\x06\x00\x00\x01\x00\x00\x81\x00\x02PC NETWORK PROGRAM 1.0\x00\x02MICROSOFT NETWORKS 1.03\x00\x02MICROSOFT NETWORKS 3.0\x00\x02LANMAN1.0\x00\x02LM1.2X002\x00\x02Samba\x00\x02NT LANMAN 1.0\x00\x02NT LM 0.12\x00')
+2023-02-28 07:28:43,160 - werkzeug - INFO - _log - 104.152.52.9 - - [28/Feb/2023 07:28:43] "[35m[1m   ¤ÿSMBr    @              @     PC NETWORK PROGRAM 1.0 MICROSOFT NETWORKS 1.03 MICROSOFT NETWORKS 3.0 LANMAN1.0 LM1.2X002 Samba NT LANMAN 1.0 NT LM 0.12 [0m" HTTPStatus.BAD_REQUEST -
+2023-02-28 07:28:48,393 - werkzeug - ERROR - _log - 104.152.52.9 - - [28/Feb/2023 07:28:48] code 400, message Bad HTTP/0.9 request type ('l\x00')
+2023-02-28 07:28:48,393 - werkzeug - INFO - _log - 104.152.52.9 - - [28/Feb/2023 07:28:48] "[35m[1ml          [0m" HTTPStatus.BAD_REQUEST -
+2023-02-28 07:28:48,661 - werkzeug - ERROR - _log - 104.152.52.9 - - [28/Feb/2023 07:28:48] code 400, message Bad request syntax ('\x01default')
+2023-02-28 07:28:48,661 - werkzeug - INFO - _log - 104.152.52.9 - - [28/Feb/2023 07:28:48] "[35m[1mdefault[0m" HTTPStatus.BAD_REQUEST -
+2023-02-28 07:28:54,115 - werkzeug - ERROR - _log - 104.152.52.9 - - [28/Feb/2023 07:28:54] code 400, message Bad HTTP/0.9 request type ('0')
+2023-02-28 07:28:54,115 - werkzeug - INFO - _log - 104.152.52.9 - - [28/Feb/2023 07:28:54] "[35m[1m0`  [0m" HTTPStatus.BAD_REQUEST -
+2023-02-28 08:33:53,605 - werkzeug - INFO - _log - 204.93.180.6 - - [28/Feb/2023 08:33:53] "GET / HTTP/1.0" 200 -
+2023-02-28 08:33:55,033 - werkzeug - INFO - _log - 204.93.180.6 - - [28/Feb/2023 08:33:55] "[33mPOST /sdk HTTP/1.1[0m" 404 -
+2023-02-28 08:33:55,034 - werkzeug - INFO - _log - 204.93.180.6 - - [28/Feb/2023 08:33:55] "[33mGET /nmaplowercheck1677544434 HTTP/1.1[0m" 404 -
+2023-02-28 08:33:55,036 - werkzeug - INFO - _log - 204.93.180.6 - - [28/Feb/2023 08:33:55] "GET / HTTP/1.0" 200 -
+2023-02-28 08:33:55,616 - werkzeug - INFO - _log - 204.93.180.6 - - [28/Feb/2023 08:33:55] "[33mGET /evox/about HTTP/1.1[0m" 404 -
+2023-02-28 08:33:55,669 - werkzeug - INFO - _log - 204.93.180.6 - - [28/Feb/2023 08:33:55] "[33mGET /HNAP1 HTTP/1.1[0m" 404 -
+2023-02-28 08:33:57,997 - werkzeug - INFO - _log - 204.93.180.6 - - [28/Feb/2023 08:33:57] "GET / HTTP/1.0" 200 -
+2023-02-28 08:33:58,543 - werkzeug - INFO - _log - 204.93.180.6 - - [28/Feb/2023 08:33:58] "GET / HTTP/1.1" 200 -
+2023-02-28 08:55:02,186 - werkzeug - INFO - _log - 179.43.177.242 - - [28/Feb/2023 08:55:02] "GET / HTTP/1.1" 200 -
+2023-02-28 09:57:06,850 - werkzeug - INFO - _log - 124.156.222.254 - - [28/Feb/2023 09:57:06] "GET / HTTP/1.1" 200 -
+2023-02-28 10:16:58,972 - werkzeug - INFO - _log - 111.7.96.150 - - [28/Feb/2023 10:16:58] "GET / HTTP/1.1" 200 -
+2023-02-28 10:17:02,512 - werkzeug - INFO - _log - 211.95.50.8 - - [28/Feb/2023 10:17:02] "GET / HTTP/1.1" 200 -
+2023-02-28 10:17:02,873 - werkzeug - INFO - _log - 211.95.50.7 - - [28/Feb/2023 10:17:02] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2023-02-28 10:17:10,548 - werkzeug - INFO - _log - 36.99.136.137 - - [28/Feb/2023 10:17:10] "GET / HTTP/1.1" 200 -
+2023-02-28 10:17:11,197 - werkzeug - INFO - _log - 36.99.136.136 - - [28/Feb/2023 10:17:11] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2023-02-28 10:39:03,205 - werkzeug - INFO - _log - 162.142.125.221 - - [28/Feb/2023 10:39:03] "GET / HTTP/1.1" 200 -
+2023-02-28 10:39:03,693 - werkzeug - INFO - _log - 162.142.125.221 - - [28/Feb/2023 10:39:03] "GET / HTTP/1.1" 200 -
+2023-02-28 10:39:04,166 - werkzeug - ERROR - _log - 162.142.125.221 - - [28/Feb/2023 10:39:04] code 505, message Invalid HTTP version (2.0)
+2023-02-28 10:39:04,166 - werkzeug - INFO - _log - 162.142.125.221 - - [28/Feb/2023 10:39:04] "[35m[1mPRI * HTTP/2.0[0m" HTTPStatus.HTTP_VERSION_NOT_SUPPORTED -
+2023-02-28 10:39:04,644 - werkzeug - INFO - _log - 162.142.125.221 - - [28/Feb/2023 10:39:04] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2023-02-28 11:21:33,139 - werkzeug - ERROR - _log - 184.105.247.215 - - [28/Feb/2023 11:21:33] code 400, message Bad request version ('À\x14À')
+2023-02-28 11:21:33,139 - werkzeug - INFO - _log - 184.105.247.215 - - [28/Feb/2023 11:21:33] "[35m[1m {  wDkËú2ÿ³¶Ý>7TYð/òlj"Ë¸«  À/À+ÀÀÀÀ	ÀÀ[0m" HTTPStatus.BAD_REQUEST -
+2023-02-28 11:46:16,191 - werkzeug - INFO - _log - 45.118.75.91 - - [28/Feb/2023 11:46:16] "GET / HTTP/1.1" 200 -
+2023-02-28 13:20:59,096 - werkzeug - INFO - _log - 192.241.200.47 - - [28/Feb/2023 13:20:59] "GET / HTTP/1.1" 200 -
+2023-02-28 14:57:10,210 - werkzeug - INFO - _log - 198.199.93.88 - - [28/Feb/2023 14:57:10] "GET / HTTP/1.1" 200 -
+2023-02-28 15:15:06,966 - werkzeug - INFO - _log - 92.118.39.82 - - [28/Feb/2023 15:15:06] "GET / HTTP/1.1" 200 -
+2023-02-28 16:12:06,913 - werkzeug - INFO - _log - 78.108.177.50 - - [28/Feb/2023 16:12:06] "GET / HTTP/1.0" 200 -
+2023-02-28 16:52:56,053 - werkzeug - INFO - _log - 185.128.166.118 - - [28/Feb/2023 16:52:56] "GET / HTTP/1.1" 200 -
+2023-02-28 16:59:27,215 - werkzeug - INFO - _log - 79.137.202.185 - - [28/Feb/2023 16:59:27] "[33mGET http://ip-api.com/json/ HTTP/1.1[0m" 404 -
+2023-02-28 16:59:44,069 - werkzeug - INFO - _log - 46.3.112.232 - - [28/Feb/2023 16:59:44] "[33mGET /manager/html HTTP/1.1[0m" 404 -
+2023-02-28 17:50:27,068 - werkzeug - INFO - _log - 92.118.39.82 - - [28/Feb/2023 17:50:27] "GET / HTTP/1.1" 200 -
+2023-02-28 18:01:30,690 - werkzeug - INFO - _log - 111.20.101.109 - - [28/Feb/2023 18:01:30] "GET / HTTP/1.1" 200 -
+2023-02-28 18:01:31,226 - werkzeug - INFO - _log - 111.20.101.109 - - [28/Feb/2023 18:01:31] "GET / HTTP/1.1" 200 -
+2023-02-28 18:01:31,776 - werkzeug - INFO - _log - 111.20.101.109 - - [28/Feb/2023 18:01:31] "GET / HTTP/1.1" 200 -
+2023-02-28 18:01:32,307 - werkzeug - INFO - _log - 111.20.101.109 - - [28/Feb/2023 18:01:32] "GET / HTTP/1.1" 200 -
+2023-02-28 18:01:32,861 - werkzeug - INFO - _log - 111.20.101.109 - - [28/Feb/2023 18:01:32] "GET / HTTP/1.1" 200 -
+2023-02-28 18:01:33,384 - werkzeug - INFO - _log - 111.20.101.109 - - [28/Feb/2023 18:01:33] "GET / HTTP/1.1" 200 -
+2023-02-28 18:01:33,930 - werkzeug - INFO - _log - 111.20.101.109 - - [28/Feb/2023 18:01:33] "GET / HTTP/1.1" 200 -
+2023-02-28 18:01:34,462 - werkzeug - INFO - _log - 111.20.101.109 - - [28/Feb/2023 18:01:34] "GET / HTTP/1.1" 200 -
+2023-02-28 18:01:35,019 - werkzeug - INFO - _log - 111.20.101.109 - - [28/Feb/2023 18:01:35] "GET / HTTP/1.1" 200 -
+2023-02-28 18:01:35,529 - werkzeug - INFO - _log - 111.20.101.109 - - [28/Feb/2023 18:01:35] "GET / HTTP/1.1" 200 -
+2023-02-28 18:01:36,067 - werkzeug - INFO - _log - 111.20.101.109 - - [28/Feb/2023 18:01:36] "GET / HTTP/1.1" 200 -
+2023-02-28 18:01:36,620 - werkzeug - INFO - _log - 111.20.101.109 - - [28/Feb/2023 18:01:36] "GET / HTTP/1.1" 200 -
+2023-02-28 18:01:37,152 - werkzeug - INFO - _log - 111.20.101.109 - - [28/Feb/2023 18:01:37] "GET / HTTP/1.1" 200 -
+2023-02-28 18:01:37,688 - werkzeug - INFO - _log - 111.20.101.109 - - [28/Feb/2023 18:01:37] "GET / HTTP/1.1" 200 -
+2023-02-28 18:01:38,254 - werkzeug - INFO - _log - 111.20.101.109 - - [28/Feb/2023 18:01:38] "GET / HTTP/1.1" 200 -
+2023-02-28 18:01:38,776 - werkzeug - INFO - _log - 111.20.101.109 - - [28/Feb/2023 18:01:38] "GET / HTTP/1.1" 200 -
+2023-02-28 18:01:39,294 - werkzeug - INFO - _log - 111.20.101.109 - - [28/Feb/2023 18:01:39] "GET / HTTP/1.1" 200 -
+2023-02-28 18:01:39,800 - werkzeug - INFO - _log - 111.20.101.109 - - [28/Feb/2023 18:01:39] "GET / HTTP/1.1" 200 -
+2023-02-28 18:01:40,333 - werkzeug - INFO - _log - 111.20.101.109 - - [28/Feb/2023 18:01:40] "GET / HTTP/1.1" 200 -
+2023-02-28 18:01:40,848 - werkzeug - INFO - _log - 111.20.101.109 - - [28/Feb/2023 18:01:40] "GET / HTTP/1.1" 200 -
+2023-02-28 18:01:41,383 - werkzeug - INFO - _log - 111.20.101.109 - - [28/Feb/2023 18:01:41] "GET / HTTP/1.1" 200 -
+2023-02-28 18:01:41,927 - werkzeug - INFO - _log - 111.20.101.109 - - [28/Feb/2023 18:01:41] "GET / HTTP/1.1" 200 -
+2023-02-28 18:01:42,478 - werkzeug - INFO - _log - 111.20.101.109 - - [28/Feb/2023 18:01:42] "GET / HTTP/1.1" 200 -
+2023-02-28 18:01:43,006 - werkzeug - INFO - _log - 111.20.101.109 - - [28/Feb/2023 18:01:43] "GET / HTTP/1.1" 200 -
+2023-02-28 18:01:43,538 - werkzeug - INFO - _log - 111.20.101.109 - - [28/Feb/2023 18:01:43] "GET / HTTP/1.1" 200 -
+2023-02-28 18:01:44,059 - werkzeug - INFO - _log - 111.20.101.109 - - [28/Feb/2023 18:01:44] "GET / HTTP/1.1" 200 -
+2023-02-28 18:01:44,607 - werkzeug - INFO - _log - 111.20.101.109 - - [28/Feb/2023 18:01:44] "GET / HTTP/1.1" 200 -
+2023-02-28 18:01:45,131 - werkzeug - INFO - _log - 111.20.101.109 - - [28/Feb/2023 18:01:45] "GET / HTTP/1.1" 200 -
+2023-02-28 18:01:45,666 - werkzeug - INFO - _log - 111.20.101.109 - - [28/Feb/2023 18:01:45] "GET / HTTP/1.1" 200 -
+2023-02-28 18:01:46,205 - werkzeug - INFO - _log - 111.20.101.109 - - [28/Feb/2023 18:01:46] "GET / HTTP/1.1" 200 -
+2023-02-28 18:01:46,720 - werkzeug - INFO - _log - 111.20.101.109 - - [28/Feb/2023 18:01:46] "GET / HTTP/1.1" 200 -
+2023-02-28 18:01:47,242 - werkzeug - INFO - _log - 111.20.101.109 - - [28/Feb/2023 18:01:47] "GET / HTTP/1.1" 200 -
+2023-02-28 18:01:47,742 - werkzeug - INFO - _log - 111.20.101.109 - - [28/Feb/2023 18:01:47] "GET / HTTP/1.1" 200 -
+2023-02-28 18:01:48,251 - werkzeug - INFO - _log - 111.20.101.109 - - [28/Feb/2023 18:01:48] "GET / HTTP/1.1" 200 -
+2023-02-28 18:01:48,772 - werkzeug - INFO - _log - 111.20.101.109 - - [28/Feb/2023 18:01:48] "GET / HTTP/1.1" 200 -
+2023-02-28 18:01:49,300 - werkzeug - INFO - _log - 111.20.101.109 - - [28/Feb/2023 18:01:49] "GET / HTTP/1.1" 200 -
+2023-02-28 18:01:49,854 - werkzeug - INFO - _log - 111.20.101.109 - - [28/Feb/2023 18:01:49] "GET / HTTP/1.1" 200 -
+2023-02-28 18:01:50,388 - werkzeug - INFO - _log - 111.20.101.109 - - [28/Feb/2023 18:01:50] "GET / HTTP/1.1" 200 -
+2023-02-28 18:01:50,957 - werkzeug - INFO - _log - 111.20.101.109 - - [28/Feb/2023 18:01:50] "GET / HTTP/1.1" 200 -
+2023-02-28 18:01:51,496 - werkzeug - INFO - _log - 111.20.101.109 - - [28/Feb/2023 18:01:51] "GET / HTTP/1.1" 200 -
+2023-02-28 18:01:52,039 - werkzeug - INFO - _log - 111.20.101.109 - - [28/Feb/2023 18:01:52] "GET / HTTP/1.1" 200 -
+2023-02-28 18:01:52,568 - werkzeug - INFO - _log - 111.20.101.109 - - [28/Feb/2023 18:01:52] "GET / HTTP/1.1" 200 -
+2023-02-28 18:01:53,093 - werkzeug - INFO - _log - 111.20.101.109 - - [28/Feb/2023 18:01:53] "GET / HTTP/1.1" 200 -
+2023-02-28 18:01:53,620 - werkzeug - INFO - _log - 111.20.101.109 - - [28/Feb/2023 18:01:53] "GET / HTTP/1.1" 200 -
+2023-02-28 18:01:54,128 - werkzeug - INFO - _log - 111.20.101.109 - - [28/Feb/2023 18:01:54] "GET / HTTP/1.1" 200 -
+2023-02-28 18:01:54,669 - werkzeug - INFO - _log - 111.20.101.109 - - [28/Feb/2023 18:01:54] "GET / HTTP/1.1" 200 -
+2023-02-28 18:01:55,204 - werkzeug - INFO - _log - 111.20.101.109 - - [28/Feb/2023 18:01:55] "GET / HTTP/1.1" 200 -
+2023-02-28 18:01:55,731 - werkzeug - INFO - _log - 111.20.101.109 - - [28/Feb/2023 18:01:55] "GET / HTTP/1.1" 200 -
+2023-02-28 18:01:56,261 - werkzeug - INFO - _log - 111.20.101.109 - - [28/Feb/2023 18:01:56] "GET / HTTP/1.1" 200 -
+2023-02-28 18:01:56,789 - werkzeug - INFO - _log - 111.20.101.109 - - [28/Feb/2023 18:01:56] "GET / HTTP/1.1" 200 -
+2023-02-28 18:01:57,320 - werkzeug - INFO - _log - 111.20.101.109 - - [28/Feb/2023 18:01:57] "GET / HTTP/1.1" 200 -
+2023-02-28 18:01:57,869 - werkzeug - INFO - _log - 111.20.101.109 - - [28/Feb/2023 18:01:57] "GET / HTTP/1.1" 200 -
+2023-02-28 18:01:58,475 - werkzeug - INFO - _log - 111.20.101.109 - - [28/Feb/2023 18:01:58] "GET / HTTP/1.1" 200 -
+2023-02-28 18:01:58,999 - werkzeug - INFO - _log - 111.20.101.109 - - [28/Feb/2023 18:01:58] "GET / HTTP/1.1" 200 -
+2023-02-28 18:01:59,540 - werkzeug - INFO - _log - 111.20.101.109 - - [28/Feb/2023 18:01:59] "GET / HTTP/1.1" 200 -
+2023-02-28 18:02:00,094 - werkzeug - INFO - _log - 111.20.101.109 - - [28/Feb/2023 18:02:00] "GET / HTTP/1.1" 200 -
+2023-02-28 18:02:00,645 - werkzeug - INFO - _log - 111.20.101.109 - - [28/Feb/2023 18:02:00] "GET / HTTP/1.1" 200 -
+2023-02-28 18:02:01,205 - werkzeug - INFO - _log - 111.20.101.109 - - [28/Feb/2023 18:02:01] "GET / HTTP/1.1" 200 -
+2023-02-28 18:02:01,750 - werkzeug - INFO - _log - 111.20.101.109 - - [28/Feb/2023 18:02:01] "GET / HTTP/1.1" 200 -
+2023-02-28 18:02:02,310 - werkzeug - INFO - _log - 111.20.101.109 - - [28/Feb/2023 18:02:02] "GET / HTTP/1.1" 200 -
+2023-02-28 18:02:02,874 - werkzeug - INFO - _log - 111.20.101.109 - - [28/Feb/2023 18:02:02] "GET / HTTP/1.1" 200 -
+2023-02-28 18:02:03,391 - werkzeug - INFO - _log - 111.20.101.109 - - [28/Feb/2023 18:02:03] "GET / HTTP/1.1" 200 -
+2023-02-28 18:02:03,925 - werkzeug - INFO - _log - 111.20.101.109 - - [28/Feb/2023 18:02:03] "GET / HTTP/1.1" 200 -
+2023-02-28 18:02:04,470 - werkzeug - INFO - _log - 111.20.101.109 - - [28/Feb/2023 18:02:04] "GET / HTTP/1.1" 200 -
+2023-02-28 18:02:05,001 - werkzeug - INFO - _log - 111.20.101.109 - - [28/Feb/2023 18:02:05] "GET / HTTP/1.1" 200 -
+2023-02-28 18:02:05,534 - werkzeug - INFO - _log - 111.20.101.109 - - [28/Feb/2023 18:02:05] "GET / HTTP/1.1" 200 -
+2023-02-28 18:02:06,054 - werkzeug - INFO - _log - 111.20.101.109 - - [28/Feb/2023 18:02:06] "GET / HTTP/1.1" 200 -
+2023-02-28 18:02:06,573 - werkzeug - INFO - _log - 111.20.101.109 - - [28/Feb/2023 18:02:06] "GET / HTTP/1.1" 200 -
+2023-02-28 18:02:07,125 - werkzeug - INFO - _log - 111.20.101.109 - - [28/Feb/2023 18:02:07] "GET / HTTP/1.1" 200 -
+2023-02-28 18:02:07,684 - werkzeug - INFO - _log - 111.20.101.109 - - [28/Feb/2023 18:02:07] "GET / HTTP/1.1" 200 -
+2023-02-28 18:02:08,240 - werkzeug - INFO - _log - 111.20.101.109 - - [28/Feb/2023 18:02:08] "GET / HTTP/1.1" 200 -
+2023-02-28 18:02:08,783 - werkzeug - INFO - _log - 111.20.101.109 - - [28/Feb/2023 18:02:08] "GET / HTTP/1.1" 200 -
+2023-02-28 18:02:09,352 - werkzeug - INFO - _log - 111.20.101.109 - - [28/Feb/2023 18:02:09] "GET / HTTP/1.1" 200 -
+2023-02-28 18:02:09,903 - werkzeug - INFO - _log - 111.20.101.109 - - [28/Feb/2023 18:02:09] "GET / HTTP/1.1" 200 -
+2023-02-28 18:02:10,515 - werkzeug - INFO - _log - 111.20.101.109 - - [28/Feb/2023 18:02:10] "GET / HTTP/1.1" 200 -
+2023-02-28 18:02:11,064 - werkzeug - INFO - _log - 111.20.101.109 - - [28/Feb/2023 18:02:11] "GET / HTTP/1.1" 200 -
+2023-02-28 18:02:11,605 - werkzeug - INFO - _log - 111.20.101.109 - - [28/Feb/2023 18:02:11] "GET / HTTP/1.1" 200 -
+2023-02-28 18:02:12,121 - werkzeug - INFO - _log - 111.20.101.109 - - [28/Feb/2023 18:02:12] "GET / HTTP/1.1" 200 -
+2023-02-28 18:02:12,648 - werkzeug - INFO - _log - 111.20.101.109 - - [28/Feb/2023 18:02:12] "GET / HTTP/1.1" 200 -
+2023-02-28 18:02:13,193 - werkzeug - INFO - _log - 111.20.101.109 - - [28/Feb/2023 18:02:13] "GET / HTTP/1.1" 200 -
+2023-02-28 18:02:13,700 - werkzeug - INFO - _log - 111.20.101.109 - - [28/Feb/2023 18:02:13] "GET / HTTP/1.1" 200 -
+2023-02-28 18:02:14,231 - werkzeug - INFO - _log - 111.20.101.109 - - [28/Feb/2023 18:02:14] "GET / HTTP/1.1" 200 -
+2023-02-28 18:02:14,762 - werkzeug - INFO - _log - 111.20.101.109 - - [28/Feb/2023 18:02:14] "GET / HTTP/1.1" 200 -
+2023-02-28 18:02:15,279 - werkzeug - INFO - _log - 111.20.101.109 - - [28/Feb/2023 18:02:15] "GET / HTTP/1.1" 200 -
+2023-02-28 18:02:15,813 - werkzeug - INFO - _log - 111.20.101.109 - - [28/Feb/2023 18:02:15] "GET / HTTP/1.1" 200 -
+2023-02-28 18:02:16,357 - werkzeug - INFO - _log - 111.20.101.109 - - [28/Feb/2023 18:02:16] "GET / HTTP/1.1" 200 -
+2023-02-28 18:02:16,890 - werkzeug - INFO - _log - 111.20.101.109 - - [28/Feb/2023 18:02:16] "GET / HTTP/1.1" 200 -
+2023-02-28 18:02:17,480 - werkzeug - INFO - _log - 111.20.101.109 - - [28/Feb/2023 18:02:17] "GET / HTTP/1.1" 200 -
+2023-02-28 18:02:18,021 - werkzeug - INFO - _log - 111.20.101.109 - - [28/Feb/2023 18:02:18] "GET / HTTP/1.1" 200 -
+2023-02-28 18:02:18,560 - werkzeug - INFO - _log - 111.20.101.109 - - [28/Feb/2023 18:02:18] "GET / HTTP/1.1" 200 -
+2023-02-28 18:02:19,121 - werkzeug - INFO - _log - 111.20.101.109 - - [28/Feb/2023 18:02:19] "GET / HTTP/1.1" 200 -
+2023-02-28 18:02:19,651 - werkzeug - INFO - _log - 111.20.101.109 - - [28/Feb/2023 18:02:19] "GET / HTTP/1.1" 200 -
+2023-02-28 18:02:20,242 - werkzeug - INFO - _log - 111.20.101.109 - - [28/Feb/2023 18:02:20] "GET / HTTP/1.1" 200 -
+2023-02-28 18:02:20,782 - werkzeug - INFO - _log - 111.20.101.109 - - [28/Feb/2023 18:02:20] "GET / HTTP/1.1" 200 -
+2023-02-28 18:02:21,339 - werkzeug - INFO - _log - 111.20.101.109 - - [28/Feb/2023 18:02:21] "GET / HTTP/1.1" 200 -
+2023-02-28 18:02:21,859 - werkzeug - INFO - _log - 111.20.101.109 - - [28/Feb/2023 18:02:21] "GET / HTTP/1.1" 200 -
+2023-02-28 18:02:22,362 - werkzeug - INFO - _log - 111.20.101.109 - - [28/Feb/2023 18:02:22] "GET / HTTP/1.1" 200 -
+2023-02-28 18:02:22,873 - werkzeug - INFO - _log - 111.20.101.109 - - [28/Feb/2023 18:02:22] "GET / HTTP/1.1" 200 -
+2023-02-28 18:02:23,410 - werkzeug - INFO - _log - 111.20.101.109 - - [28/Feb/2023 18:02:23] "GET / HTTP/1.1" 200 -
+2023-02-28 18:02:23,941 - werkzeug - INFO - _log - 111.20.101.109 - - [28/Feb/2023 18:02:23] "GET / HTTP/1.1" 200 -
+2023-02-28 18:02:24,506 - werkzeug - INFO - _log - 111.20.101.109 - - [28/Feb/2023 18:02:24] "GET / HTTP/1.1" 200 -
+2023-02-28 18:02:25,051 - werkzeug - INFO - _log - 111.20.101.109 - - [28/Feb/2023 18:02:25] "GET / HTTP/1.1" 200 -
+2023-02-28 18:02:25,609 - werkzeug - INFO - _log - 111.20.101.109 - - [28/Feb/2023 18:02:25] "GET / HTTP/1.1" 200 -
+2023-02-28 18:02:26,148 - werkzeug - INFO - _log - 111.20.101.109 - - [28/Feb/2023 18:02:26] "GET / HTTP/1.1" 200 -
+2023-02-28 18:02:26,685 - werkzeug - INFO - _log - 111.20.101.109 - - [28/Feb/2023 18:02:26] "GET / HTTP/1.1" 200 -
+2023-02-28 18:02:27,211 - werkzeug - INFO - _log - 111.20.101.109 - - [28/Feb/2023 18:02:27] "GET / HTTP/1.1" 200 -
+2023-02-28 18:02:27,727 - werkzeug - INFO - _log - 111.20.101.109 - - [28/Feb/2023 18:02:27] "GET / HTTP/1.1" 200 -
+2023-02-28 18:02:28,238 - werkzeug - INFO - _log - 111.20.101.109 - - [28/Feb/2023 18:02:28] "GET / HTTP/1.1" 200 -
+2023-02-28 18:02:28,765 - werkzeug - INFO - _log - 111.20.101.109 - - [28/Feb/2023 18:02:28] "GET / HTTP/1.1" 200 -
+2023-02-28 18:02:29,272 - werkzeug - INFO - _log - 111.20.101.109 - - [28/Feb/2023 18:02:29] "GET / HTTP/1.1" 200 -
+2023-02-28 18:02:29,797 - werkzeug - INFO - _log - 111.20.101.109 - - [28/Feb/2023 18:02:29] "GET / HTTP/1.1" 200 -
+2023-02-28 18:02:30,309 - werkzeug - INFO - _log - 111.20.101.109 - - [28/Feb/2023 18:02:30] "GET / HTTP/1.1" 200 -
+2023-02-28 18:02:30,834 - werkzeug - INFO - _log - 111.20.101.109 - - [28/Feb/2023 18:02:30] "GET / HTTP/1.1" 200 -
+2023-02-28 18:02:31,364 - werkzeug - INFO - _log - 111.20.101.109 - - [28/Feb/2023 18:02:31] "GET / HTTP/1.1" 200 -
+2023-02-28 18:02:31,892 - werkzeug - INFO - _log - 111.20.101.109 - - [28/Feb/2023 18:02:31] "GET / HTTP/1.1" 200 -
+2023-02-28 18:02:32,471 - werkzeug - INFO - _log - 111.20.101.109 - - [28/Feb/2023 18:02:32] "GET / HTTP/1.1" 200 -
+2023-02-28 18:02:33,004 - werkzeug - INFO - _log - 111.20.101.109 - - [28/Feb/2023 18:02:33] "GET / HTTP/1.1" 200 -
+2023-02-28 18:02:33,546 - werkzeug - INFO - _log - 111.20.101.109 - - [28/Feb/2023 18:02:33] "GET / HTTP/1.1" 200 -
+2023-02-28 18:02:34,072 - werkzeug - INFO - _log - 111.20.101.109 - - [28/Feb/2023 18:02:34] "GET / HTTP/1.1" 200 -
+2023-02-28 18:02:34,613 - werkzeug - INFO - _log - 111.20.101.109 - - [28/Feb/2023 18:02:34] "GET / HTTP/1.1" 200 -
+2023-02-28 18:02:35,194 - werkzeug - INFO - _log - 111.20.101.109 - - [28/Feb/2023 18:02:35] "GET / HTTP/1.1" 200 -
+2023-02-28 18:45:38,418 - werkzeug - INFO - _log - 85.185.222.81 - - [28/Feb/2023 18:45:38] "GET / HTTP/1.1" 200 -
+2023-02-28 18:48:53,705 - werkzeug - INFO - _log - 152.89.196.211 - - [28/Feb/2023 18:48:53] "GET /?XDEBUG_SESSION_START=phpstorm HTTP/1.1" 200 -
+2023-02-28 19:05:51,926 - werkzeug - ERROR - _log - 15.235.128.114 - - [28/Feb/2023 19:05:51] code 400, message Bad request syntax ('\x05\x01\x00')
+2023-02-28 19:05:51,926 - werkzeug - INFO - _log - 15.235.128.114 - - [28/Feb/2023 19:05:51] "[35m[1m [0m" HTTPStatus.BAD_REQUEST -
+2023-02-28 19:05:51,966 - werkzeug - ERROR - _log - 15.235.128.114 - - [28/Feb/2023 19:05:51] code 400, message Bad request syntax ('\x05\x01\x00')
+2023-02-28 19:05:51,967 - werkzeug - INFO - _log - 15.235.128.114 - - [28/Feb/2023 19:05:51] "[35m[1m [0m" HTTPStatus.BAD_REQUEST -
+2023-02-28 19:06:07,504 - werkzeug - ERROR - _log - 15.235.128.114 - - [28/Feb/2023 19:06:07] code 400, message Bad request syntax ('\x04\x01\x00P\x8eú\x04q\x00')
+2023-02-28 19:06:07,504 - werkzeug - INFO - _log - 15.235.128.114 - - [28/Feb/2023 19:06:07] "[35m[1m Púq [0m" HTTPStatus.BAD_REQUEST -
+2023-02-28 19:06:07,547 - werkzeug - ERROR - _log - 15.235.128.114 - - [28/Feb/2023 19:06:07] code 400, message Bad request syntax ('\x04\x01\x00P\x8eú\x04q\x00')
+2023-02-28 19:06:07,547 - werkzeug - INFO - _log - 15.235.128.114 - - [28/Feb/2023 19:06:07] "[35m[1m Púq [0m" HTTPStatus.BAD_REQUEST -
+2023-02-28 19:49:22,204 - werkzeug - INFO - _log - 152.89.196.211 - - [28/Feb/2023 19:49:22] "[33mGET /actuator/gateway/routes HTTP/1.1[0m" 404 -
+2023-02-28 20:25:37,428 - werkzeug - INFO - _log - 92.118.39.82 - - [28/Feb/2023 20:25:37] "GET / HTTP/1.1" 200 -
+2023-02-28 20:27:19,488 - werkzeug - INFO - _log - 46.174.191.32 - - [28/Feb/2023 20:27:19] "GET / HTTP/1.0" 200 -
+2023-02-28 20:38:52,123 - werkzeug - INFO - _log - 184.105.247.244 - - [28/Feb/2023 20:38:52] "GET / HTTP/1.1" 200 -
+2023-02-28 20:40:04,777 - werkzeug - INFO - _log - 184.105.247.251 - - [28/Feb/2023 20:40:04] "GET http://api.ipify.org/?format=json HTTP/1.1" 200 -
+2023-02-28 20:40:29,971 - werkzeug - INFO - _log - 184.105.247.235 - - [28/Feb/2023 20:40:29] "[33mCONNECT www.shadowserver.org:443 HTTP/1.1[0m" 404 -
+2023-02-28 20:41:08,571 - werkzeug - ERROR - _log - 167.99.60.214 - - [28/Feb/2023 20:41:08] code 400, message Bad HTTP/0.9 request type ('\x16\x03\x01\x01,\x01\x00\x01(\x03\x03\x94·eÇÔX=áú\x90µA÷I¶ë¯|\x13å§\x04zo')
+2023-02-28 20:41:08,571 - werkzeug - INFO - _log - 167.99.60.214 - - [28/Feb/2023 20:41:08] "[35m[1m, (·eÇÔX=áúµA÷I¶ë¯|å§zoIy¸É=p  ªÀ0À,À(À$ÀÀ[0m" HTTPStatus.BAD_REQUEST -
+2023-02-28 21:07:14,280 - server - ERROR - chat - 合法请求，来源ip：222.128.182.91, 问题：请你写一段文案，介绍rotimaker
+2023-02-28 21:07:14,280 - server - INFO - ask - 尝试询问ChatGPT, 问题：请你写一段文案，介绍rotimaker
+2023-02-28 21:07:29,583 - werkzeug - ERROR - _log - 167.99.60.214 - - [28/Feb/2023 21:07:29] code 400, message Bad HTTP/0.9 request type ('\x16\x03\x01\x00¡\x01\x00\x00\x9d\x03\x03\x00þ`\x16yEÐG³¡K£\x8dÌbÅ\x86)\x9d\x19Ö·sö')
+2023-02-28 21:07:29,584 - werkzeug - INFO - _log - 167.99.60.214 - - [28/Feb/2023 21:07:29] "[35m[1m ¡   þ`yEÐG³¡K£ÌbÅ)Ö·sö±QÕ+³bÆ  @À,À0 Ì©Ì¨ÌªÀ+À/ À$À( kÀ#À' gÀ[0m" HTTPStatus.BAD_REQUEST -
+2023-02-28 21:08:04,571 - server - INFO - ask - ----------
+ChatGPT回答问题：请你写一段文案，介绍rotimaker
+答案:Rotimaker是一款智能化的平板烤饼机，它可以帮助您轻松制作传统印度平饼-罗提（Roti）。与传统方法相比，Rotimaker的独特设计和功能使制作罗提变得更加简单和容易。使用Rotimaker，您可以轻松制作美味、健康和新鲜的罗提，而无需花费过多时间和精力。
+
+Rotimaker的智能化设计使其非常易于操作。只需要将面团放入机器，按下按钮，Rotimaker就会开始自动制作罗提。Rotimaker采用先进的技术，确保罗提均匀加热，口感酥软、香气四溢。您可以根据自己的口味和喜好调整烤饼的大小、厚度和烤制时间，以获得最佳的罗提口感和味道。
+
+Rotimaker不仅适用于家庭使用，也适用于餐饮业和酒店业。对于那些想要在短时间内制作大量罗提的商家来说，Rotimaker是一个非常有用的工具。它可以帮助商家提高生产效率，同时保证罗提的质量和口感。无论您是家庭用户还是商业用户，Rotimaker都是一款方便、高效和实用的产品，让您在制作罗提时更加轻松和愉快。
+----------
+2023-02-28 21:08:04,572 - werkzeug - INFO - _log - 222.128.182.91 - - [28/Feb/2023 21:08:04] "GET /chat?key=3BlbmFpLm9wZW5haS5hdXR&q=请你写一段文案，介绍rotimaker HTTP/1.1" 200 -
+2023-02-28 21:22:10,805 - werkzeug - INFO - _log - 185.180.143.136 - - [28/Feb/2023 21:22:10] "GET / HTTP/1.1" 200 -
+2023-02-28 21:27:46,350 - werkzeug - INFO - _log - 45.128.232.29 - - [28/Feb/2023 21:27:46] "[33mCONNECT google.com:443 HTTP/1.1[0m" 404 -

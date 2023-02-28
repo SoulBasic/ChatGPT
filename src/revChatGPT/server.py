@@ -1,5 +1,5 @@
 
-from flask import Flask, request
+from flask import Flask, request, render_template
 import flask
 import time
 import V1
@@ -61,10 +61,10 @@ class ChatGPTAskingBot(object):
             app.logger.info("答案等待超时，问题：" + question)
             return False, "这个问题我暂时还没回答出来，请重试"
         else:
-            if int(datetime.datetime.now().timestamp()) - self.ask_time[question] > 86400:
-                self.answers.pop(question)
-                self.ask_time.pop(question)
-                app.logger.error("已有的答案缓存失效，问题：" + question)
+            #if int(datetime.datetime.now().timestamp()) - self.ask_time[question] > 86400:
+            #    self.answers.pop(question)
+            #    self.ask_time.pop(question)
+            #    app.logger.error("已有的答案缓存失效，问题：" + question)
             app.logger.info("从缓存中得到了答案，问题：" + question)
             return True, answer
 
@@ -73,7 +73,7 @@ class ChatGPTAskingBot(object):
 def chat():
     rsp = flask.make_response("Bad Request")
     rsp.content_type = "text/plain; charset=utf-8"
-    rsp.status_code = 400
+    rsp.status_code = 200
     rsp.headers["Access-Control-Allow-Origin"] = "*"
     rsp.headers["Access-Control-Expose-Headers"] = "X-Requested-With"
     rsp.headers["Access-Control-Allow-Methods"] = "GET,POST,OPTIONS"
@@ -87,6 +87,11 @@ def chat():
     if flag is True:
         rsp.status_code = 200
     return rsp
+
+
+@app.route('/chatter')
+def chatter():
+    return render_template('chatter.html')
 
 
 @app.route('/')
